@@ -104,7 +104,11 @@ def process_batch(
     target_size: Tuple[int, int] = (128, 128),
     color_space: str = "rgb",
     normalization: Optional[str] = "minmax",
+    strict: bool = False,
 ) -> BatchResult:
+    """Process many images. ``strict=True`` re-raises the first error (missing
+    or corrupt file) instead of logging it in ``skipped`` - used by the loader
+    so that data problems fail loudly."""
     work_items: List[Tuple[str, Optional[object]]] = []
 
     is_dataframe = hasattr(items, "iterrows")
@@ -140,6 +144,8 @@ def process_batch(
             processed_labels.append(label)
             processed_paths.append(path)
         except Exception as exc:  # noqa: BLE001 - deliberately broad: one bad file shouldn't kill the batch
+            if strict:
+                raise
             skipped.append((path, f"{type(exc).__name__}: {exc}"))
 
     if processed_arrays:

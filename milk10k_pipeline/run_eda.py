@@ -11,22 +11,20 @@ from .data_loader import MILK10kDataLoader
 from . import visualizer as viz
 
 
-DATA_DIR = Path("../../milk10k_project")        
-IMAGE_DIR = DATA_DIR / "images"
-OUTPUT_DIR = Path("eda_outputs")
+from . import config
+from .data import load_images_table
+
+# Session 2 outputs are kept in eda_outputs/ (paths now come from config).
+DATA_DIR = config.DATA_DIR
+IMAGE_DIR = config.IMAGE_DIR
+OUTPUT_DIR = config.REPO_ROOT / "eda_outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
 def load_metadata() -> pd.DataFrame:
-    df_metadata = pd.read_csv(DATA_DIR / "metadata.csv")
-    gt = pd.read_csv(DATA_DIR / "supplements" / "training_gt.csv")
-
-    class_cols = ["AKIEC", "BCC", "BEN_OTH", "BKL", "DF",
-                  "INF", "MAL_OTH", "MEL", "NV", "SCCKA"]
-    gt["diagnosis_class"] = gt[class_cols].idxmax(axis=1)
-
-    df = df_metadata.merge(gt[["lesion_id", "diagnosis_class"]], on="lesion_id", how="inner")
-    return df
+    """Metadata + 11-class label. (Session 2 version hard-coded 10 class columns
+    and silently lost VASC; the class columns are now read from the file.)"""
+    return load_images_table().rename(columns={"dx": "diagnosis_class"})
 
 
 def main():
@@ -88,6 +86,7 @@ def main():
     loader = MILK10kDataLoader(
         df, image_dir=IMAGE_DIR, label_col="diagnosis_class",
         batch_size=16, target_size=(128, 128), normalization="minmax",
+        allow_missing=True,
     )
     print(f"Loader ready: {len(loader)} batches of up to {loader.batch_size}")
 

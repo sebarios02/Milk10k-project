@@ -22,7 +22,12 @@ class MILK10kDataLoader:
         normalization: Optional[str] = "minmax",
         shuffle: bool = True,
         seed: Optional[int] = 42,
+        allow_missing: bool = False,
     ):
+        """Session 2 numpy loader. Since Milestone 1 it FAILS LOUDLY on missing
+        files: a FileNotFoundError is raised at construction unless
+        ``allow_missing=True`` is passed explicitly (Part A subsets only).
+        For training use milk10k_pipeline.datasets / loaders (PyTorch)."""
         self.image_dir = Path(image_dir)
         self.label_col = label_col
         self.id_col = id_col
@@ -33,6 +38,7 @@ class MILK10kDataLoader:
         self.normalization = normalization
         self.shuffle = shuffle
         self._rng = np.random.default_rng(seed)
+        self.allow_missing = allow_missing
 
         self.metadata = self._filter_available(metadata)
 
@@ -44,8 +50,11 @@ class MILK10kDataLoader:
         n_total = len(metadata)
         n_available = int(exists_mask.sum())
         if n_available < n_total:
-            print(f"[MILK10kDataLoader] {n_total - n_available} of {n_total} rows "
-                  f"have no matching image file in {self.image_dir} — excluded.")
+            msg = (f"[MILK10kDataLoader] {n_total - n_available} of {n_total} rows "
+                   f"have no matching image file in {self.image_dir}")
+            if not self.allow_missing:
+                raise FileNotFoundError(msg + " (pass allow_missing=True to skip them explicitly)")
+            print(msg + " -> excluded (allow_missing=True)")
         return metadata.loc[exists_mask].reset_index(drop=True)
 
     def __len__(self) -> int:
@@ -68,7 +77,6 @@ class MILK10kDataLoader:
                 target_size=self.target_size,
                 color_space=self.color_space,
                 normalization=self.normalization,
+                strict=True,
             )
-            # process_batch already skips/report bad files; a batch loader
-            # just needs to hand back whatever loaded successfully.
             yield result.images, result.labels

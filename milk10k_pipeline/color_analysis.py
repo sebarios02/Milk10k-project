@@ -164,3 +164,50 @@ def plot_channel_summary_boxplots(
     plt.suptitle("")
     plt.tight_layout()
     return fig, df
+
+
+# ---------------------------------------------------------------------------
+# Session 3: lesion-pixel colour statistics (used by the augmentation audit)
+# ---------------------------------------------------------------------------
+
+def lesion_mask(rgb: np.ndarray) -> np.ndarray:
+    """Rough lesion segmentation: Otsu threshold on the blurred grayscale image.
+
+    Lesions are darker than the surrounding skin, so pixels BELOW the Otsu
+    threshold are taken as lesion. Very dark pixels (V < 20, e.g. the black
+    vignette of dermoscopes) are excluded. If the mask is tiny (<1% of the
+    image) we fall back to the central 50% crop.
+    """
+    import cv2
+    gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
+    blur = cv2.GaussianBlur(gray, (7, 7), 0)
+    thr, _ = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    mask = (blur < thr) & (gray > 20)
+    if mask.mean() < 0.01:
+        h, w = gray.shape
+        mask = np.zeros_like(mask)
+        mask[h // 4: 3 * h // 4, w // 4: 3 * w // 4] = True
+    return mask
+
+
+def circular_mean_deg(angles_deg: np.ndarray) -> float:
+    """Circular mean of angles in degrees, result in [0, 360)."""
+    a = np.deg2rad(np.asarray(angles_deg, dtype=np.float64))
+    return float(np.rad2deg(np.arctan2(np.sin(a).mean(), np.cos(a).mean())) % 360)
+
+
+def circular_diff_deg(a: float, b: float) -> float:
+    """Smallest absolute difference between two angles (degrees), in [0, 180]."""
+    d = abs(a - b) % 360
+    return float(min(d, 360 - d))
+
+
+def lesion_hue_value(rgb: np.ndarray, mask: Optional[np.ndarray] = None):
+    """(circular mean hue in degrees, mean V in [0,255]) of the lesion pixels of an RGB uint8 image."""
+    import cv2
+    if mask is None:
+        mask = lesion_mask(rgb)
+    hsv = cv2.cvtColor(rgb, cv2.COLOR_RGB2HSV)       # OpenCV: H in [0,179] -> x2 = degrees
+    hue_deg = hsv[..., 0][mask].astype(np.float64) * 2.0
+    v = hsv[..., 2][mask].astype(np.float64)
+    return circular_mean_deg(hue_deg), float(v.mean())
