@@ -1,0 +1,15 @@
+{
+  "mean": [
+    0.6855,
+    0.5234,
+    0.4728
+  ],
+  "std": [
+    0.1243,
+    0.1323,
+    0.1515
+  ],
+  "n_images": 7484,
+  "split": "train",
+  "preprocessing": "Resize(256) + CenterCrop(224), RGB in [0,1]"
+}

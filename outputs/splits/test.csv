@@ -1,0 +1,1499 @@
+isic_id,lesion_id,image_type,split,diagnosis_1,dx,fine,y_primary,y_fine,age_approx,sex,anatom_site_general,image_manipulation
+ISIC_0073863,IL_2547802,dermoscopic,test,Benign,NV,NV,0,4,5.0,female,,instrument only
+ISIC_0084885,IL_5334978,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,female,lower extremity,instrument only
+ISIC_0091477,IL_1858842,clinical: close-up,test,Benign,VASC,OTHER_BENIGN,0,6,55.0,female,,instrument only
+ISIC_0093135,IL_4744956,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_0096543,IL_1989864,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_0097629,IL_4316230,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,upper extremity,instrument only
+ISIC_0105249,IL_2902752,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_0138768,IL_5885697,clinical: close-up,test,Benign,BKL,BKL,0,2,50.0,female,lower extremity,instrument only
+ISIC_0151603,IL_1848591,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,upper extremity,instrument only
+ISIC_0161474,IL_8581204,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,lower extremity,instrument only
+ISIC_0185719,IL_7216182,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,lower extremity,instrument only
+ISIC_0189659,IL_6599749,clinical: close-up,test,Benign,NV,NV,0,4,25.0,female,,instrument only
+ISIC_0195795,IL_0538845,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_0198032,IL_3961621,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_0199124,IL_3582002,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,65.0,female,upper extremity,instrument only
+ISIC_0211067,IL_6084278,clinical: close-up,test,Malignant,MEL,MEL,2,3,65.0,male,,instrument only
+ISIC_0216815,IL_4696609,clinical: close-up,test,Benign,NV,NV,0,4,80.0,female,,instrument only
+ISIC_0225237,IL_9863241,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_0231625,IL_4153539,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_0257338,IL_2215317,clinical: close-up,test,Benign,BKL,BKL,0,2,50.0,male,head/neck,altered
+ISIC_0260732,IL_9192355,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,55.0,male,,instrument only
+ISIC_0267616,IL_2685280,clinical: close-up,test,Benign,BKL,BKL,0,2,75.0,male,,instrument only
+ISIC_0271489,IL_1339596,clinical: close-up,test,Benign,BKL,BKL,0,2,85.0,female,lower extremity,instrument only
+ISIC_0275196,IL_0921105,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_0283929,IL_1846294,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,female,,instrument only
+ISIC_0286860,IL_7230788,clinical: close-up,test,Benign,DF,OTHER_BENIGN,0,6,65.0,male,upper extremity,instrument only
+ISIC_0289881,IL_8323588,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_0290702,IL_1741530,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,male,head/neck,instrument only
+ISIC_0292393,IL_5489225,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_0305865,IL_0604713,dermoscopic,test,Malignant,MEL,MEL,2,3,75.0,male,,instrument only
+ISIC_0307669,IL_6398771,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,female,,instrument only
+ISIC_0310855,IL_4796364,dermoscopic,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_0311944,IL_8439517,dermoscopic,test,Benign,INF,OTHER_BENIGN,0,6,65.0,female,,instrument only
+ISIC_0314737,IL_2369165,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_0321371,IL_9192355,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,55.0,male,,instrument only
+ISIC_0332299,IL_4448697,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_0338923,IL_3082764,clinical: close-up,test,Benign,NV,NV,0,4,20.0,female,,instrument only
+ISIC_0346352,IL_8401805,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,male,,instrument only
+ISIC_0361189,IL_2248965,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_0368075,IL_0982091,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,male,head/neck,instrument only
+ISIC_0368483,IL_1858376,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,50.0,male,lower extremity,instrument only
+ISIC_0369681,IL_9784446,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_0373826,IL_5766424,dermoscopic,test,Benign,NV,NV,0,4,10.0,female,lower extremity,instrument only
+ISIC_0376743,IL_2821734,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,altered
+ISIC_0391153,IL_7343687,clinical: close-up,test,Malignant,MEL,MEL,2,3,65.0,male,,instrument only
+ISIC_0402070,IL_0436732,clinical: close-up,test,Malignant,MEL,MEL,2,3,75.0,female,,instrument only
+ISIC_0424607,IL_7471218,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,lower extremity,instrument only
+ISIC_0426102,IL_5394368,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,upper extremity,instrument only
+ISIC_0426130,IL_3640524,clinical: close-up,test,Benign,NV,NV,0,4,65.0,female,head/neck,altered
+ISIC_0428185,IL_3625666,clinical: close-up,test,Malignant,MEL,MEL,2,3,80.0,female,,instrument only
+ISIC_0440292,IL_8788016,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_0441425,IL_5574879,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,45.0,male,,instrument only
+ISIC_0444685,IL_2198915,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,lower extremity,instrument only
+ISIC_0445960,IL_3303536,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,60.0,male,head/neck,instrument only
+ISIC_0448586,IL_4976689,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,upper extremity,instrument only
+ISIC_0454029,IL_0108315,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_0463396,IL_3496522,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,female,head/neck,instrument only
+ISIC_0477999,IL_6011265,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_0489493,IL_4879844,clinical: close-up,test,Malignant,MEL,MEL,2,3,75.0,male,head/neck,instrument only
+ISIC_0490117,IL_0375356,clinical: close-up,test,Malignant,MEL,MEL,2,3,75.0,male,head/neck,instrument only
+ISIC_0495769,IL_3985289,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,lower extremity,instrument only
+ISIC_0497671,IL_6910887,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,80.0,male,head/neck,instrument only
+ISIC_0497851,IL_1572038,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,65.0,male,lower extremity,instrument only
+ISIC_0497911,IL_0740796,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,female,head/neck,instrument only
+ISIC_0501244,IL_7948272,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,lower extremity,instrument only
+ISIC_0502413,IL_6234937,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_0506930,IL_5829281,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_0515719,IL_5285603,clinical: close-up,test,Benign,VASC,OTHER_BENIGN,0,6,85.0,male,,instrument only
+ISIC_0517219,IL_5324666,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_0518723,IL_2227490,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_0528949,IL_9152183,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_0529050,IL_7337548,dermoscopic,test,Malignant,MEL,MEL,2,3,45.0,female,,instrument only
+ISIC_0535290,IL_4866547,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,upper extremity,instrument only
+ISIC_0538851,IL_0419410,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,male,,instrument only
+ISIC_0539206,IL_9563085,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,male,lower extremity,instrument only
+ISIC_0543368,IL_6344914,clinical: close-up,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_0548842,IL_4706609,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_0553752,IL_8462731,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,male,upper extremity,instrument only
+ISIC_0560217,IL_0169358,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_0560810,IL_6066960,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,head/neck,instrument only
+ISIC_0561102,IL_3724893,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_0569067,IL_7740320,dermoscopic,test,Benign,DF,OTHER_BENIGN,0,6,35.0,male,upper extremity,instrument only
+ISIC_0575623,IL_9180123,clinical: close-up,test,Benign,NV,NV,0,4,65.0,female,lower extremity,instrument only
+ISIC_0576611,IL_8244074,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,female,head/neck,instrument only
+ISIC_0583409,IL_6408457,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_0588937,IL_3682570,clinical: close-up,test,Benign,NV,NV,0,4,30.0,female,,instrument only
+ISIC_0598387,IL_0588181,dermoscopic,test,Malignant,MEL,MEL,2,3,85.0,male,,instrument only
+ISIC_0603409,IL_0097046,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_0605402,IL_1839563,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_0612181,IL_4978975,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_0625197,IL_3664176,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_0644098,IL_7864220,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,85.0,female,lower extremity,instrument only
+ISIC_0657859,IL_8110471,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,female,lower extremity,instrument only
+ISIC_0661874,IL_3819461,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_0674586,IL_5798814,clinical: close-up,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_0680433,IL_8472677,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,45.0,male,head/neck,instrument only
+ISIC_0689386,IL_8484491,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_0690986,IL_8944802,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,lower extremity,instrument only
+ISIC_0695322,IL_3286495,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,lower extremity,instrument only
+ISIC_0698052,IL_4929209,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_0724875,IL_5375846,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,head/neck,instrument only
+ISIC_0738371,IL_4104039,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,female,lower extremity,instrument only
+ISIC_0763962,IL_0836761,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_0765311,IL_1427039,clinical: close-up,test,Malignant,MEL,MEL,2,3,55.0,female,head/neck,instrument only
+ISIC_0777452,IL_1058871,dermoscopic,test,Malignant,BCC,BCC,2,1,35.0,female,head/neck,instrument only
+ISIC_0793894,IL_6365837,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_0800961,IL_7800799,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_0811266,IL_7712318,dermoscopic,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_0811703,IL_0868364,dermoscopic,test,Benign,DF,OTHER_BENIGN,0,6,40.0,female,lower extremity,instrument only
+ISIC_0812659,IL_0596418,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,altered
+ISIC_0813313,IL_2205080,clinical: close-up,test,Benign,NV,NV,0,4,10.0,female,lower extremity,instrument only
+ISIC_0813563,IL_1504921,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,65.0,male,head/neck,instrument only
+ISIC_0821297,IL_4310742,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_0823916,IL_1439879,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_0824121,IL_3999656,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,male,,instrument only
+ISIC_0828276,IL_0811004,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_0831898,IL_3715048,dermoscopic,test,Malignant,MEL,MEL,2,3,60.0,male,,instrument only
+ISIC_0835458,IL_2821734,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,instrument only
+ISIC_0838227,IL_4732001,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_0849075,IL_0948841,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_0855454,IL_7571099,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,upper extremity,instrument only
+ISIC_0856370,IL_0087637,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,male,upper extremity,instrument only
+ISIC_0866079,IL_0137229,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,head/neck,instrument only
+ISIC_0871337,IL_3288757,clinical: close-up,test,Benign,NV,NV,0,4,70.0,male,,instrument only
+ISIC_0871438,IL_4314497,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_0874081,IL_2415353,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,male,head/neck,altered
+ISIC_0880783,IL_9838418,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_0886120,IL_3582002,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,65.0,female,upper extremity,instrument only
+ISIC_0888116,IL_6520783,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_0899253,IL_6247210,clinical: close-up,test,Benign,BKL,BKL,0,2,50.0,female,upper extremity,instrument only
+ISIC_0906065,IL_6021116,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,female,upper extremity,instrument only
+ISIC_0909697,IL_1741530,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,male,head/neck,instrument only
+ISIC_0920625,IL_2289243,clinical: close-up,test,Benign,BKL,BKL,0,2,75.0,male,,instrument only
+ISIC_0924335,IL_5394368,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,upper extremity,instrument only
+ISIC_0933479,IL_6222346,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,male,head/neck,instrument only
+ISIC_0933741,IL_6169733,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_0944241,IL_5251059,clinical: close-up,test,Malignant,MEL,MEL,2,3,65.0,female,lower extremity,instrument only
+ISIC_0946795,IL_3115470,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,lower extremity,instrument only
+ISIC_0948347,IL_0269822,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_0953324,IL_4647036,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_0962054,IL_4310932,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,female,,instrument only
+ISIC_0977792,IL_1703552,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_0982924,IL_4534597,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,female,head/neck,instrument only
+ISIC_0990658,IL_5259261,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_1000386,IL_4104039,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,female,lower extremity,instrument only
+ISIC_1001492,IL_1468442,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,upper extremity,instrument only
+ISIC_1006010,IL_0033882,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_1019247,IL_2634845,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,male,head/neck,altered
+ISIC_1021842,IL_1696405,clinical: close-up,test,Benign,NV,NV,0,4,30.0,male,lower extremity,altered
+ISIC_1029957,IL_7577530,dermoscopic,test,Benign,NV,NV,0,4,65.0,male,,instrument only
+ISIC_1030228,IL_6222346,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,male,head/neck,instrument only
+ISIC_1044266,IL_5882687,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_1049145,IL_3020012,clinical: close-up,test,Malignant,MEL,MEL,2,3,30.0,female,upper extremity,instrument only
+ISIC_1050489,IL_9756229,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,female,,instrument only
+ISIC_1054971,IL_3087149,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,female,upper extremity,instrument only
+ISIC_1062335,IL_4174336,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,male,,instrument only
+ISIC_1070964,IL_4689658,dermoscopic,test,Benign,BKL,BKL,0,2,75.0,male,head/neck,instrument only
+ISIC_1085792,IL_6481065,dermoscopic,test,Benign,NV,NV,0,4,35.0,female,lower extremity,instrument only
+ISIC_1110074,IL_3593034,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_1110722,IL_4242651,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_1112216,IL_2248965,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_1132361,IL_3316669,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_1135277,IL_1510895,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_1136259,IL_3754821,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,female,,instrument only
+ISIC_1136498,IL_8012977,dermoscopic,test,Benign,BKL,BKL,0,2,45.0,female,head/neck,instrument only
+ISIC_1146954,IL_2066626,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,female,head/neck,instrument only
+ISIC_1150454,IL_1339596,dermoscopic,test,Benign,BKL,BKL,0,2,85.0,female,lower extremity,instrument only
+ISIC_1154207,IL_0406808,clinical: close-up,test,Malignant,MEL,MEL,2,3,60.0,female,,instrument only
+ISIC_1163119,IL_3545610,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,75.0,male,head/neck,instrument only
+ISIC_1171759,IL_4494242,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,55.0,male,lower extremity,instrument only
+ISIC_1176432,IL_8933396,clinical: close-up,test,Benign,DF,OTHER_BENIGN,0,6,50.0,female,lower extremity,instrument only
+ISIC_1189485,IL_9420011,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_1201025,IL_0406808,dermoscopic,test,Malignant,MEL,MEL,2,3,60.0,female,,instrument only
+ISIC_1212608,IL_8175900,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_1221863,IL_0583979,clinical: close-up,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_1222561,IL_8277688,dermoscopic,test,Benign,BKL,BKL,0,2,50.0,female,head/neck,instrument only
+ISIC_1226932,IL_7884218,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_1232869,IL_3694094,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_1236473,IL_8662506,clinical: close-up,test,Benign,BKL,BKL,0,2,45.0,male,,instrument only
+ISIC_1237574,IL_4368392,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_1239264,IL_8031669,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_1244447,IL_5885697,dermoscopic,test,Benign,BKL,BKL,0,2,50.0,female,lower extremity,instrument only
+ISIC_1244450,IL_8885600,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_1245273,IL_7389782,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_1258360,IL_2836148,dermoscopic,test,Benign,BKL,BKL,0,2,80.0,female,lower extremity,instrument only
+ISIC_1262809,IL_0948841,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_1264034,IL_1075740,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,female,upper extremity,instrument only
+ISIC_1282117,IL_1151731,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_1291218,IL_4371981,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,instrument only
+ISIC_1310746,IL_9756229,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,female,,instrument only
+ISIC_1317686,IL_0932905,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,upper extremity,instrument only
+ISIC_1319737,IL_0521926,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_1322802,IL_9974051,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_1323177,IL_3999656,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,male,,instrument only
+ISIC_1326309,IL_1351587,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,female,upper extremity,instrument only
+ISIC_1329438,IL_8644938,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,upper extremity,instrument only
+ISIC_1330625,IL_9035179,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,50.0,female,head/neck,altered
+ISIC_1338973,IL_2134316,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_1339797,IL_3327955,clinical: close-up,test,Benign,INF,OTHER_BENIGN,0,6,45.0,female,head/neck,instrument only
+ISIC_1347581,IL_0030541,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_1350578,IL_4182529,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_1357348,IL_0758142,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,upper extremity,instrument only
+ISIC_1362488,IL_0465605,clinical: close-up,test,Malignant,MEL,MEL,2,3,60.0,male,,instrument only
+ISIC_1375994,IL_6962518,dermoscopic,test,Benign,BKL,BKL,0,2,85.0,female,head/neck,instrument only
+ISIC_1385452,IL_3581501,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_1386079,IL_7199069,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_1386430,IL_3730515,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_1389612,IL_7337548,clinical: close-up,test,Malignant,MEL,MEL,2,3,45.0,female,,instrument only
+ISIC_1396973,IL_9067447,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,80.0,male,upper extremity,instrument only
+ISIC_1411639,IL_8186190,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,lower extremity,instrument only
+ISIC_1431170,IL_4310932,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,female,,instrument only
+ISIC_1447471,IL_4421569,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_1448927,IL_7987633,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,head/neck,instrument only
+ISIC_1460872,IL_8509050,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,male,lower extremity,instrument only
+ISIC_1468332,IL_3141578,dermoscopic,test,Benign,NV,NV,0,4,25.0,male,head/neck,instrument only
+ISIC_1472934,IL_3812964,dermoscopic,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_1476847,IL_7818452,clinical: close-up,test,Benign,NV,NV,0,4,45.0,male,upper extremity,instrument only
+ISIC_1477798,IL_9549484,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,instrument only
+ISIC_1494360,IL_1962885,clinical: close-up,test,Malignant,MEL,MEL,2,3,75.0,male,head/neck,altered
+ISIC_1494890,IL_5315129,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,female,head/neck,instrument only
+ISIC_1495576,IL_3148978,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,male,,instrument only
+ISIC_1496714,IL_1572038,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,65.0,male,lower extremity,instrument only
+ISIC_1496736,IL_3650991,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_1498519,IL_0008891,clinical: close-up,test,Benign,NV,NV,0,4,15.0,male,head/neck,instrument only
+ISIC_1503289,IL_8205824,clinical: close-up,test,Malignant,MEL,MEL,2,3,55.0,male,,instrument only
+ISIC_1509648,IL_3593034,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_1537765,IL_7309398,dermoscopic,test,Benign,NV,NV,0,4,45.0,female,upper extremity,instrument only
+ISIC_1548274,IL_6430136,dermoscopic,test,Benign,NV,NV,0,4,60.0,male,lower extremity,instrument only
+ISIC_1559307,IL_7309398,clinical: close-up,test,Benign,NV,NV,0,4,45.0,female,upper extremity,instrument only
+ISIC_1568395,IL_3644739,clinical: close-up,test,Benign,NV,NV,0,4,85.0,male,,instrument only
+ISIC_1568985,IL_5310899,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,female,upper extremity,instrument only
+ISIC_1569303,IL_6155109,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_1589936,IL_6806894,dermoscopic,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,65.0,male,lower extremity,instrument only
+ISIC_1591432,IL_0525024,dermoscopic,test,Benign,NV,NV,0,4,40.0,male,head/neck,instrument only
+ISIC_1592625,IL_5938594,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,male,,instrument only
+ISIC_1603737,IL_5124334,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_1609351,IL_0915251,dermoscopic,test,Benign,VASC,OTHER_BENIGN,0,6,80.0,female,upper extremity,instrument only
+ISIC_1623104,IL_8345128,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,,instrument only
+ISIC_1655136,IL_3044887,dermoscopic,test,Benign,NV,NV,0,4,35.0,female,lower extremity,instrument only
+ISIC_1658566,IL_4585306,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_1660154,IL_0019655,clinical: close-up,test,Malignant,MEL,MEL,2,3,60.0,male,,instrument only
+ISIC_1664514,IL_8821899,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,,instrument only
+ISIC_1683950,IL_2150976,dermoscopic,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,45.0,female,,instrument only
+ISIC_1689464,IL_5264196,clinical: close-up,test,Benign,NV,NV,0,4,55.0,male,upper extremity,instrument only
+ISIC_1699010,IL_0466626,dermoscopic,test,Benign,NV,NV,0,4,50.0,female,,instrument only
+ISIC_1707452,IL_5235613,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,lower extremity,instrument only
+ISIC_1708907,IL_1858842,dermoscopic,test,Benign,VASC,OTHER_BENIGN,0,6,55.0,female,,instrument only
+ISIC_1711494,IL_1538395,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,female,head/neck,instrument only
+ISIC_1724838,IL_1274055,dermoscopic,test,Benign,DF,OTHER_BENIGN,0,6,30.0,male,lower extremity,instrument only
+ISIC_1727938,IL_0967073,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,head/neck,instrument only
+ISIC_1738383,IL_7565291,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_1741885,IL_4068514,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_1749046,IL_8788883,dermoscopic,test,Benign,BKL,BKL,0,2,35.0,female,,instrument only
+ISIC_1751483,IL_6793597,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_1774371,IL_5767772,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,lower extremity,instrument only
+ISIC_1779747,IL_6156218,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,female,head/neck,altered
+ISIC_1797900,IL_9276974,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,male,upper extremity,instrument only
+ISIC_1810342,IL_5764702,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,female,,instrument only
+ISIC_1813785,IL_5358454,dermoscopic,test,Benign,NV,NV,0,4,55.0,male,lower extremity,instrument only
+ISIC_1814482,IL_7711358,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_1815891,IL_0793440,dermoscopic,test,Benign,NV,NV,0,4,55.0,male,lower extremity,instrument only
+ISIC_1817508,IL_6727928,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,75.0,male,lower extremity,instrument only
+ISIC_1826564,IL_1557433,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_1826997,IL_1293524,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_1830925,IL_9998211,clinical: close-up,test,Benign,NV,NV,0,4,70.0,male,,instrument only
+ISIC_1832093,IL_9101838,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_1858368,IL_6135781,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_1859149,IL_9840660,clinical: close-up,test,Benign,DF,OTHER_BENIGN,0,6,25.0,male,lower extremity,instrument only
+ISIC_1859150,IL_0751731,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_1862003,IL_6234937,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_1883149,IL_5158358,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_1884813,IL_5611087,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,female,upper extremity,instrument only
+ISIC_1886909,IL_6550593,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_1889858,IL_0076383,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,female,head/neck,instrument only
+ISIC_1897411,IL_3451729,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_1906798,IL_2082500,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_1907325,IL_9720180,clinical: close-up,test,Malignant,MEL,MEL,2,3,65.0,male,upper extremity,instrument only
+ISIC_1916171,IL_1222046,clinical: close-up,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,70.0,male,head/neck,instrument only
+ISIC_1927934,IL_3451729,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_1937581,IL_5315129,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,female,head/neck,instrument only
+ISIC_1942943,IL_6834280,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,head/neck,instrument only
+ISIC_1949643,IL_6226671,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,female,upper extremity,instrument only
+ISIC_1953687,IL_9166161,dermoscopic,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_1954444,IL_7230788,dermoscopic,test,Benign,DF,OTHER_BENIGN,0,6,65.0,male,upper extremity,instrument only
+ISIC_1958596,IL_3754821,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,female,,instrument only
+ISIC_1960660,IL_3239005,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,55.0,male,lower extremity,instrument only
+ISIC_1970255,IL_5900922,dermoscopic,test,Benign,NV,NV,0,4,30.0,male,lower extremity,instrument only
+ISIC_1978418,IL_1970176,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,female,lower extremity,instrument only
+ISIC_1982635,IL_0820798,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,70.0,male,lower extremity,instrument only
+ISIC_1994166,IL_4028485,dermoscopic,test,Malignant,MEL,MEL,2,3,55.0,male,,instrument only
+ISIC_1994938,IL_4668896,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,lower extremity,instrument only
+ISIC_2000821,IL_3682570,dermoscopic,test,Benign,NV,NV,0,4,30.0,female,,instrument only
+ISIC_2006744,IL_8578513,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,head/neck,instrument only
+ISIC_2016658,IL_0588181,clinical: close-up,test,Malignant,MEL,MEL,2,3,85.0,male,,instrument only
+ISIC_2020398,IL_5753278,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_2031105,IL_3818681,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,head/neck,instrument only
+ISIC_2031349,IL_5557985,dermoscopic,test,Benign,NV,NV,0,4,45.0,male,,instrument only
+ISIC_2036804,IL_9978605,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_2040238,IL_9152183,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_2054135,IL_9471694,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,male,,instrument only
+ISIC_2057570,IL_4194346,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_2059259,IL_9589211,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,male,,instrument only
+ISIC_2077819,IL_1739769,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,male,upper extremity,instrument only
+ISIC_2087207,IL_6135781,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_2091809,IL_9313120,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_2119936,IL_2317693,dermoscopic,test,Benign,NV,NV,0,4,30.0,female,,instrument only
+ISIC_2127883,IL_9758278,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_2134793,IL_7965758,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_2146757,IL_6156024,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,female,,instrument only
+ISIC_2148749,IL_8890308,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,head/neck,instrument only
+ISIC_2156383,IL_7743393,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,50.0,male,upper extremity,instrument only
+ISIC_2160112,IL_9921206,clinical: close-up,test,Benign,BKL,BKL,0,2,80.0,female,upper extremity,instrument only
+ISIC_2164257,IL_5162996,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_2170617,IL_2521173,dermoscopic,test,Benign,NV,NV,0,4,60.0,male,,instrument only
+ISIC_2184033,IL_8124925,clinical: close-up,test,Benign,INF,OTHER_BENIGN,0,6,20.0,male,,instrument only
+ISIC_2185560,IL_2612192,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_2187348,IL_8907892,dermoscopic,test,Malignant,MAL_OTH,OTHER_MALIGNANT,2,7,65.0,male,,instrument only
+ISIC_2187542,IL_1351587,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,female,upper extremity,instrument only
+ISIC_2193524,IL_4284690,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,head/neck,instrument only
+ISIC_2204119,IL_0610224,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,female,,instrument only
+ISIC_2205902,IL_5770532,dermoscopic,test,Benign,NV,NV,0,4,50.0,female,head/neck,instrument only
+ISIC_2215299,IL_5235613,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,lower extremity,instrument only
+ISIC_2215472,IL_7894855,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,70.0,male,head/neck,instrument only
+ISIC_2220505,IL_1427039,dermoscopic,test,Malignant,MEL,MEL,2,3,55.0,female,head/neck,instrument only
+ISIC_2226952,IL_6552855,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_2226996,IL_5733908,clinical: close-up,test,Malignant,MEL,MEL,2,3,35.0,female,head/neck,altered
+ISIC_2233787,IL_6481065,clinical: close-up,test,Benign,NV,NV,0,4,35.0,female,lower extremity,instrument only
+ISIC_2237025,IL_2134316,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_2246301,IL_4310742,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_2252215,IL_6365837,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_2273629,IL_3837894,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,75.0,male,lower extremity,instrument only
+ISIC_2277641,IL_6606069,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,female,head/neck,instrument only
+ISIC_2292844,IL_3035506,clinical: close-up,test,Benign,NV,NV,0,4,10.0,female,head/neck,instrument only
+ISIC_2304241,IL_3082764,dermoscopic,test,Benign,NV,NV,0,4,20.0,female,,instrument only
+ISIC_2307898,IL_8339852,clinical: close-up,test,Malignant,MEL,MEL,2,3,30.0,female,lower extremity,instrument only
+ISIC_2313224,IL_6982257,clinical: close-up,test,Benign,BKL,BKL,0,2,50.0,male,head/neck,instrument only
+ISIC_2320042,IL_8662506,dermoscopic,test,Benign,BKL,BKL,0,2,45.0,male,,instrument only
+ISIC_2330723,IL_1355090,clinical: close-up,test,Benign,NV,NV,0,4,55.0,female,lower extremity,instrument only
+ISIC_2333635,IL_9708256,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,lower extremity,instrument only
+ISIC_2334810,IL_7534180,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_2334974,IL_6296418,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_2343962,IL_5604150,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,,instrument only
+ISIC_2353418,IL_2918897,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_2375503,IL_5693413,clinical: close-up,test,Malignant,MEL,MEL,2,3,50.0,female,lower extremity,instrument only
+ISIC_2376778,IL_7804656,clinical: close-up,test,Benign,NV,NV,0,4,55.0,male,head/neck,instrument only
+ISIC_2376821,IL_9875986,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,head/neck,instrument only
+ISIC_2378919,IL_4537840,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_2384908,IL_0541036,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,60.0,male,,instrument only
+ISIC_2397388,IL_0855898,clinical: close-up,test,Malignant,MEL,MEL,2,3,65.0,male,upper extremity,instrument only
+ISIC_2400614,IL_5179568,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,female,lower extremity,instrument only
+ISIC_2410311,IL_3844274,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_2410425,IL_1989864,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_2412335,IL_6390381,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,50.0,female,,instrument only
+ISIC_2418437,IL_1391368,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_2419780,IL_1749756,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,female,,instrument only
+ISIC_2427847,IL_1274055,clinical: close-up,test,Benign,DF,OTHER_BENIGN,0,6,30.0,male,lower extremity,instrument only
+ISIC_2440983,IL_1416084,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,female,head/neck,instrument only
+ISIC_2445691,IL_0604713,clinical: close-up,test,Malignant,MEL,MEL,2,3,75.0,male,,instrument only
+ISIC_2449691,IL_4421569,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_2454008,IL_1967474,clinical: close-up,test,Benign,VASC,OTHER_BENIGN,0,6,15.0,male,,instrument only
+ISIC_2462068,IL_1606035,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,,instrument only
+ISIC_2470660,IL_4049256,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,upper extremity,instrument only
+ISIC_2471655,IL_0617635,dermoscopic,test,Benign,BKL,BKL,0,2,80.0,male,upper extremity,instrument only
+ISIC_2475721,IL_4429856,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,,instrument only
+ISIC_2482765,IL_2227490,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_2485009,IL_9629068,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,upper extremity,instrument only
+ISIC_2501558,IL_7743352,dermoscopic,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,50.0,female,head/neck,instrument only
+ISIC_2501939,IL_0548137,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,55.0,male,upper extremity,instrument only
+ISIC_2502243,IL_3477265,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,instrument only
+ISIC_2508643,IL_6520783,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_2514438,IL_9363657,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_2533333,IL_7709757,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_2561308,IL_4639886,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,female,lower extremity,instrument only
+ISIC_2565230,IL_0752294,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,lower extremity,instrument only
+ISIC_2567925,IL_1131642,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_2571592,IL_1753473,clinical: close-up,test,Benign,NV,NV,0,4,,male,lower extremity,instrument only
+ISIC_2580974,IL_6687595,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,65.0,male,,instrument only
+ISIC_2588935,IL_0727699,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,65.0,female,head/neck,altered
+ISIC_2593896,IL_3486066,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,85.0,male,head/neck,instrument only
+ISIC_2601363,IL_0507774,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_2608904,IL_6947198,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_2614335,IL_8581204,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,lower extremity,instrument only
+ISIC_2627411,IL_6313730,dermoscopic,test,Malignant,BCC,BCC,2,1,30.0,female,upper extremity,instrument only
+ISIC_2628160,IL_7523835,clinical: close-up,test,Benign,NV,NV,0,4,50.0,male,,instrument only
+ISIC_2633032,IL_5928623,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,male,head/neck,instrument only
+ISIC_2641217,IL_0019655,dermoscopic,test,Malignant,MEL,MEL,2,3,60.0,male,,instrument only
+ISIC_2641644,IL_7523835,dermoscopic,test,Benign,NV,NV,0,4,50.0,male,,instrument only
+ISIC_2646200,IL_4978975,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_2654339,IL_0982091,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,male,head/neck,instrument only
+ISIC_2664046,IL_7294930,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_2683795,IL_7746701,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_2689544,IL_2783925,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_2696566,IL_2851891,clinical: close-up,test,Benign,NV,NV,0,4,20.0,female,head/neck,altered
+ISIC_2698174,IL_3487572,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_2708483,IL_4902054,clinical: close-up,test,Benign,NV,NV,0,4,55.0,female,head/neck,instrument only
+ISIC_2710427,IL_6916787,dermoscopic,test,Malignant,MEL,MEL,2,3,50.0,female,head/neck,instrument only
+ISIC_2736195,IL_8401805,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,male,,instrument only
+ISIC_2738904,IL_5040782,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,female,lower extremity,instrument only
+ISIC_2741156,IL_4744956,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_2745631,IL_8535419,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,upper extremity,instrument only
+ISIC_2753382,IL_3565320,dermoscopic,test,Malignant,MEL,MEL,2,3,50.0,male,lower extremity,instrument only
+ISIC_2770547,IL_3581501,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_2770868,IL_9708256,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,lower extremity,instrument only
+ISIC_2771215,IL_6972994,clinical: close-up,test,Benign,BKL,BKL,0,2,85.0,male,,instrument only
+ISIC_2781687,IL_6119395,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,female,,instrument only
+ISIC_2784330,IL_1212389,clinical: close-up,test,Malignant,MEL,MEL,2,3,60.0,male,upper extremity,instrument only
+ISIC_2786202,IL_2610875,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_2790154,IL_5490327,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,,instrument only
+ISIC_2799124,IL_0169358,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_2802992,IL_1846294,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,female,,instrument only
+ISIC_2803954,IL_9091693,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,female,,instrument only
+ISIC_2811259,IL_3044887,clinical: close-up,test,Benign,NV,NV,0,4,35.0,female,lower extremity,instrument only
+ISIC_2826779,IL_6812104,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_2839422,IL_3824420,clinical: close-up,test,Benign,NV,NV,0,4,35.0,male,,instrument only
+ISIC_2839614,IL_8572700,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_2843665,IL_5733908,dermoscopic,test,Malignant,MEL,MEL,2,3,35.0,female,head/neck,instrument only
+ISIC_2845349,IL_3151519,clinical: close-up,test,Malignant,MEL,MEL,2,3,55.0,male,,instrument only
+ISIC_2846167,IL_1313145,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_2847750,IL_1225900,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_2848199,IL_9353548,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,head/neck,instrument only
+ISIC_2851104,IL_2719812,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_2852852,IL_2621317,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_2855242,IL_5798814,dermoscopic,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_2855847,IL_4410437,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,female,upper extremity,instrument only
+ISIC_2861892,IL_3644739,dermoscopic,test,Benign,NV,NV,0,4,85.0,male,,instrument only
+ISIC_2877008,IL_2466872,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_2878962,IL_0963446,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_2883948,IL_9391328,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,head/neck,instrument only
+ISIC_2886088,IL_6841105,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,female,,instrument only
+ISIC_2896896,IL_9974051,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_2911796,IL_5846889,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_2913187,IL_0262433,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,70.0,male,head/neck,instrument only
+ISIC_2914456,IL_3884933,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,male,head/neck,instrument only
+ISIC_2919752,IL_1544139,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,50.0,male,,instrument only
+ISIC_2926418,IL_7940673,dermoscopic,test,Malignant,MEL,MEL,2,3,45.0,male,,instrument only
+ISIC_2931409,IL_6413460,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,upper extremity,instrument only
+ISIC_2938744,IL_2540198,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_2944503,IL_4131392,clinical: close-up,test,Benign,NV,NV,0,4,55.0,male,head/neck,altered
+ISIC_2944762,IL_0030541,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_2949444,IL_1038225,clinical: close-up,test,Benign,NV,NV,0,4,55.0,female,,instrument only
+ISIC_2950781,IL_8454481,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,lower extremity,instrument only
+ISIC_2961262,IL_5725802,dermoscopic,test,Benign,NV,NV,0,4,55.0,male,lower extremity,instrument only
+ISIC_2962014,IL_9840660,dermoscopic,test,Benign,DF,OTHER_BENIGN,0,6,25.0,male,lower extremity,instrument only
+ISIC_2963181,IL_3358821,clinical: close-up,test,Benign,BKL,BKL,0,2,40.0,male,head/neck,instrument only
+ISIC_2972264,IL_7333978,clinical: close-up,test,Malignant,MEL,MEL,2,3,85.0,male,,instrument only
+ISIC_2990629,IL_5732372,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_2991167,IL_2707653,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_2994689,IL_8509050,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,male,lower extremity,instrument only
+ISIC_2997062,IL_3565320,clinical: close-up,test,Malignant,MEL,MEL,2,3,50.0,male,lower extremity,instrument only
+ISIC_2998536,IL_2409650,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,lower extremity,instrument only
+ISIC_3018802,IL_5896465,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,head/neck,instrument only
+ISIC_3024107,IL_5770532,clinical: close-up,test,Benign,NV,NV,0,4,50.0,female,head/neck,altered
+ISIC_3032522,IL_7644986,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_3033593,IL_6831423,clinical: close-up,test,Benign,BKL,BKL,0,2,75.0,male,upper extremity,instrument only
+ISIC_3033732,IL_4644252,dermoscopic,test,Benign,NV,NV,0,4,40.0,female,lower extremity,instrument only
+ISIC_3036641,IL_9838418,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_3044377,IL_4028485,clinical: close-up,test,Malignant,MEL,MEL,2,3,55.0,male,,instrument only
+ISIC_3045480,IL_0465605,dermoscopic,test,Malignant,MEL,MEL,2,3,60.0,male,,instrument only
+ISIC_3050024,IL_9353548,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,head/neck,instrument only
+ISIC_3066491,IL_9375676,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,male,head/neck,instrument only
+ISIC_3067376,IL_6687584,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_3085694,IL_3090203,dermoscopic,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,60.0,male,head/neck,instrument only
+ISIC_3094384,IL_8151298,clinical: close-up,test,Benign,NV,NV,0,4,45.0,female,lower extremity,instrument only
+ISIC_3094600,IL_8788016,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_3100293,IL_2433161,clinical: close-up,test,Malignant,MEL,MEL,2,3,50.0,male,,instrument only
+ISIC_3122081,IL_8813361,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_3132743,IL_3341722,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,lower extremity,instrument only
+ISIC_3142156,IL_7709757,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_3155654,IL_2988717,dermoscopic,test,Benign,BKL,BKL,0,2,85.0,male,upper extremity,instrument only
+ISIC_3156175,IL_3577604,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_3159699,IL_4968096,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_3162480,IL_4588055,clinical: close-up,test,Benign,NV,NV,0,4,70.0,male,,instrument only
+ISIC_3162488,IL_9180123,dermoscopic,test,Benign,NV,NV,0,4,65.0,female,lower extremity,instrument only
+ISIC_3162836,IL_2609201,clinical: close-up,test,Benign,NV,NV,0,4,50.0,male,,instrument only
+ISIC_3163093,IL_3052148,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_3164108,IL_6156218,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,female,head/neck,instrument only
+ISIC_3168049,IL_6829628,clinical: close-up,test,Benign,VASC,OTHER_BENIGN,0,6,35.0,male,head/neck,instrument only
+ISIC_3175755,IL_0076383,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,female,head/neck,instrument only
+ISIC_3183046,IL_2141966,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_3191687,IL_3424617,dermoscopic,test,Benign,NV,NV,0,4,70.0,male,upper extremity,instrument only
+ISIC_3193023,IL_5334978,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,female,lower extremity,instrument only
+ISIC_3197377,IL_5627565,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_3204093,IL_3319164,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,85.0,male,upper extremity,instrument only
+ISIC_3208971,IL_2974900,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_3210379,IL_9179021,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,lower extremity,instrument only
+ISIC_3233781,IL_2066626,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,female,head/neck,altered
+ISIC_3234625,IL_0105755,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_3251194,IL_4715886,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_3251490,IL_2868524,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_3252559,IL_0967073,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,head/neck,instrument only
+ISIC_3255507,IL_3052148,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_3259871,IL_2433161,dermoscopic,test,Malignant,MEL,MEL,2,3,50.0,male,,instrument only
+ISIC_3268800,IL_3249139,dermoscopic,test,Malignant,MEL,MEL,2,3,25.0,male,,instrument only
+ISIC_3273623,IL_5438158,clinical: close-up,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_3280000,IL_9871748,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,lower extremity,instrument only
+ISIC_3298684,IL_2369272,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,female,,instrument only
+ISIC_3300164,IL_6179190,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,altered
+ISIC_3302174,IL_4639886,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,female,lower extremity,instrument only
+ISIC_3303065,IL_1075637,dermoscopic,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,40.0,male,,instrument only
+ISIC_3305736,IL_4259572,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,upper extremity,instrument only
+ISIC_3310439,IL_4628159,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_3313109,IL_0083796,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_3313166,IL_3518780,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,female,head/neck,instrument only
+ISIC_3323980,IL_0836761,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_3327943,IL_2172033,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_3334868,IL_4052730,clinical: close-up,test,Benign,NV,NV,0,4,50.0,female,lower extremity,instrument only
+ISIC_3338902,IL_2166765,clinical: close-up,test,Benign,BKL,BKL,0,2,15.0,female,lower extremity,instrument only
+ISIC_3340382,IL_5310317,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_3341232,IL_6226782,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_3343865,IL_3570537,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,65.0,male,head/neck,instrument only
+ISIC_3349986,IL_9608485,clinical: close-up,test,Benign,NV,NV,0,4,30.0,male,,instrument only
+ISIC_3352589,IL_0903975,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_3360186,IL_6599749,dermoscopic,test,Benign,NV,NV,0,4,25.0,female,,instrument only
+ISIC_3362890,IL_5259261,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_3371218,IL_8383981,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_3375059,IL_9617690,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_3392397,IL_7705011,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_3401455,IL_8643718,clinical: close-up,test,Malignant,MEL,MEL,2,3,85.0,male,head/neck,instrument only
+ISIC_3405243,IL_8658177,dermoscopic,test,Benign,BKL,BKL,0,2,80.0,female,head/neck,instrument only
+ISIC_3416227,IL_1848591,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,upper extremity,instrument only
+ISIC_3418096,IL_8376298,dermoscopic,test,Benign,DF,OTHER_BENIGN,0,6,45.0,male,,instrument only
+ISIC_3428379,IL_1075637,clinical: close-up,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,40.0,male,,instrument only
+ISIC_3428455,IL_5782288,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,85.0,male,head/neck,instrument only
+ISIC_3428486,IL_8462731,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,male,upper extremity,instrument only
+ISIC_3431588,IL_6802806,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_3432012,IL_9899181,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_3433968,IL_1181749,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,female,lower extremity,instrument only
+ISIC_3468250,IL_1151731,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_3469093,IL_9106447,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,female,head/neck,instrument only
+ISIC_3480084,IL_0097046,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_3482213,IL_9784446,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_3485059,IL_8658177,clinical: close-up,test,Benign,BKL,BKL,0,2,80.0,female,head/neck,instrument only
+ISIC_3487034,IL_7965758,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_3494647,IL_5033079,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,upper extremity,instrument only
+ISIC_3501503,IL_7948272,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,lower extremity,instrument only
+ISIC_3515780,IL_3824420,dermoscopic,test,Benign,NV,NV,0,4,35.0,male,,instrument only
+ISIC_3518193,IL_1749756,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,female,,instrument only
+ISIC_3518967,IL_7987633,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,head/neck,instrument only
+ISIC_3527498,IL_7209123,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_3532225,IL_7864220,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,85.0,female,lower extremity,instrument only
+ISIC_3535882,IL_0927709,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,male,head/neck,instrument only
+ISIC_3537131,IL_5829281,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_3545489,IL_4968096,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_3560001,IL_6836938,clinical: close-up,test,Benign,NV,NV,0,4,60.0,male,,altered
+ISIC_3568310,IL_0956761,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_3578842,IL_6480274,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_3584546,IL_7898098,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_3587587,IL_8376298,clinical: close-up,test,Benign,DF,OTHER_BENIGN,0,6,45.0,male,,instrument only
+ISIC_3594638,IL_4344178,dermoscopic,test,Benign,NV,NV,0,4,65.0,male,,instrument only
+ISIC_3602145,IL_7167860,dermoscopic,test,Benign,INF,OTHER_BENIGN,0,6,45.0,male,head/neck,instrument only
+ISIC_3612044,IL_7619356,dermoscopic,test,Benign,NV,NV,0,4,65.0,male,,instrument only
+ISIC_3620839,IL_0436732,dermoscopic,test,Malignant,MEL,MEL,2,3,75.0,female,,instrument only
+ISIC_3623141,IL_9300732,dermoscopic,test,Benign,BKL,BKL,0,2,50.0,female,,instrument only
+ISIC_3632192,IL_7462032,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_3636477,IL_6887782,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,female,head/neck,instrument only
+ISIC_3644082,IL_7871086,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,head/neck,instrument only
+ISIC_3658823,IL_3347593,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_3668445,IL_5287926,dermoscopic,test,Benign,NV,NV,0,4,65.0,female,head/neck,instrument only
+ISIC_3670069,IL_8339852,dermoscopic,test,Malignant,MEL,MEL,2,3,30.0,female,lower extremity,instrument only
+ISIC_3689085,IL_2274698,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,female,,instrument only
+ISIC_3694700,IL_3982685,clinical: close-up,test,Benign,NV,NV,0,4,45.0,male,lower extremity,instrument only
+ISIC_3704603,IL_0041758,dermoscopic,test,Malignant,MEL,MEL,2,3,40.0,female,,instrument only
+ISIC_3705158,IL_4756985,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_3708140,IL_0811004,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_3737700,IL_6182849,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_3739337,IL_0538845,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_3757262,IL_9978605,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_3765070,IL_3560124,clinical: close-up,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_3765481,IL_6016722,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_3772519,IL_6344914,dermoscopic,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_3773277,IL_6084278,dermoscopic,test,Malignant,MEL,MEL,2,3,65.0,male,,instrument only
+ISIC_3782736,IL_9992890,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,lower extremity,instrument only
+ISIC_3783885,IL_0105755,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_3785074,IL_3211477,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_3786263,IL_2194640,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,altered
+ISIC_3788301,IL_4429856,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,,instrument only
+ISIC_3788989,IL_7523112,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_3789914,IL_2925087,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,60.0,male,,instrument only
+ISIC_3793299,IL_8578083,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_3794267,IL_6097327,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,lower extremity,instrument only
+ISIC_3820500,IL_0864051,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,male,head/neck,instrument only
+ISIC_3824264,IL_9617690,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_3831165,IL_5439022,dermoscopic,test,Benign,NV,NV,0,4,65.0,male,,instrument only
+ISIC_3869104,IL_1120917,dermoscopic,test,Benign,NV,NV,0,4,35.0,male,,instrument only
+ISIC_3873824,IL_6550593,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_3877894,IL_1313145,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_3881302,IL_8644938,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,upper extremity,instrument only
+ISIC_3881896,IL_0033882,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_3904045,IL_0003176,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,female,head/neck,instrument only
+ISIC_3918888,IL_0963446,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_3959129,IL_9998211,dermoscopic,test,Benign,NV,NV,0,4,70.0,male,,instrument only
+ISIC_4018978,IL_6665105,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,male,upper extremity,instrument only
+ISIC_4051799,IL_7199069,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_4057179,IL_7911942,clinical: close-up,test,Malignant,MEL,MEL,2,3,75.0,male,,instrument only
+ISIC_4065256,IL_5044233,clinical: close-up,test,Benign,VASC,OTHER_BENIGN,0,6,20.0,male,,instrument only
+ISIC_4072524,IL_3577604,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_4079070,IL_3090203,clinical: close-up,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,60.0,male,head/neck,altered
+ISIC_4081526,IL_7523112,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_4090560,IL_3694094,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_4093606,IL_8186190,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,lower extremity,instrument only
+ISIC_4098601,IL_5767772,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,lower extremity,instrument only
+ISIC_4113126,IL_6916787,clinical: close-up,test,Malignant,MEL,MEL,2,3,50.0,female,head/neck,instrument only
+ISIC_4117748,IL_0375356,dermoscopic,test,Malignant,MEL,MEL,2,3,75.0,male,head/neck,instrument only
+ISIC_4123254,IL_4185441,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,head/neck,altered
+ISIC_4138560,IL_7239273,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_4138716,IL_0183428,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,lower extremity,instrument only
+ISIC_4158219,IL_7389782,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_4161639,IL_3148978,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,male,,instrument only
+ISIC_4162103,IL_8229749,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,upper extremity,instrument only
+ISIC_4171190,IL_7274856,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,male,upper extremity,instrument only
+ISIC_4175612,IL_0915251,clinical: close-up,test,Benign,VASC,OTHER_BENIGN,0,6,80.0,female,upper extremity,instrument only
+ISIC_4175828,IL_6226671,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,female,upper extremity,instrument only
+ISIC_4176987,IL_3347593,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_4194365,IL_5764702,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,female,,instrument only
+ISIC_4198936,IL_4547617,clinical: close-up,test,Malignant,MEL,MEL,2,3,60.0,female,head/neck,instrument only
+ISIC_4200513,IL_2621317,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_4215075,IL_7462032,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_4225046,IL_5375403,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,male,lower extremity,instrument only
+ISIC_4225552,IL_4530346,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_4236187,IL_6802806,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_4247695,IL_8110471,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,female,lower extremity,instrument only
+ISIC_4264456,IL_7743393,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,50.0,male,upper extremity,instrument only
+ISIC_4282374,IL_5040782,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,female,lower extremity,instrument only
+ISIC_4282506,IL_1300499,dermoscopic,test,Malignant,MEL,MEL,2,3,55.0,male,upper extremity,instrument only
+ISIC_4301937,IL_6194887,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_4302597,IL_6665105,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,male,upper extremity,instrument only
+ISIC_4311112,IL_0787420,dermoscopic,test,Malignant,MEL,MEL,2,3,55.0,male,lower extremity,instrument only
+ISIC_4311703,IL_8584799,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_4315588,IL_4756985,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_4325605,IL_8151298,dermoscopic,test,Benign,NV,NV,0,4,45.0,female,lower extremity,instrument only
+ISIC_4338535,IL_9554653,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,female,head/neck,instrument only
+ISIC_4343032,IL_1267317,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,55.0,male,,instrument only
+ISIC_4346905,IL_1794572,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,male,head/neck,instrument only
+ISIC_4351882,IL_5779680,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_4352757,IL_8662195,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,upper extremity,instrument only
+ISIC_4357109,IL_0098895,clinical: close-up,test,Benign,NV,NV,0,4,50.0,male,upper extremity,instrument only
+ISIC_4370328,IL_9737079,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_4371553,IL_9475061,clinical: close-up,test,Benign,INF,OTHER_BENIGN,0,6,40.0,female,head/neck,instrument only
+ISIC_4378281,IL_9977217,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_4385584,IL_1222046,dermoscopic,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,70.0,male,head/neck,instrument only
+ISIC_4388573,IL_2609201,dermoscopic,test,Benign,NV,NV,0,4,50.0,male,,instrument only
+ISIC_4407741,IL_9007318,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,50.0,female,lower extremity,instrument only
+ISIC_4410078,IL_9600474,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_4412263,IL_4049256,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,upper extremity,instrument only
+ISIC_4416938,IL_2610875,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_4420449,IL_0740796,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,female,head/neck,altered
+ISIC_4426174,IL_2090783,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,female,head/neck,instrument only
+ISIC_4442146,IL_1353481,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_4442537,IL_4866547,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,upper extremity,instrument only
+ISIC_4452365,IL_1925186,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_4464487,IL_6727928,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,75.0,male,lower extremity,instrument only
+ISIC_4470805,IL_3211477,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_4472727,IL_9276974,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,male,upper extremity,instrument only
+ISIC_4476901,IL_6011265,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_4480326,IL_9391328,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,head/neck,instrument only
+ISIC_4482209,IL_7216182,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,lower extremity,instrument only
+ISIC_4485409,IL_8148828,dermoscopic,test,Malignant,BCC,BCC,2,1,35.0,male,,instrument only
+ISIC_4489369,IL_3986859,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_4490295,IL_1726538,dermoscopic,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_4490552,IL_6853458,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_4494886,IL_1099248,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,upper extremity,instrument only
+ISIC_4499437,IL_0041758,clinical: close-up,test,Malignant,MEL,MEL,2,3,40.0,female,,instrument only
+ISIC_4503581,IL_6618073,dermoscopic,test,Benign,NV,NV,0,4,60.0,female,upper extremity,instrument only
+ISIC_4506914,IL_0549977,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_4523157,IL_5627565,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_4524898,IL_3991500,clinical: close-up,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_4544829,IL_9758278,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_4557242,IL_3307865,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_4562629,IL_3961621,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_4564343,IL_7373612,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,female,upper extremity,instrument only
+ISIC_4564958,IL_9570046,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_4573444,IL_2409650,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,lower extremity,instrument only
+ISIC_4574908,IL_3545610,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,75.0,male,head/neck,instrument only
+ISIC_4583576,IL_6731689,clinical: close-up,test,Benign,BKL,BKL,0,2,80.0,male,upper extremity,instrument only
+ISIC_4584930,IL_3239005,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,55.0,male,lower extremity,instrument only
+ISIC_4584962,IL_2055704,dermoscopic,test,Benign,NV,NV,0,4,40.0,female,head/neck,instrument only
+ISIC_4587766,IL_0868364,clinical: close-up,test,Benign,DF,OTHER_BENIGN,0,6,40.0,female,lower extremity,instrument only
+ISIC_4589630,IL_8484491,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_4591575,IL_7348200,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_4597516,IL_3319164,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,85.0,male,upper extremity,instrument only
+ISIC_4599000,IL_9363657,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_4599594,IL_8445981,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_4601154,IL_0758206,dermoscopic,test,Malignant,MEL,MEL,2,3,30.0,male,,instrument only
+ISIC_4604175,IL_2836148,clinical: close-up,test,Benign,BKL,BKL,0,2,80.0,female,lower extremity,instrument only
+ISIC_4618150,IL_2317693,clinical: close-up,test,Benign,NV,NV,0,4,30.0,female,,instrument only
+ISIC_4632123,IL_3087149,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,female,upper extremity,instrument only
+ISIC_4639628,IL_5152283,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_4640009,IL_0487689,dermoscopic,test,Benign,NV,NV,0,4,65.0,female,,instrument only
+ISIC_4668008,IL_5834999,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,85.0,female,lower extremity,instrument only
+ISIC_4668728,IL_1726538,clinical: close-up,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_4674125,IL_1090086,dermoscopic,test,Malignant,BCC,BCC,2,1,35.0,female,head/neck,instrument only
+ISIC_4679707,IL_1203056,dermoscopic,test,Benign,NV,NV,0,4,50.0,female,lower extremity,instrument only
+ISIC_4683265,IL_4840616,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_4683499,IL_5571355,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,female,,instrument only
+ISIC_4690427,IL_9292701,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,,instrument only
+ISIC_4692254,IL_6296418,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_4700136,IL_2926353,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_4716627,IL_5846889,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_4720694,IL_2648810,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_4729676,IL_1288672,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_4730750,IL_8572700,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_4733429,IL_2286275,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_4737794,IL_0332363,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_4759066,IL_6182849,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_4759275,IL_1082732,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,male,lower extremity,instrument only
+ISIC_4767902,IL_7566377,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,female,head/neck,instrument only
+ISIC_4768009,IL_4585306,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_4780938,IL_8566175,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_4785619,IL_3991500,dermoscopic,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_4787120,IL_5033340,dermoscopic,test,Benign,NV,NV,0,4,70.0,female,lower extremity,instrument only
+ISIC_4794413,IL_4641431,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,female,head/neck,instrument only
+ISIC_4815149,IL_3363042,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_4821829,IL_6853458,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_4822631,IL_2263451,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_4834358,IL_7565291,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_4842094,IL_8148828,clinical: close-up,test,Malignant,BCC,BCC,2,1,35.0,male,,instrument only
+ISIC_4849294,IL_7711358,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_4849906,IL_7762998,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_4850035,IL_3424617,clinical: close-up,test,Benign,NV,NV,0,4,70.0,male,upper extremity,instrument only
+ISIC_4851411,IL_6322114,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,lower extremity,instrument only
+ISIC_4896814,IL_9322216,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,female,lower extremity,instrument only
+ISIC_4900087,IL_1099248,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,upper extremity,instrument only
+ISIC_4900201,IL_2048695,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,upper extremity,instrument only
+ISIC_4910424,IL_5324666,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_4913073,IL_6156024,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,female,,instrument only
+ISIC_4919090,IL_1510895,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_4919326,IL_4028945,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,75.0,female,head/neck,instrument only
+ISIC_4933959,IL_4500460,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_4945500,IL_2473715,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,upper extremity,instrument only
+ISIC_4946681,IL_2826378,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,,instrument only
+ISIC_4962195,IL_6812104,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_4964428,IL_2194640,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,instrument only
+ISIC_4971008,IL_1763474,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_4979236,IL_3069196,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,lower extremity,instrument only
+ISIC_4989932,IL_0610224,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,female,,instrument only
+ISIC_5000414,IL_7811339,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_5003991,IL_2577836,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,female,lower extremity,instrument only
+ISIC_5010015,IL_4514039,clinical: close-up,test,Benign,NV,NV,0,4,30.0,male,,instrument only
+ISIC_5020961,IL_1962759,dermoscopic,test,Benign,NV,NV,0,4,,male,upper extremity,instrument only
+ISIC_5022439,IL_6762452,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,female,,instrument only
+ISIC_5022731,IL_5438158,dermoscopic,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_5027597,IL_7274856,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,male,upper extremity,instrument only
+ISIC_5030554,IL_4829953,clinical: close-up,test,Malignant,MEL,MEL,2,3,75.0,male,,instrument only
+ISIC_5042253,IL_4706609,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_5043555,IL_3216305,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,female,head/neck,altered
+ISIC_5043700,IL_3919255,clinical: close-up,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_5044856,IL_1936294,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_5047383,IL_0044468,clinical: close-up,test,Malignant,MEL,MEL,2,3,75.0,male,,instrument only
+ISIC_5050587,IL_3824346,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_5054723,IL_9629068,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,upper extremity,instrument only
+ISIC_5055083,IL_3288757,dermoscopic,test,Benign,NV,NV,0,4,70.0,male,,instrument only
+ISIC_5058400,IL_7348200,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_5059174,IL_6066960,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,head/neck,instrument only
+ISIC_5082399,IL_2918897,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_5083538,IL_0932905,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,upper extremity,instrument only
+ISIC_5084418,IL_3829109,clinical: close-up,test,Benign,NV,NV,0,4,45.0,male,,instrument only
+ISIC_5085980,IL_6226782,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_5086729,IL_7769100,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_5092781,IL_8907892,clinical: close-up,test,Malignant,MAL_OTH,OTHER_MALIGNANT,2,7,65.0,male,,instrument only
+ISIC_5099169,IL_1967474,dermoscopic,test,Benign,VASC,OTHER_BENIGN,0,6,15.0,male,,instrument only
+ISIC_5100065,IL_0080398,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,male,lower extremity,instrument only
+ISIC_5101364,IL_0249447,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_5104415,IL_5752488,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,55.0,male,head/neck,instrument only
+ISIC_5115393,IL_2925087,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,60.0,male,,instrument only
+ISIC_5116256,IL_6179190,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_5116537,IL_5928623,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,male,head/neck,instrument only
+ISIC_5120336,IL_0758206,clinical: close-up,test,Malignant,MEL,MEL,2,3,30.0,male,,instrument only
+ISIC_5124607,IL_1567374,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_5126567,IL_8643718,dermoscopic,test,Malignant,MEL,MEL,2,3,85.0,male,head/neck,instrument only
+ISIC_5128007,IL_3316446,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,female,,instrument only
+ISIC_5135848,IL_1544139,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,50.0,male,,instrument only
+ISIC_5149156,IL_4064393,clinical: close-up,test,Benign,NV,NV,0,4,60.0,male,,instrument only
+ISIC_5157495,IL_5655244,dermoscopic,test,Benign,NV,NV,0,4,50.0,male,lower extremity,instrument only
+ISIC_5158158,IL_6169733,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_5159139,IL_3199260,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,female,,instrument only
+ISIC_5164646,IL_6116581,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_5175946,IL_2526379,dermoscopic,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_5185588,IL_3734319,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_5191763,IL_1921779,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,male,,instrument only
+ISIC_5200686,IL_8885600,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_5213643,IL_6555655,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_5228122,IL_9353162,clinical: close-up,test,Benign,DF,OTHER_BENIGN,0,6,40.0,male,lower extremity,instrument only
+ISIC_5238772,IL_3910210,clinical: close-up,test,Benign,NV,NV,0,4,25.0,female,lower extremity,instrument only
+ISIC_5239106,IL_6717785,dermoscopic,test,Benign,NV,NV,0,4,50.0,female,,instrument only
+ISIC_5240908,IL_9554628,clinical: close-up,test,Benign,NV,NV,0,4,35.0,female,,instrument only
+ISIC_5273681,IL_0332363,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_5286872,IL_6193516,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_5299723,IL_5301199,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,male,,instrument only
+ISIC_5305490,IL_7743352,clinical: close-up,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,50.0,female,head/neck,instrument only
+ISIC_5308020,IL_2342693,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,female,head/neck,instrument only
+ISIC_5308373,IL_0215570,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_5313254,IL_2612192,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_5313507,IL_0507774,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_5318049,IL_6022474,clinical: close-up,test,Benign,BKL,BKL,0,2,85.0,male,,instrument only
+ISIC_5318655,IL_0864051,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,male,head/neck,instrument only
+ISIC_5328520,IL_9554653,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,female,head/neck,instrument only
+ISIC_5329894,IL_1203056,clinical: close-up,test,Benign,NV,NV,0,4,50.0,female,lower extremity,altered
+ISIC_5334491,IL_6181794,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_5342950,IL_5375846,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,head/neck,instrument only
+ISIC_5350286,IL_7716473,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,female,,instrument only
+ISIC_5350988,IL_4829953,dermoscopic,test,Malignant,MEL,MEL,2,3,75.0,male,,instrument only
+ISIC_5358212,IL_9608485,dermoscopic,test,Benign,NV,NV,0,4,30.0,male,,instrument only
+ISIC_5360213,IL_4068514,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_5367270,IL_0927709,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,male,head/neck,instrument only
+ISIC_5371928,IL_0003176,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,female,head/neck,instrument only
+ISIC_5380414,IL_9876124,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_5386166,IL_7775733,dermoscopic,test,Benign,BKL,BKL,0,2,50.0,male,head/neck,instrument only
+ISIC_5402488,IL_5675796,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,male,,instrument only
+ISIC_5403535,IL_2504113,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_5407200,IL_5766424,clinical: close-up,test,Benign,NV,NV,0,4,10.0,female,lower extremity,altered
+ISIC_5415740,IL_2689946,dermoscopic,test,Benign,BKL,BKL,0,2,85.0,female,,instrument only
+ISIC_5423101,IL_1058871,clinical: close-up,test,Malignant,BCC,BCC,2,1,35.0,female,head/neck,instrument only
+ISIC_5434141,IL_7373612,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,female,upper extremity,instrument only
+ISIC_5440611,IL_3734319,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_5442968,IL_5571355,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,female,,instrument only
+ISIC_5452980,IL_3020012,dermoscopic,test,Malignant,MEL,MEL,2,3,30.0,female,upper extremity,instrument only
+ISIC_5456124,IL_0487689,clinical: close-up,test,Benign,NV,NV,0,4,65.0,female,,instrument only
+ISIC_5466262,IL_7940673,clinical: close-up,test,Malignant,MEL,MEL,2,3,45.0,male,,instrument only
+ISIC_5466692,IL_8566175,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_5479076,IL_8012977,clinical: close-up,test,Benign,BKL,BKL,0,2,45.0,female,head/neck,instrument only
+ISIC_5483404,IL_8326868,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,70.0,male,head/neck,altered
+ISIC_5494808,IL_1062117,clinical: close-up,test,Malignant,MEL,MEL,2,3,80.0,male,,instrument only
+ISIC_5501634,IL_4629787,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_5503515,IL_5310317,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_5508754,IL_5557985,clinical: close-up,test,Benign,NV,NV,0,4,45.0,male,,altered
+ISIC_5511950,IL_2974900,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_5517161,IL_4476860,dermoscopic,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_5543636,IL_9876124,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_5548095,IL_2208727,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_5553426,IL_9052165,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,,instrument only
+ISIC_5559799,IL_3199260,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,female,,instrument only
+ISIC_5564663,IL_3664176,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_5566852,IL_5604150,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,,instrument only
+ISIC_5570534,IL_2150976,clinical: close-up,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,45.0,female,,instrument only
+ISIC_5594942,IL_1391368,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_5602394,IL_7333978,dermoscopic,test,Malignant,MEL,MEL,2,3,85.0,male,,instrument only
+ISIC_5602759,IL_6831423,dermoscopic,test,Benign,BKL,BKL,0,2,75.0,male,upper extremity,instrument only
+ISIC_5616230,IL_1104647,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_5622324,IL_4986261,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,male,head/neck,instrument only
+ISIC_5624559,IL_8383981,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_5634198,IL_5490327,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,,instrument only
+ISIC_5638742,IL_5555237,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_5643199,IL_4429998,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,female,head/neck,altered
+ISIC_5644081,IL_2286275,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_5649736,IL_6592976,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,female,head/neck,instrument only
+ISIC_5655393,IL_9689348,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_5661673,IL_6116581,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_5667513,IL_0137229,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,head/neck,instrument only
+ISIC_5674733,IL_1353481,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_5679759,IL_2983051,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_5683123,IL_0113118,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_5688333,IL_6893390,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_5693691,IL_0215570,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_5695123,IL_5900922,clinical: close-up,test,Benign,NV,NV,0,4,30.0,male,lower extremity,altered
+ISIC_5701696,IL_8386286,clinical: close-up,test,Benign,BKL,BKL,0,2,75.0,male,head/neck,altered
+ISIC_5713218,IL_0965927,dermoscopic,test,Benign,NV,NV,0,4,45.0,male,,instrument only
+ISIC_5723091,IL_4314497,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_5745120,IL_3603601,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,80.0,female,head/neck,instrument only
+ISIC_5760018,IL_0393808,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,lower extremity,instrument only
+ISIC_5761443,IL_8359841,dermoscopic,test,Malignant,MEL,MEL,2,3,35.0,male,lower extremity,instrument only
+ISIC_5785135,IL_8205824,dermoscopic,test,Malignant,MEL,MEL,2,3,55.0,male,,instrument only
+ISIC_5787263,IL_3687151,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_5792555,IL_1925186,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_5793548,IL_6592976,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,female,head/neck,instrument only
+ISIC_5801703,IL_4064393,dermoscopic,test,Benign,NV,NV,0,4,60.0,male,,instrument only
+ISIC_5802479,IL_9570046,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_5807024,IL_5251059,dermoscopic,test,Malignant,MEL,MEL,2,3,65.0,female,lower extremity,instrument only
+ISIC_5811144,IL_3341722,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,lower extremity,instrument only
+ISIC_5833236,IL_5610769,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_5838991,IL_0245024,clinical: close-up,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_5850185,IL_3307198,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,upper extremity,instrument only
+ISIC_5862938,IL_4344178,clinical: close-up,test,Benign,NV,NV,0,4,65.0,male,,instrument only
+ISIC_5863762,IL_3069196,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,lower extremity,instrument only
+ISIC_5873586,IL_9977217,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_5883189,IL_2369272,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,female,,instrument only
+ISIC_5904770,IL_6868637,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_5916190,IL_0008891,dermoscopic,test,Benign,NV,NV,0,4,15.0,male,head/neck,instrument only
+ISIC_5947061,IL_5375403,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,male,lower extremity,instrument only
+ISIC_5947091,IL_4537840,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_5957176,IL_7425145,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_5962854,IL_6829628,dermoscopic,test,Benign,VASC,OTHER_BENIGN,0,6,35.0,male,head/neck,instrument only
+ISIC_5962932,IL_4879844,dermoscopic,test,Malignant,MEL,MEL,2,3,75.0,male,head/neck,instrument only
+ISIC_5973129,IL_3496522,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,female,head/neck,instrument only
+ISIC_5975949,IL_0752294,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,lower extremity,instrument only
+ISIC_5977837,IL_5882687,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_5979628,IL_9719774,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_5981777,IL_3910210,dermoscopic,test,Benign,NV,NV,0,4,25.0,female,lower extremity,altered
+ISIC_5983030,IL_6793597,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_5990006,IL_9052165,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,,instrument only
+ISIC_5993206,IL_9067447,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,80.0,male,upper extremity,instrument only
+ISIC_5994355,IL_2634845,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,male,head/neck,instrument only
+ISIC_6003134,IL_5938594,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,male,,instrument only
+ISIC_6006215,IL_5555237,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_6013412,IL_7911942,dermoscopic,test,Malignant,MEL,MEL,2,3,75.0,male,,instrument only
+ISIC_6015386,IL_5358454,clinical: close-up,test,Benign,NV,NV,0,4,55.0,male,lower extremity,instrument only
+ISIC_6016454,IL_6016722,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_6020001,IL_2166765,dermoscopic,test,Benign,BKL,BKL,0,2,15.0,female,lower extremity,instrument only
+ISIC_6023245,IL_1355090,dermoscopic,test,Benign,NV,NV,0,4,55.0,female,lower extremity,instrument only
+ISIC_6025998,IL_9106447,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,female,head/neck,instrument only
+ISIC_6033339,IL_8359841,clinical: close-up,test,Malignant,MEL,MEL,2,3,35.0,male,lower extremity,instrument only
+ISIC_6046943,IL_0044468,dermoscopic,test,Malignant,MEL,MEL,2,3,75.0,male,,instrument only
+ISIC_6053581,IL_8296856,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,male,,instrument only
+ISIC_6063897,IL_2504113,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_6072797,IL_6834280,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,head/neck,instrument only
+ISIC_6085286,IL_8283789,dermoscopic,test,Benign,NV,NV,0,4,35.0,female,,instrument only
+ISIC_6087081,IL_2547802,clinical: close-up,test,Benign,NV,NV,0,4,5.0,female,,instrument only
+ISIC_6110252,IL_6717785,clinical: close-up,test,Benign,NV,NV,0,4,50.0,female,,instrument only
+ISIC_6111856,IL_9091693,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,female,,instrument only
+ISIC_6114177,IL_8244074,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,female,head/neck,instrument only
+ISIC_6115749,IL_5158358,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_6119517,IL_4514039,dermoscopic,test,Benign,NV,NV,0,4,30.0,male,,instrument only
+ISIC_6121019,IL_0183428,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,lower extremity,instrument only
+ISIC_6122024,IL_9101838,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_6138743,IL_3286495,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,lower extremity,instrument only
+ISIC_6141356,IL_0245024,dermoscopic,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_6142601,IL_9906157,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,head/neck,instrument only
+ISIC_6162714,IL_2190354,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_6163759,IL_0143212,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,60.0,male,head/neck,instrument only
+ISIC_6168154,IL_5858516,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_6168277,IL_7792502,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,upper extremity,instrument only
+ISIC_6171588,IL_3485439,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_6174823,IL_3824346,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_6190757,IL_7884218,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_6193525,IL_8465058,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_6195452,IL_3625666,dermoscopic,test,Malignant,MEL,MEL,2,3,80.0,female,,instrument only
+ISIC_6196546,IL_2090783,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,female,head/neck,instrument only
+ISIC_6201208,IL_9509148,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_6213875,IL_2719812,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_6216289,IL_4918167,clinical: close-up,test,Benign,INF,OTHER_BENIGN,0,6,60.0,male,head/neck,altered
+ISIC_6218940,IL_3570537,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,65.0,male,head/neck,altered
+ISIC_6234798,IL_4073740,dermoscopic,test,Malignant,MEL,MEL,2,3,35.0,male,head/neck,instrument only
+ISIC_6239096,IL_0548137,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,55.0,male,upper extremity,instrument only
+ISIC_6256140,IL_8904932,clinical: close-up,test,Benign,NV,NV,0,4,50.0,female,,instrument only
+ISIC_6271290,IL_4279483,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_6272878,IL_7173541,dermoscopic,test,Benign,BKL,BKL,0,2,85.0,female,lower extremity,instrument only
+ISIC_6289650,IL_4316230,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,upper extremity,instrument only
+ISIC_6290373,IL_2526379,clinical: close-up,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_6292733,IL_9420011,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_6294381,IL_4476860,clinical: close-up,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_6295397,IL_5858516,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_6296087,IL_9271885,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_6297552,IL_3363042,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_6297733,IL_6532631,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_6303124,IL_2995561,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_6306620,IL_6119395,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,female,,instrument only
+ISIC_6318075,IL_1556034,clinical: close-up,test,Benign,VASC,OTHER_BENIGN,0,6,85.0,male,lower extremity,instrument only
+ISIC_6330968,IL_1739769,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,male,upper extremity,instrument only
+ISIC_6349779,IL_9906157,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,head/neck,instrument only
+ISIC_6354001,IL_4446473,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,female,head/neck,instrument only
+ISIC_6355154,IL_2205080,dermoscopic,test,Benign,NV,NV,0,4,10.0,female,lower extremity,instrument only
+ISIC_6357740,IL_5108044,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_6358411,IL_9288651,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,female,upper extremity,instrument only
+ISIC_6358504,IL_6464483,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,male,head/neck,instrument only
+ISIC_6359039,IL_1288672,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_6363175,IL_5236713,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_6368798,IL_7898098,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_6369423,IL_8944802,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,lower extremity,instrument only
+ISIC_6383216,IL_3035506,dermoscopic,test,Benign,NV,NV,0,4,10.0,female,head/neck,instrument only
+ISIC_6384870,IL_9202251,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,45.0,male,head/neck,instrument only
+ISIC_6405078,IL_8507909,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_6417102,IL_3634030,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_6419369,IL_6962518,clinical: close-up,test,Benign,BKL,BKL,0,2,85.0,female,head/neck,instrument only
+ISIC_6420151,IL_0583979,dermoscopic,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_6428825,IL_4498199,clinical: close-up,test,Malignant,MEL,MEL,2,3,55.0,female,,instrument only
+ISIC_6449173,IL_7173541,clinical: close-up,test,Benign,BKL,BKL,0,2,85.0,female,lower extremity,instrument only
+ISIC_6454913,IL_7146228,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,head/neck,instrument only
+ISIC_6457249,IL_3650991,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_6458495,IL_0256992,dermoscopic,test,Malignant,BCC,BCC,2,1,35.0,male,,instrument only
+ISIC_6467453,IL_4185441,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,head/neck,instrument only
+ISIC_6475371,IL_4128851,dermoscopic,test,Benign,BKL,BKL,0,2,50.0,male,,instrument only
+ISIC_6479651,IL_0087637,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,male,upper extremity,instrument only
+ISIC_6485921,IL_8439517,clinical: close-up,test,Benign,INF,OTHER_BENIGN,0,6,65.0,female,,instrument only
+ISIC_6486344,IL_8229395,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,female,lower extremity,instrument only
+ISIC_6494733,IL_6022474,dermoscopic,test,Benign,BKL,BKL,0,2,85.0,male,,instrument only
+ISIC_6508737,IL_7343687,dermoscopic,test,Malignant,MEL,MEL,2,3,65.0,male,,instrument only
+ISIC_6517818,IL_6480274,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_6523987,IL_4284690,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,head/neck,instrument only
+ISIC_6532286,IL_6413460,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,upper extremity,instrument only
+ISIC_6534601,IL_1416084,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,female,head/neck,instrument only
+ISIC_6538197,IL_6532631,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_6538645,IL_8229749,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,upper extremity,instrument only
+ISIC_6548919,IL_9746902,dermoscopic,test,Malignant,MEL,MEL,2,3,60.0,male,head/neck,altered
+ISIC_6552603,IL_9600474,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_6553055,IL_8578083,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_6556418,IL_1118490,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_6583245,IL_3829109,dermoscopic,test,Benign,NV,NV,0,4,45.0,male,,instrument only
+ISIC_6587157,IL_7896547,clinical: close-up,test,Benign,INF,OTHER_BENIGN,0,6,50.0,male,head/neck,instrument only
+ISIC_6590453,IL_3827955,dermoscopic,test,Benign,BKL,BKL,0,2,80.0,male,head/neck,instrument only
+ISIC_6593403,IL_5655244,clinical: close-up,test,Benign,NV,NV,0,4,50.0,male,lower extremity,instrument only
+ISIC_6596926,IL_0855898,dermoscopic,test,Malignant,MEL,MEL,2,3,65.0,male,upper extremity,instrument only
+ISIC_6600474,IL_0262433,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,70.0,male,head/neck,instrument only
+ISIC_6609894,IL_0793440,clinical: close-up,test,Benign,NV,NV,0,4,55.0,male,lower extremity,instrument only
+ISIC_6617227,IL_0974592,clinical: close-up,test,Benign,NV,NV,0,4,10.0,male,,instrument only
+ISIC_6618250,IL_2048695,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,upper extremity,instrument only
+ISIC_6620223,IL_7712318,clinical: close-up,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_6638137,IL_4547617,dermoscopic,test,Malignant,MEL,MEL,2,3,60.0,female,head/neck,instrument only
+ISIC_6639016,IL_9007318,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,50.0,female,lower extremity,instrument only
+ISIC_6639957,IL_1743491,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_6645684,IL_6879944,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_6646415,IL_3307198,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,upper extremity,instrument only
+ISIC_6653595,IL_0249447,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_6664385,IL_9891948,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_6665062,IL_7619356,clinical: close-up,test,Benign,NV,NV,0,4,65.0,male,,instrument only
+ISIC_6671359,IL_3844274,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_6676782,IL_3115470,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,lower extremity,instrument only
+ISIC_6688178,IL_8379111,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,upper extremity,instrument only
+ISIC_6699904,IL_0434993,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,female,lower extremity,instrument only
+ISIC_6700837,IL_3561998,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_6705726,IL_1618148,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_6708834,IL_9992890,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,lower extremity,instrument only
+ISIC_6717455,IL_4368392,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_6735110,IL_3837894,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,75.0,male,lower extremity,instrument only
+ISIC_6747915,IL_1958887,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_6752467,IL_4182529,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_6760472,IL_6430136,clinical: close-up,test,Benign,NV,NV,0,4,60.0,male,lower extremity,instrument only
+ISIC_6761603,IL_3303536,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,60.0,male,head/neck,instrument only
+ISIC_6777374,IL_0521926,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_6786577,IL_6877594,clinical: close-up,test,Malignant,MEL,MEL,2,3,80.0,male,,instrument only
+ISIC_6788918,IL_5357233,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,upper extremity,instrument only
+ISIC_6792624,IL_5152283,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_6796955,IL_3327955,dermoscopic,test,Benign,INF,OTHER_BENIGN,0,6,45.0,female,head/neck,instrument only
+ISIC_6801081,IL_6887782,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,female,head/neck,instrument only
+ISIC_6814138,IL_8296856,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,male,,instrument only
+ISIC_6818303,IL_4715886,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_6823826,IL_3253177,clinical: close-up,test,Benign,NV,NV,0,4,75.0,male,lower extremity,instrument only
+ISIC_6827856,IL_4174336,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,male,,instrument only
+ISIC_6827974,IL_2868524,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_6834207,IL_1970176,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,female,lower extremity,instrument only
+ISIC_6849103,IL_3453453,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,altered
+ISIC_6854604,IL_8732835,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,female,,instrument only
+ISIC_6863789,IL_5896465,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,head/neck,instrument only
+ISIC_6875407,IL_6947198,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_6875484,IL_1669635,clinical: close-up,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_6877985,IL_5101024,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,female,head/neck,instrument only
+ISIC_6883494,IL_7705011,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_6890536,IL_0727699,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,65.0,female,head/neck,instrument only
+ISIC_6895079,IL_4668896,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,lower extremity,instrument only
+ISIC_6914473,IL_1509738,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_6927702,IL_8549030,clinical: close-up,test,Benign,NV,NV,0,4,50.0,female,upper extremity,instrument only
+ISIC_6938902,IL_5675796,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,male,,instrument only
+ISIC_6946678,IL_0121394,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_6952620,IL_3827955,clinical: close-up,test,Benign,BKL,BKL,0,2,80.0,male,head/neck,altered
+ISIC_6954063,IL_3636394,dermoscopic,test,Malignant,MEL,MEL,2,3,45.0,female,lower extremity,instrument only
+ISIC_6965635,IL_9088569,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,,instrument only
+ISIC_6971136,IL_0610557,clinical: close-up,test,Benign,NV,NV,0,4,20.0,female,oral/genital,altered
+ISIC_6973783,IL_3778802,dermoscopic,test,Benign,NV,NV,0,4,50.0,male,lower extremity,instrument only
+ISIC_6977564,IL_1667522,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_6995669,IL_9509148,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_7000928,IL_7804656,dermoscopic,test,Benign,NV,NV,0,4,55.0,male,head/neck,instrument only
+ISIC_7016834,IL_6247210,dermoscopic,test,Benign,BKL,BKL,0,2,50.0,female,upper extremity,instrument only
+ISIC_7032433,IL_7244270,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_7053064,IL_6960759,dermoscopic,test,Benign,NV,NV,0,4,60.0,male,,instrument only
+ISIC_7058677,IL_3687151,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_7063713,IL_1504921,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,65.0,male,head/neck,instrument only
+ISIC_7072308,IL_2473715,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,upper extremity,instrument only
+ISIC_7080457,IL_2707653,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_7090643,IL_8171092,clinical: close-up,test,Benign,NV,NV,0,4,80.0,female,lower extremity,instrument only
+ISIC_7100479,IL_1743491,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_7116414,IL_9235680,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,lower extremity,instrument only
+ISIC_7116818,IL_8171092,dermoscopic,test,Benign,NV,NV,0,4,80.0,female,lower extremity,instrument only
+ISIC_7119069,IL_7762998,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_7132196,IL_9752629,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,upper extremity,instrument only
+ISIC_7134919,IL_1556034,dermoscopic,test,Benign,VASC,OTHER_BENIGN,0,6,85.0,male,lower extremity,instrument only
+ISIC_7139592,IL_6836938,dermoscopic,test,Benign,NV,NV,0,4,60.0,male,,instrument only
+ISIC_7140233,IL_4644252,clinical: close-up,test,Benign,NV,NV,0,4,40.0,female,lower extremity,instrument only
+ISIC_7143311,IL_3715048,clinical: close-up,test,Malignant,MEL,MEL,2,3,60.0,male,,instrument only
+ISIC_7146069,IL_4696609,dermoscopic,test,Benign,NV,NV,0,4,80.0,female,,instrument only
+ISIC_7148236,IL_3724893,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_7162187,IL_6097327,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,lower extremity,instrument only
+ISIC_7171875,IL_2289243,dermoscopic,test,Benign,BKL,BKL,0,2,75.0,male,,instrument only
+ISIC_7176434,IL_2045312,dermoscopic,test,Benign,BKL,BKL,0,2,75.0,male,upper extremity,instrument only
+ISIC_7201198,IL_3423821,dermoscopic,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_7209186,IL_7571099,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,upper extremity,instrument only
+ISIC_7227276,IL_1936294,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,lower extremity,instrument only
+ISIC_7231732,IL_0974592,dermoscopic,test,Benign,NV,NV,0,4,10.0,male,,instrument only
+ISIC_7236730,IL_7755452,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,upper extremity,instrument only
+ISIC_7238849,IL_9565203,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,male,,instrument only
+ISIC_7242284,IL_8549030,dermoscopic,test,Benign,NV,NV,0,4,50.0,female,upper extremity,instrument only
+ISIC_7247659,IL_7209123,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_7248341,IL_7534180,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_7250021,IL_3778802,clinical: close-up,test,Benign,NV,NV,0,4,50.0,male,lower extremity,instrument only
+ISIC_7256290,IL_5770748,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,lower extremity,instrument only
+ISIC_7263241,IL_2988717,clinical: close-up,test,Benign,BKL,BKL,0,2,85.0,male,upper extremity,instrument only
+ISIC_7272469,IL_1038225,dermoscopic,test,Benign,NV,NV,0,4,55.0,female,,instrument only
+ISIC_7273308,IL_7740320,clinical: close-up,test,Benign,DF,OTHER_BENIGN,0,6,35.0,male,upper extremity,instrument only
+ISIC_7273851,IL_0549977,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_7275427,IL_3487572,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_7278433,IL_1753473,dermoscopic,test,Benign,NV,NV,0,4,,male,lower extremity,instrument only
+ISIC_7284546,IL_4859136,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_7303727,IL_5179568,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,female,lower extremity,instrument only
+ISIC_7304468,IL_3603601,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,80.0,female,head/neck,instrument only
+ISIC_7308766,IL_0787420,clinical: close-up,test,Malignant,MEL,MEL,2,3,55.0,male,lower extremity,instrument only
+ISIC_7311876,IL_0387576,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_7312960,IL_3987209,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,female,upper extremity,instrument only
+ISIC_7314033,IL_8326868,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,70.0,male,head/neck,instrument only
+ISIC_7319337,IL_3879916,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,70.0,male,lower extremity,instrument only
+ISIC_7324772,IL_0751731,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_7334834,IL_9292701,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,,instrument only
+ISIC_7343249,IL_0402026,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,head/neck,instrument only
+ISIC_7381318,IL_8813361,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_7384502,IL_6035719,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_7391511,IL_5553029,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_7397866,IL_6806894,clinical: close-up,test,Benign,BEN_OTH,OTHER_BENIGN,0,6,65.0,male,lower extremity,altered
+ISIC_7403204,IL_3636394,clinical: close-up,test,Malignant,MEL,MEL,2,3,45.0,female,lower extremity,instrument only
+ISIC_7408729,IL_2577836,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,female,lower extremity,instrument only
+ISIC_7413595,IL_9313120,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_7420218,IL_8445981,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_7426470,IL_6181794,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_7434007,IL_5610769,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_7442526,IL_2198915,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,lower extremity,instrument only
+ISIC_7449425,IL_7628990,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,85.0,male,,instrument only
+ISIC_7452036,IL_9221055,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_7453335,IL_2172033,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_7461810,IL_1839563,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_7464024,IL_3143674,clinical: close-up,test,Malignant,BCC,BCC,2,1,35.0,male,head/neck,instrument only
+ISIC_7467578,IL_5124334,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_7481885,IL_2826378,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,,instrument only
+ISIC_7486855,IL_4225640,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,,instrument only
+ISIC_7490723,IL_4448697,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_7495478,IL_6985784,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_7501563,IL_3216305,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,female,head/neck,instrument only
+ISIC_7505541,IL_9179021,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,lower extremity,instrument only
+ISIC_7516346,IL_1082732,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,male,lower extremity,instrument only
+ISIC_7518317,IL_5069726,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,male,,instrument only
+ISIC_7522059,IL_3730515,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_7529554,IL_2178122,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,female,lower extremity,instrument only
+ISIC_7546528,IL_8277688,clinical: close-up,test,Benign,BKL,BKL,0,2,50.0,female,head/neck,instrument only
+ISIC_7548850,IL_9656479,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,head/neck,instrument only
+ISIC_7555202,IL_5084556,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,45.0,male,head/neck,instrument only
+ISIC_7559942,IL_2851891,dermoscopic,test,Benign,NV,NV,0,4,20.0,female,head/neck,instrument only
+ISIC_7582667,IL_6194887,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_7602538,IL_5044233,dermoscopic,test,Benign,VASC,OTHER_BENIGN,0,6,20.0,male,,instrument only
+ISIC_7603703,IL_3766346,dermoscopic,test,Benign,NV,NV,0,4,55.0,male,upper extremity,instrument only
+ISIC_7605546,IL_4976689,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,upper extremity,instrument only
+ISIC_7614845,IL_1606035,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,,instrument only
+ISIC_7615308,IL_7243389,dermoscopic,test,Benign,NV,NV,0,4,65.0,female,lower extremity,instrument only
+ISIC_7615926,IL_3151519,dermoscopic,test,Malignant,MEL,MEL,2,3,55.0,male,,instrument only
+ISIC_7621482,IL_8465058,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_7624779,IL_1858376,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,50.0,male,lower extremity,instrument only
+ISIC_7627853,IL_1794572,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,male,head/neck,instrument only
+ISIC_7631509,IL_3249139,clinical: close-up,test,Malignant,MEL,MEL,2,3,25.0,male,,instrument only
+ISIC_7643593,IL_8229395,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,female,lower extremity,instrument only
+ISIC_7656591,IL_1212389,dermoscopic,test,Malignant,MEL,MEL,2,3,60.0,male,upper extremity,instrument only
+ISIC_7662628,IL_5732372,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_7676731,IL_0956761,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_7695480,IL_9746902,clinical: close-up,test,Malignant,MEL,MEL,2,3,60.0,male,head/neck,instrument only
+ISIC_7701592,IL_7818452,dermoscopic,test,Benign,NV,NV,0,4,45.0,male,upper extremity,instrument only
+ISIC_7708206,IL_8732835,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,female,,instrument only
+ISIC_7725581,IL_2190354,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_7729052,IL_9441829,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,lower extremity,instrument only
+ISIC_7731176,IL_2178122,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,female,lower extremity,instrument only
+ISIC_7735107,IL_3919255,dermoscopic,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_7745898,IL_7364791,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,head/neck,instrument only
+ISIC_7753585,IL_5411298,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_7755525,IL_6398771,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,female,,instrument only
+ISIC_7758887,IL_0387576,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_7760822,IL_7364791,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,female,head/neck,instrument only
+ISIC_7764869,IL_6962525,clinical: close-up,test,Malignant,MEL,MEL,2,3,80.0,female,head/neck,instrument only
+ISIC_7775074,IL_5770748,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,lower extremity,instrument only
+ISIC_7778161,IL_0098895,dermoscopic,test,Benign,NV,NV,0,4,50.0,male,upper extremity,instrument only
+ISIC_7780391,IL_9026324,clinical: close-up,test,Benign,BKL,BKL,0,2,85.0,female,lower extremity,instrument only
+ISIC_7788766,IL_7239273,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_7790823,IL_4796364,clinical: close-up,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_7827261,IL_2521173,clinical: close-up,test,Benign,NV,NV,0,4,60.0,male,,instrument only
+ISIC_7827983,IL_6408457,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_7828899,IL_9300732,clinical: close-up,test,Benign,BKL,BKL,0,2,50.0,female,,instrument only
+ISIC_7832392,IL_1181749,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,female,lower extremity,instrument only
+ISIC_7841088,IL_3560124,dermoscopic,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_7859130,IL_7896547,dermoscopic,test,Benign,INF,OTHER_BENIGN,0,6,50.0,male,head/neck,instrument only
+ISIC_7872925,IL_4242651,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_7876146,IL_7943219,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,male,head/neck,instrument only
+ISIC_7880723,IL_8535419,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,upper extremity,instrument only
+ISIC_7889425,IL_6982257,dermoscopic,test,Benign,BKL,BKL,0,2,50.0,male,head/neck,instrument only
+ISIC_7892545,IL_5162996,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,head/neck,instrument only
+ISIC_7896976,IL_6687584,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_7901262,IL_2783925,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_7902533,IL_6762452,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,female,,instrument only
+ISIC_7911067,IL_4446473,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,female,head/neck,altered
+ISIC_7915016,IL_8454481,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,lower extremity,instrument only
+ISIC_7920017,IL_8208194,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,lower extremity,instrument only
+ISIC_7922830,IL_1062117,dermoscopic,test,Malignant,MEL,MEL,2,3,80.0,male,,instrument only
+ISIC_7938895,IL_9322216,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,female,lower extremity,instrument only
+ISIC_7949818,IL_1618148,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_7969817,IL_2902752,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_7989475,IL_8584799,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_7997862,IL_3819461,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_8001737,IL_6390381,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,50.0,female,,instrument only
+ISIC_8010616,IL_9375676,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,male,head/neck,altered
+ISIC_8016561,IL_4128851,clinical: close-up,test,Benign,BKL,BKL,0,2,50.0,male,,instrument only
+ISIC_8019995,IL_0121394,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_8022914,IL_6555655,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_8031107,IL_1293524,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_8035327,IL_8662195,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,upper extremity,instrument only
+ISIC_8038275,IL_6618073,clinical: close-up,test,Benign,NV,NV,0,4,60.0,female,upper extremity,instrument only
+ISIC_8041130,IL_3561998,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_8042946,IL_4530346,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,upper extremity,instrument only
+ISIC_8046525,IL_7871086,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,head/neck,instrument only
+ISIC_8056158,IL_1962885,dermoscopic,test,Malignant,MEL,MEL,2,3,75.0,male,head/neck,instrument only
+ISIC_8060774,IL_1763474,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_8072870,IL_6877500,dermoscopic,test,Benign,NV,NV,0,4,65.0,male,lower extremity,instrument only
+ISIC_8095870,IL_9471694,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,male,,instrument only
+ISIC_8102692,IL_3358821,dermoscopic,test,Benign,BKL,BKL,0,2,40.0,male,head/neck,instrument only
+ISIC_8103067,IL_5236713,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,upper extremity,instrument only
+ISIC_8111688,IL_9380593,dermoscopic,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_8120902,IL_3879916,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,70.0,male,lower extremity,instrument only
+ISIC_8129640,IL_5084556,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,45.0,male,head/neck,instrument only
+ISIC_8133623,IL_1667522,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_8134181,IL_8863654,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,female,,instrument only
+ISIC_8137954,IL_3316446,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,female,,instrument only
+ISIC_8171211,IL_4180707,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,lower extremity,instrument only
+ISIC_8176738,IL_0108315,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_8178616,IL_0783886,clinical: close-up,test,Malignant,MEL,MEL,2,3,75.0,female,head/neck,altered
+ISIC_8180214,IL_9026324,dermoscopic,test,Benign,BKL,BKL,0,2,85.0,female,lower extremity,instrument only
+ISIC_8193858,IL_0965686,clinical: close-up,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_8195300,IL_4225640,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,,instrument only
+ISIC_8198425,IL_2055704,clinical: close-up,test,Benign,NV,NV,0,4,40.0,female,head/neck,instrument only
+ISIC_8206552,IL_2466872,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_8212322,IL_9752629,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,upper extremity,instrument only
+ISIC_8216653,IL_0965686,dermoscopic,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_8231124,IL_5834999,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,85.0,female,lower extremity,instrument only
+ISIC_8234709,IL_2215317,dermoscopic,test,Benign,BKL,BKL,0,2,50.0,male,head/neck,instrument only
+ISIC_8236388,IL_4534597,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,female,head/neck,instrument only
+ISIC_8239142,IL_8821899,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,,instrument only
+ISIC_8243525,IL_0402026,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,head/neck,instrument only
+ISIC_8247362,IL_9380593,clinical: close-up,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_8256652,IL_6879944,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_8263244,IL_8386286,dermoscopic,test,Benign,BKL,BKL,0,2,75.0,male,head/neck,instrument only
+ISIC_8268969,IL_9719774,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_8274052,IL_6868637,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_8274863,IL_0541036,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,60.0,male,,instrument only
+ISIC_8281265,IL_2415353,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,male,head/neck,instrument only
+ISIC_8283268,IL_7146228,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,head/neck,instrument only
+ISIC_8288141,IL_1439879,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_8293683,IL_2342693,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,female,head/neck,instrument only
+ISIC_8309358,IL_5747539,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_8318126,IL_5181041,dermoscopic,test,Benign,NV,NV,0,4,60.0,female,,instrument only
+ISIC_8339912,IL_8472677,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,45.0,male,head/neck,instrument only
+ISIC_8339951,IL_8904932,dermoscopic,test,Benign,NV,NV,0,4,50.0,female,,instrument only
+ISIC_8342006,IL_6825163,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,female,head/neck,altered
+ISIC_8346017,IL_9656479,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,head/neck,instrument only
+ISIC_8355956,IL_4732001,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_8356317,IL_7943219,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,male,head/neck,instrument only
+ISIC_8361691,IL_4410437,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,female,upper extremity,instrument only
+ISIC_8362681,IL_5866168,dermoscopic,test,Malignant,MEL,MEL,2,3,30.0,male,,instrument only
+ISIC_8365952,IL_0138483,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_8373214,IL_6731689,dermoscopic,test,Benign,BKL,BKL,0,2,80.0,male,upper extremity,instrument only
+ISIC_8375466,IL_7295306,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_8379235,IL_0783886,dermoscopic,test,Malignant,MEL,MEL,2,3,75.0,female,head/neck,instrument only
+ISIC_8390104,IL_2685280,dermoscopic,test,Benign,BKL,BKL,0,2,75.0,male,,instrument only
+ISIC_8390299,IL_1557433,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_8392439,IL_9689348,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_8410820,IL_7527529,dermoscopic,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_8413819,IL_5553029,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_8424804,IL_7746701,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_8436376,IL_6654739,dermoscopic,test,Benign,BKL,BKL,0,2,60.0,male,,instrument only
+ISIC_8443887,IL_1120917,clinical: close-up,test,Benign,NV,NV,0,4,35.0,male,,instrument only
+ISIC_8446431,IL_3486066,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,85.0,male,head/neck,instrument only
+ISIC_8468152,IL_6155109,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_8470224,IL_8891423,dermoscopic,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_8470753,IL_7755452,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,upper extremity,instrument only
+ISIC_8473068,IL_0318296,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,55.0,male,head/neck,instrument only
+ISIC_8476500,IL_5108044,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_8483047,IL_0113118,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_8491813,IL_2369165,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_8508919,IL_5779680,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_8520875,IL_5866168,clinical: close-up,test,Malignant,MEL,MEL,2,3,30.0,male,,instrument only
+ISIC_8550132,IL_4641431,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,female,head/neck,instrument only
+ISIC_8561129,IL_8507909,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_8565474,IL_1994469,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_8572463,IL_5357233,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,upper extremity,instrument only
+ISIC_8573497,IL_9508962,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_8577913,IL_5033079,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,upper extremity,instrument only
+ISIC_8588817,IL_8788883,clinical: close-up,test,Benign,BKL,BKL,0,2,35.0,female,,instrument only
+ISIC_8596125,IL_6960759,clinical: close-up,test,Benign,NV,NV,0,4,60.0,male,,instrument only
+ISIC_8597788,IL_1131642,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_8604423,IL_9505312,clinical: close-up,test,Malignant,MEL,MEL,2,3,80.0,male,head/neck,instrument only
+ISIC_8611718,IL_4986261,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,male,head/neck,instrument only
+ISIC_8614302,IL_0921105,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_8616397,IL_3141578,clinical: close-up,test,Benign,NV,NV,0,4,25.0,male,head/neck,instrument only
+ISIC_8619763,IL_1538395,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,female,head/neck,instrument only
+ISIC_8621381,IL_6552855,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_8623479,IL_7716473,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,female,,instrument only
+ISIC_8626277,IL_9554628,dermoscopic,test,Benign,NV,NV,0,4,35.0,female,,instrument only
+ISIC_8631635,IL_9899181,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_8639708,IL_7566377,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,75.0,female,head/neck,instrument only
+ISIC_8641274,IL_5033340,clinical: close-up,test,Benign,NV,NV,0,4,70.0,female,lower extremity,instrument only
+ISIC_8648920,IL_1104647,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_8650326,IL_0684409,dermoscopic,test,Benign,BKL,BKL,0,2,80.0,male,lower extremity,instrument only
+ISIC_8657483,IL_6910887,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,80.0,male,head/neck,instrument only
+ISIC_8662604,IL_3982685,dermoscopic,test,Benign,NV,NV,0,4,45.0,male,lower extremity,instrument only
+ISIC_8668985,IL_6606069,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,female,head/neck,instrument only
+ISIC_8672327,IL_3818681,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,head/neck,instrument only
+ISIC_8691098,IL_2177210,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,45.0,male,lower extremity,instrument only
+ISIC_8701104,IL_4131392,dermoscopic,test,Benign,NV,NV,0,4,55.0,male,head/neck,instrument only
+ISIC_8703747,IL_8379111,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,male,upper extremity,instrument only
+ISIC_8710450,IL_7800799,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_8713886,IL_5489225,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,head/neck,instrument only
+ISIC_8723221,IL_1524130,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,lower extremity,instrument only
+ISIC_8731413,IL_7628990,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,85.0,male,,instrument only
+ISIC_8732830,IL_1468442,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,upper extremity,instrument only
+ISIC_8741300,IL_7527529,clinical: close-up,test,Benign,NV,NV,0,4,40.0,male,,instrument only
+ISIC_8745129,IL_2834231,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,lower extremity,instrument only
+ISIC_8746569,IL_3985289,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,lower extremity,instrument only
+ISIC_8759215,IL_5069726,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,male,,instrument only
+ISIC_8766762,IL_7940585,dermoscopic,test,Benign,NV,NV,0,4,20.0,female,lower extremity,instrument only
+ISIC_8767141,IL_6079301,clinical: close-up,test,Benign,BKL,BKL,0,2,80.0,female,head/neck,instrument only
+ISIC_8768212,IL_3634030,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_8782095,IL_6825163,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,female,head/neck,instrument only
+ISIC_8790740,IL_9475061,dermoscopic,test,Benign,INF,OTHER_BENIGN,0,6,40.0,female,head/neck,instrument only
+ISIC_8790887,IL_7471218,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,lower extremity,instrument only
+ISIC_8791057,IL_5285603,dermoscopic,test,Benign,VASC,OTHER_BENIGN,0,6,85.0,male,,instrument only
+ISIC_8800634,IL_4929209,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_8805390,IL_4028945,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,75.0,female,head/neck,instrument only
+ISIC_8832798,IL_0525024,clinical: close-up,test,Benign,NV,NV,0,4,40.0,male,head/neck,instrument only
+ISIC_8846554,IL_4153539,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_8853941,IL_6877500,clinical: close-up,test,Benign,NV,NV,0,4,65.0,male,lower extremity,instrument only
+ISIC_8857322,IL_4429998,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,female,head/neck,instrument only
+ISIC_8863147,IL_8208194,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,80.0,female,lower extremity,instrument only
+ISIC_8867010,IL_9737079,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_8879305,IL_1524130,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,lower extremity,instrument only
+ISIC_8882028,IL_0256992,clinical: close-up,test,Malignant,BCC,BCC,2,1,35.0,male,,instrument only
+ISIC_8884437,IL_7243389,clinical: close-up,test,Benign,NV,NV,0,4,65.0,female,lower extremity,instrument only
+ISIC_8897741,IL_4052730,dermoscopic,test,Benign,NV,NV,0,4,50.0,female,lower extremity,instrument only
+ISIC_8898024,IL_9288651,clinical: close-up,test,Benign,BKL,BKL,0,2,65.0,female,upper extremity,instrument only
+ISIC_8899125,IL_5693413,dermoscopic,test,Malignant,MEL,MEL,2,3,50.0,female,lower extremity,instrument only
+ISIC_8903447,IL_1958887,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,,instrument only
+ISIC_8914963,IL_4500460,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_8917612,IL_8031669,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_8923256,IL_5611087,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,65.0,female,upper extremity,instrument only
+ISIC_8933142,IL_3986859,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,,instrument only
+ISIC_8947312,IL_5574879,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,45.0,male,,instrument only
+ISIC_8949217,IL_6654739,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,male,,instrument only
+ISIC_8949610,IL_5181041,clinical: close-up,test,Benign,NV,NV,0,4,60.0,female,,instrument only
+ISIC_8951979,IL_7577530,clinical: close-up,test,Benign,NV,NV,0,4,65.0,male,,instrument only
+ISIC_8952365,IL_3477265,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,instrument only
+ISIC_8966831,IL_1962759,clinical: close-up,test,Benign,NV,NV,0,4,,male,upper extremity,instrument only
+ISIC_8969336,IL_0684409,clinical: close-up,test,Benign,BKL,BKL,0,2,80.0,male,lower extremity,instrument only
+ISIC_8970659,IL_9549484,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,instrument only
+ISIC_8981897,IL_8933396,dermoscopic,test,Benign,DF,OTHER_BENIGN,0,6,50.0,female,lower extremity,instrument only
+ISIC_8989132,IL_4840616,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_9004415,IL_2834231,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,lower extremity,instrument only
+ISIC_9011764,IL_0610557,dermoscopic,test,Benign,NV,NV,0,4,20.0,female,oral/genital,instrument only
+ISIC_9011999,IL_1567374,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_9014235,IL_5301199,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,male,,instrument only
+ISIC_9019095,IL_2995561,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_9020314,IL_9921206,dermoscopic,test,Benign,BKL,BKL,0,2,80.0,female,upper extremity,instrument only
+ISIC_9022996,IL_7811339,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_9024518,IL_2141966,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_9030298,IL_5411298,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_9038494,IL_1509738,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_9051035,IL_6313730,clinical: close-up,test,Malignant,BCC,BCC,2,1,30.0,female,upper extremity,instrument only
+ISIC_9056629,IL_4279483,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_9059867,IL_9871748,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,lower extremity,instrument only
+ISIC_9073117,IL_3884933,clinical: close-up,test,Malignant,BCC,BCC,2,1,45.0,male,head/neck,instrument only
+ISIC_9078579,IL_8175900,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,male,,instrument only
+ISIC_9090562,IL_0269822,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,85.0,male,head/neck,instrument only
+ISIC_9096776,IL_7792502,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,upper extremity,instrument only
+ISIC_9098782,IL_8939898,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,55.0,male,head/neck,instrument only
+ISIC_9098981,IL_3453453,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_9114285,IL_9271885,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_9115621,IL_6687595,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,65.0,male,,instrument only
+ISIC_9120690,IL_6079301,dermoscopic,test,Benign,BKL,BKL,0,2,80.0,female,head/neck,instrument only
+ISIC_9121967,IL_1225900,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,head/neck,instrument only
+ISIC_9126529,IL_0419410,dermoscopic,test,Benign,BKL,BKL,0,2,65.0,male,,instrument only
+ISIC_9129838,IL_6464483,clinical: close-up,test,Benign,BKL,BKL,0,2,60.0,male,head/neck,instrument only
+ISIC_9130589,IL_2045312,clinical: close-up,test,Benign,BKL,BKL,0,2,75.0,male,upper extremity,instrument only
+ISIC_9131247,IL_0083796,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_9140116,IL_3253177,dermoscopic,test,Benign,NV,NV,0,4,75.0,male,lower extremity,instrument only
+ISIC_9140869,IL_1703552,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,male,,altered
+ISIC_9140973,IL_5439022,clinical: close-up,test,Benign,NV,NV,0,4,65.0,male,,instrument only
+ISIC_9148166,IL_0965927,clinical: close-up,test,Benign,NV,NV,0,4,45.0,male,,instrument only
+ISIC_9153141,IL_6711797,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_9174580,IL_4498199,dermoscopic,test,Malignant,MEL,MEL,2,3,55.0,female,,instrument only
+ISIC_9177006,IL_3987209,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,65.0,female,upper extremity,instrument only
+ISIC_9178156,IL_0489772,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_9179884,IL_6877594,dermoscopic,test,Malignant,MEL,MEL,2,3,80.0,male,,instrument only
+ISIC_9203716,IL_0466626,clinical: close-up,test,Benign,NV,NV,0,4,50.0,female,,instrument only
+ISIC_9206416,IL_7940585,clinical: close-up,test,Benign,NV,NV,0,4,20.0,female,lower extremity,instrument only
+ISIC_9206660,IL_0080398,dermoscopic,test,Malignant,MEL,MEL,2,3,70.0,male,lower extremity,instrument only
+ISIC_9207099,IL_0434993,dermoscopic,test,Benign,BKL,BKL,0,2,70.0,female,lower extremity,instrument only
+ISIC_9207862,IL_4859136,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_9223565,IL_0820798,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,70.0,male,lower extremity,instrument only
+ISIC_9231306,IL_5310899,dermoscopic,test,Benign,BKL,BKL,0,2,55.0,female,upper extremity,instrument only
+ISIC_9232753,IL_7061463,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_9233052,IL_2689946,clinical: close-up,test,Benign,BKL,BKL,0,2,85.0,female,,instrument only
+ISIC_9233649,IL_1500549,clinical: close-up,test,Benign,NV,NV,0,4,30.0,female,,instrument only
+ISIC_9242872,IL_9353162,dermoscopic,test,Benign,DF,OTHER_BENIGN,0,6,40.0,male,lower extremity,instrument only
+ISIC_9250445,IL_0617635,clinical: close-up,test,Benign,BKL,BKL,0,2,80.0,male,upper extremity,instrument only
+ISIC_9260804,IL_1075740,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,female,upper extremity,instrument only
+ISIC_9268464,IL_1118490,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_9271454,IL_9088569,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,75.0,male,,instrument only
+ISIC_9272344,IL_8891423,clinical: close-up,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_9276896,IL_9505312,dermoscopic,test,Malignant,MEL,MEL,2,3,80.0,male,head/neck,instrument only
+ISIC_9280380,IL_9166161,clinical: close-up,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_9280729,IL_1669635,dermoscopic,test,Benign,NV,NV,0,4,40.0,female,,instrument only
+ISIC_9297268,IL_3640524,dermoscopic,test,Benign,NV,NV,0,4,65.0,female,head/neck,instrument only
+ISIC_9308744,IL_6193516,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,female,,instrument only
+ISIC_9312951,IL_7167860,clinical: close-up,test,Benign,INF,OTHER_BENIGN,0,6,45.0,male,head/neck,altered
+ISIC_9314032,IL_7644986,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,lower extremity,instrument only
+ISIC_9315615,IL_9875986,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,male,head/neck,instrument only
+ISIC_9320989,IL_3485439,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_9325289,IL_5747539,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_9338482,IL_0318296,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,55.0,male,head/neck,instrument only
+ISIC_9355799,IL_9202251,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,45.0,male,head/neck,instrument only
+ISIC_9369610,IL_9235680,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,lower extremity,instrument only
+ISIC_9390664,IL_6841105,dermoscopic,test,Malignant,BCC,BCC,2,1,40.0,female,,instrument only
+ISIC_9392128,IL_4689658,clinical: close-up,test,Benign,BKL,BKL,0,2,75.0,male,head/neck,instrument only
+ISIC_9399586,IL_6962525,dermoscopic,test,Malignant,MEL,MEL,2,3,80.0,female,head/neck,instrument only
+ISIC_9400150,IL_4494242,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,55.0,male,lower extremity,instrument only
+ISIC_9403836,IL_4180707,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,lower extremity,instrument only
+ISIC_9421756,IL_2540198,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,70.0,male,upper extremity,instrument only
+ISIC_9426194,IL_8283789,clinical: close-up,test,Benign,NV,NV,0,4,35.0,female,,instrument only
+ISIC_9428829,IL_7263910,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,65.0,female,head/neck,instrument only
+ISIC_9451191,IL_4902054,dermoscopic,test,Benign,NV,NV,0,4,55.0,female,head/neck,instrument only
+ISIC_9460959,IL_7425145,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_9471648,IL_0489772,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,head/neck,instrument only
+ISIC_9483103,IL_8124925,dermoscopic,test,Benign,INF,OTHER_BENIGN,0,6,20.0,male,,instrument only
+ISIC_9508636,IL_0138483,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_9519917,IL_4371981,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,female,head/neck,instrument only
+ISIC_9528989,IL_7894855,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,70.0,male,head/neck,altered
+ISIC_9543842,IL_7295306,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_9544557,IL_1300499,clinical: close-up,test,Malignant,MEL,MEL,2,3,55.0,male,upper extremity,instrument only
+ISIC_9558332,IL_3143674,dermoscopic,test,Malignant,BCC,BCC,2,1,35.0,male,head/neck,instrument only
+ISIC_9560618,IL_1267317,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,55.0,male,,instrument only
+ISIC_9562131,IL_2274698,clinical: close-up,test,Malignant,BCC,BCC,2,1,50.0,female,,instrument only
+ISIC_9566444,IL_5782288,dermoscopic,test,Malignant,AKIEC,AKIEC,2,0,85.0,male,head/neck,instrument only
+ISIC_9570959,IL_6035719,dermoscopic,test,Malignant,BCC,BCC,2,1,50.0,male,upper extremity,instrument only
+ISIC_9574838,IL_8323588,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_9579385,IL_8863654,clinical: close-up,test,Benign,BKL,BKL,0,2,55.0,female,,instrument only
+ISIC_9581647,IL_4588055,dermoscopic,test,Benign,NV,NV,0,4,70.0,male,,instrument only
+ISIC_9588100,IL_5753278,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_9589099,IL_9863241,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_9592132,IL_3307865,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_9592877,IL_0903975,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_9594263,IL_6972994,dermoscopic,test,Benign,BKL,BKL,0,2,85.0,male,,instrument only
+ISIC_9597858,IL_4259572,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,upper extremity,instrument only
+ISIC_9611388,IL_7294930,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_9625234,IL_3423821,clinical: close-up,test,Benign,NV,NV,0,4,45.0,female,,instrument only
+ISIC_9627212,IL_2983051,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_9627594,IL_0393808,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,lower extremity,instrument only
+ISIC_9630006,IL_4918167,dermoscopic,test,Benign,INF,OTHER_BENIGN,0,6,60.0,male,head/neck,instrument only
+ISIC_9639952,IL_5101024,clinical: close-up,test,Malignant,MEL,MEL,2,3,70.0,female,head/neck,instrument only
+ISIC_9642154,IL_1185786,clinical: close-up,test,Benign,BKL,BKL,0,2,85.0,female,,instrument only
+ISIC_9642927,IL_5725802,clinical: close-up,test,Benign,NV,NV,0,4,55.0,male,lower extremity,instrument only
+ISIC_9643087,IL_1090086,clinical: close-up,test,Malignant,BCC,BCC,2,1,35.0,female,head/neck,instrument only
+ISIC_9650776,IL_2208727,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_9668453,IL_9441829,clinical: close-up,test,Malignant,BCC,BCC,2,1,75.0,female,lower extremity,instrument only
+ISIC_9676478,IL_9565203,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,male,,instrument only
+ISIC_9676972,IL_2648810,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,female,,instrument only
+ISIC_9682195,IL_3316669,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_9685758,IL_5264196,dermoscopic,test,Benign,NV,NV,0,4,55.0,male,upper extremity,instrument only
+ISIC_9691123,IL_9563085,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,male,lower extremity,instrument only
+ISIC_9693001,IL_9221055,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,head/neck,instrument only
+ISIC_9700218,IL_1185786,dermoscopic,test,Benign,BKL,BKL,0,2,85.0,female,,instrument only
+ISIC_9704524,IL_0143212,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,60.0,male,head/neck,instrument only
+ISIC_9706117,IL_1500549,dermoscopic,test,Benign,NV,NV,0,4,30.0,female,,instrument only
+ISIC_9712861,IL_0596418,dermoscopic,test,Malignant,BCC,BCC,2,1,70.0,male,head/neck,instrument only
+ISIC_9718756,IL_6322114,clinical: close-up,test,Malignant,BCC,BCC,2,1,80.0,male,lower extremity,instrument only
+ISIC_9721840,IL_7769100,dermoscopic,test,Malignant,BCC,BCC,2,1,80.0,male,,instrument only
+ISIC_9725243,IL_9508962,clinical: close-up,test,Malignant,BCC,BCC,2,1,65.0,female,lower extremity,instrument only
+ISIC_9725650,IL_8939898,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,55.0,male,head/neck,instrument only
+ISIC_9738040,IL_4647036,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,,instrument only
+ISIC_9747479,IL_3518780,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,female,head/neck,instrument only
+ISIC_9756715,IL_2177210,clinical: close-up,test,Malignant,SCCKA,SCCKA,2,5,45.0,male,lower extremity,instrument only
+ISIC_9774801,IL_7244270,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_9776410,IL_1065158,clinical: close-up,test,Malignant,MEL,MEL,2,3,50.0,male,,instrument only
+ISIC_9778651,IL_9207228,dermoscopic,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_9784837,IL_6711797,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,upper extremity,instrument only
+ISIC_9796777,IL_2926353,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,,instrument only
+ISIC_9809345,IL_9720180,dermoscopic,test,Malignant,MEL,MEL,2,3,65.0,male,upper extremity,instrument only
+ISIC_9809557,IL_1696405,dermoscopic,test,Benign,NV,NV,0,4,30.0,male,lower extremity,instrument only
+ISIC_9812075,IL_1994469,clinical: close-up,test,Malignant,BCC,BCC,2,1,70.0,male,,instrument only
+ISIC_9812459,IL_2082500,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,female,head/neck,instrument only
+ISIC_9814001,IL_5752488,clinical: close-up,test,Indeterminate,AKIEC,AKIEC,1,0,55.0,male,head/neck,altered
+ISIC_9814156,IL_6985784,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_9818689,IL_4073740,clinical: close-up,test,Malignant,MEL,MEL,2,3,35.0,male,head/neck,instrument only
+ISIC_9845346,IL_6893390,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,female,,instrument only
+ISIC_9846956,IL_7775733,clinical: close-up,test,Benign,BKL,BKL,0,2,50.0,male,head/neck,instrument only
+ISIC_9849120,IL_8578513,dermoscopic,test,Malignant,BCC,BCC,2,1,55.0,female,head/neck,instrument only
+ISIC_9850344,IL_3812964,clinical: close-up,test,Benign,NV,NV,0,4,30.0,female,lower extremity,instrument only
+ISIC_9852855,IL_9207228,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,head/neck,instrument only
+ISIC_9859487,IL_1921779,clinical: close-up,test,Malignant,BCC,BCC,2,1,40.0,male,,instrument only
+ISIC_9875364,IL_1065158,dermoscopic,test,Malignant,MEL,MEL,2,3,50.0,male,,instrument only
+ISIC_9881436,IL_4628159,dermoscopic,test,Malignant,BCC,BCC,2,1,65.0,male,lower extremity,instrument only
+ISIC_9886748,IL_4194346,dermoscopic,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_9892179,IL_6021116,dermoscopic,test,Malignant,BCC,BCC,2,1,45.0,female,upper extremity,instrument only
+ISIC_9896561,IL_0758142,dermoscopic,test,Malignant,BCC,BCC,2,1,75.0,male,upper extremity,instrument only
+ISIC_9909995,IL_7061463,clinical: close-up,test,Malignant,BCC,BCC,2,1,55.0,male,,instrument only
+ISIC_9918302,IL_8890308,dermoscopic,test,Malignant,SCCKA,SCCKA,2,5,60.0,male,head/neck,instrument only
+ISIC_9918967,IL_4629787,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,lower extremity,instrument only
+ISIC_9922427,IL_9891948,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,head/neck,instrument only
+ISIC_9939897,IL_9035179,dermoscopic,test,Indeterminate,AKIEC,AKIEC,1,0,50.0,female,head/neck,instrument only
+ISIC_9961928,IL_8345128,clinical: close-up,test,Malignant,BCC,BCC,2,1,85.0,male,,instrument only
+ISIC_9973095,IL_7263910,clinical: close-up,test,Malignant,AKIEC,AKIEC,2,0,65.0,female,head/neck,instrument only
+ISIC_9981611,IL_9589211,clinical: close-up,test,Benign,BKL,BKL,0,2,70.0,male,,instrument only
+ISIC_9995901,IL_2263451,clinical: close-up,test,Malignant,BCC,BCC,2,1,60.0,male,,instrument only
+ISIC_9998198,IL_3766346,clinical: close-up,test,Benign,NV,NV,0,4,55.0,male,upper extremity,instrument only
+ISIC_9999151,IL_5287926,clinical: close-up,test,Benign,NV,NV,0,4,65.0,female,head/neck,instrument only

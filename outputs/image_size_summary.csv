@@ -1,0 +1,4 @@
+subset,n_images,width_min,width_median,width_max,height_min,height_median,height_max,pct_shorter_side_ge_224,pct_shorter_side_ge_256,n_rows_in_metadata,n_missing,n_unreadable
+all,10480,600,600.0,600,450,450.0,450,100.0,100.0,10480,0,0
+clinical: close-up,5240,600,600.0,600,450,450.0,450,100.0,100.0,10480,0,0
+dermoscopic,5240,600,600.0,600,450,450.0,450,100.0,100.0,10480,0,0

@@ -1,0 +1,15 @@
+,,train,val,test,global
+pct_11class,AKIEC,5.77,5.87,5.74,5.78
+pct_11class,BCC,48.16,48.06,48.06,48.13
+pct_11class,BEN_OTH,0.83,0.93,0.8,0.84
+pct_11class,BKL,10.37,10.41,10.41,10.38
+pct_11class,DF,0.99,0.93,1.07,0.99
+pct_11class,INF,0.96,0.93,0.93,0.95
+pct_11class,MAL_OTH,0.19,0.13,0.13,0.17
+pct_11class,MEL,8.58,8.54,8.68,8.59
+pct_11class,NV,14.24,14.15,14.29,14.24
+pct_11class,SCCKA,9.03,9.08,8.95,9.03
+pct_11class,VASC,0.88,0.93,0.93,0.9
+pct_diagnosis_1,Benign,28.27,28.3,28.44,28.3
+pct_diagnosis_1,Indeterminate,2.35,2.4,2.27,2.35
+pct_diagnosis_1,Malignant,69.37,69.29,69.29,69.35

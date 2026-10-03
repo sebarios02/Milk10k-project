@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "created": "2026-10-03",
+  "method": "StratifiedGroupKFold at lesion level (groups=lesion_id), stratified on 11-class dx refined by diagnosis_1 (AKIEC split in 2)",
+  "requested": {
+    "val": 0.15,
+    "test": 0.15
+  },
+  "lesions": {
+    "train": 3742,
+    "test": 749,
+    "val": 749
+  },
+  "images": {
+    "train": 7484,
+    "test": 1498,
+    "val": 1498
+  },
+  "max_deviation_pp_11class": 0.09
+}

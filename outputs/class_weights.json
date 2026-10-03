@@ -1,0 +1,53 @@
+{
+  "primary": {
+    "classes": [
+      "Benign",
+      "Indeterminate",
+      "Malignant"
+    ],
+    "train_image_counts": {
+      "Benign": 2116,
+      "Indeterminate": 176,
+      "Malignant": 5192
+    },
+    "weights": {
+      "Benign": 1.179,
+      "Indeterminate": 14.1742,
+      "Malignant": 0.4805
+    },
+    "formula": "N / (K * n_c)"
+  },
+  "fine": {
+    "classes": [
+      "AKIEC",
+      "BCC",
+      "BKL",
+      "MEL",
+      "NV",
+      "SCCKA",
+      "OTHER_BENIGN",
+      "OTHER_MALIGNANT"
+    ],
+    "train_image_counts": {
+      "AKIEC": 432,
+      "BCC": 3604,
+      "BKL": 776,
+      "MEL": 642,
+      "NV": 1066,
+      "SCCKA": 676,
+      "OTHER_BENIGN": 274,
+      "OTHER_MALIGNANT": 14
+    },
+    "weights": {
+      "AKIEC": 2.1655,
+      "BCC": 0.2596,
+      "BKL": 1.2055,
+      "MEL": 1.4572,
+      "NV": 0.8776,
+      "SCCKA": 1.3839,
+      "OTHER_BENIGN": 3.4142,
+      "OTHER_MALIGNANT": 20.0
+    },
+    "formula": "N / (K * n_c), capped at 20.0"
+  }
+}

@@ -1,0 +1,5 @@
+field,test,p_value,verdict
+age_approx,numeric (ANOVA),0.0,informative
+diagnosis_confirm_type,categorical (chi2),1.0441778561621365e-214,informative
+anatom_site_general,categorical (chi2),2.686562663869219e-74,informative
+sex,categorical (chi2),1.930923385683261e-23,informative

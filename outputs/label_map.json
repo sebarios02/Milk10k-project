@@ -1,0 +1,89 @@
+{
+  "primary": {
+    "source_column": "diagnosis_1",
+    "classes": [
+      "Benign",
+      "Indeterminate",
+      "Malignant"
+    ],
+    "to_index": {
+      "Benign": 0,
+      "Indeterminate": 1,
+      "Malignant": 2
+    },
+    "note": "Indeterminate kept as a 3rd class (all of it is AKIEC); for triage it is reported together with Malignant as 'needs work-up'."
+  },
+  "fine": {
+    "source_column": "dx",
+    "merge": {
+      "AKIEC": "AKIEC",
+      "BCC": "BCC",
+      "BKL": "BKL",
+      "MEL": "MEL",
+      "NV": "NV",
+      "SCCKA": "SCCKA",
+      "BEN_OTH": "OTHER_BENIGN",
+      "DF": "OTHER_BENIGN",
+      "INF": "OTHER_BENIGN",
+      "VASC": "OTHER_BENIGN",
+      "MAL_OTH": "OTHER_MALIGNANT"
+    },
+    "classes": [
+      "AKIEC",
+      "BCC",
+      "BKL",
+      "MEL",
+      "NV",
+      "SCCKA",
+      "OTHER_BENIGN",
+      "OTHER_MALIGNANT"
+    ],
+    "to_index": {
+      "AKIEC": 0,
+      "BCC": 1,
+      "BKL": 2,
+      "MEL": 3,
+      "NV": 4,
+      "SCCKA": 5,
+      "OTHER_BENIGN": 6,
+      "OTHER_MALIGNANT": 7
+    },
+    "note": "Rare benign classes merged into OTHER_BENIGN; MAL_OTH kept as OTHER_MALIGNANT (never mixed with benign). Splits are still stratified on the original 11 classes."
+  },
+  "dx_to_primary": {
+    "AKIEC": [
+      "Indeterminate",
+      "Malignant"
+    ],
+    "BCC": [
+      "Malignant"
+    ],
+    "BEN_OTH": [
+      "Benign"
+    ],
+    "BKL": [
+      "Benign"
+    ],
+    "DF": [
+      "Benign"
+    ],
+    "INF": [
+      "Benign"
+    ],
+    "MAL_OTH": [
+      "Malignant"
+    ],
+    "MEL": [
+      "Malignant"
+    ],
+    "NV": [
+      "Benign"
+    ],
+    "SCCKA": [
+      "Malignant"
+    ],
+    "VASC": [
+      "Benign"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+,n_missing,pct_missing,decision,reason
+anatom_site_special,10274,98.03,drop,"98% missing, no usable signal."
+diagnosis_4,8958,85.48,not used (label column),Part of the diagnosis hierarchy -> leaks the label.
+melanocytic,8088,77.18,not used (label-derived),77% missing and it is a property of the diagnosis itself.
+anatom_site_general,3912,37.33,'unknown' category,37% missing and missingness is informative (A1.2 q4); keep it as its own level.
+diagnosis_3,158,1.51,not used (label column),Part of the diagnosis hierarchy -> leaks the label.
+age_approx,40,0.38,impute train median (inside the model Pipeline),<0.5% missing; median fitted on train only to avoid leakage.

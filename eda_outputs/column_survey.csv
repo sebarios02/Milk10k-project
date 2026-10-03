@@ -1,0 +1,16 @@
+column,inferred_type,pct_missing,n_unique
+anatom_site_special,categorical,98.0,2
+diagnosis_4,categorical,85.5,15
+melanocytic,categorical,77.2,1
+anatom_site_general,categorical,37.3,4
+diagnosis_3,categorical,1.5,27
+age_approx,numeric,0.4,17
+copyright_license,categorical,0.0,1
+diagnosis_1,categorical,0.0,3
+concomitant_biopsy,boolean,0.0,2
+attribution,categorical,0.0,1
+diagnosis_2,categorical,0.0,19
+diagnosis_confirm_type,categorical,0.0,2
+image_manipulation,categorical,0.0,2
+image_type,categorical,0.0,2
+sex,categorical,0.0,2
