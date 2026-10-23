@@ -1,4 +1,4 @@
-# MILK10k skin-lesion classification: data pipeline (Milestone 1)
+# MILK10k skin-lesion classification: data pipeline (Milestone 1) + classical baseline (Milestone 2)
 
 **Author:** Sebastián Ríos Saucedo · Computer Vision & Speech Recognition · EADA
 
@@ -50,6 +50,13 @@ python scripts/08_dataloader_checks.py  # B8  class_weights.json, sanity checks,
 python -m pytest -q                     # tests (splits, labels, datasets, transforms)
 ```
 
+**Milestone 2, classical ML baseline** (features → model selection → test):
+
+```bash
+python scripts/run_milestone2.py                  # 09 -> 12 (about 1 h on 2 cores)
+python scripts/run_milestone2.py --skip-features  # reuse the committed outputs/features/*.csv.gz, no images needed
+```
+
 Part A homework: open `notebooks/homework_part_a.ipynb` in VS Code → *Restart* → *Run All* → *Export* → PDF (`notebooks/homework_part_a.pdf`).
 
 ## 3. Repository structure
@@ -76,8 +83,10 @@ Milk10k-project/
 │   ├── preprocessing.py          Session 2 numpy preprocessing (now with strict mode)
 │   ├── data_loader.py            Session 2 numpy loader (now fails loudly on missing files)
 │   ├── visualizer.py             Session 2 plotting utilities (reused for gallery and batch figures)
+│   ├── features.py               M2: hand-crafted colour / texture / shape features + lesion mask
+│   ├── classical.py              M2: feature sets, sklearn model zoo, metrics, bootstrap CI, importance
 │   └── run_eda.py                Session 2 EDA runner -> eda_outputs/
-├── scripts/                      thin entry points, one per Milestone-1 step (01 ... 08 + run_milestone1.py)
+├── scripts/                      thin entry points: Milestone 1 (01 ... 08 + run_milestone1.py), Milestone 2 (09 ... 12 + run_milestone2.py)
 ├── tests/                        pytest: split properties, label maps, datasets, transforms
 ├── notebooks/                    exploration + homework notebooks (Session 2, Session 3, homework_part_a)
 ├── outputs/                      GENERATED small files (committed): splits, label map, weights, stats
@@ -106,3 +115,12 @@ Full details in the **[Milestone 1 report](reports/milestone1_report.md)**.
 * **Preprocessing.** Resize shorter side to 256 → 224 crop. Normalisation with **train-only** mean/std. Option (a): each image is a sample with its lesion's label, and evaluation is **per lesion** (average of both views).
 * **Imbalance.** Train imbalance Malignant : Indeterminate = **29.5 : 1** (11-class BCC : MAL_OTH = 257 : 1). Class-weighted loss **and** a WeightedRandomSampler are both implemented (use one at a time). Metrics: balanced accuracy, macro-F1, Malignant recall.
 * **Leakage.** `diagnosis_confirm_type`, `diagnosis_2-4`, `concomitant_biopsy` and `melanocytic` are never inputs. `image_manipulation` is a potential shortcut and is not an input.
+
+## 6. Milestone 2: classical ML baseline
+
+Full report: **[reports/milestone2_classical_baseline.md](reports/milestone2_classical_baseline.md)**.
+
+* **Features** (`features.py`, Sessions 2-4): colour histograms (RGB/HSV), lesion-vs-skin colour statistics (RGB/HSV/CIELab), edge/texture filters (Sobel, LoG, local std, Canny), and the shape of a colour-aware Otsu lesion mask. Computed for both views, plus age / sex / body site.
+* **Compared:** 8 feature sets × 5 models (LogReg, kNN, RBF-SVM, Random Forest, HistGB) + dummies. Hyper-parameters by 5-fold CV on train, configuration chosen on val, test used once.
+* **Selected:** both views + metadata, class-balanced Logistic Regression (C = 0.01). **Test balanced accuracy 0.669 [0.58, 0.74]**, macro-F1 0.550, macro AUC 0.820, malignant recall 0.724 (dummy: 0.333 balanced accuracy).
+* **Caveats:** 60 % of melanomas are predicted benign, and metadata (age) is the most important feature group. These are the bar for the CNN.

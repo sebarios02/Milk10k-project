@@ -1,0 +1,12 @@
+dx,n,diagnosis_1,pct_correct,pred_Benign,pred_Indeterminate,pred_Malignant
+BCC,360,Malignant,0.797,0.103,0.100,0.797
+NV,107,Benign,0.963,0.963,0.009,0.028
+BKL,78,Benign,0.397,0.397,0.154,0.449
+SCCKA,67,Malignant,0.776,0.045,0.179,0.776
+MEL,65,Malignant,0.277,0.600,0.123,0.277
+AKIEC,43,Malignant,0.651,0.070,0.372,0.558
+DF,8,Benign,0.625,0.625,0.000,0.375
+VASC,7,Benign,0.429,0.429,0.000,0.571
+INF,7,Benign,0.571,0.571,0.286,0.143
+BEN_OTH,6,Benign,0.333,0.333,0.000,0.667
+MAL_OTH,1,Malignant,1.000,0.000,0.000,1.000

@@ -1,0 +1,9 @@
+,pred AKIEC,pred BCC,pred BKL,pred MEL,pred NV,pred SCCKA,pred OTHER_BENIGN,pred OTHER_MALIGNANT
+true AKIEC,18,8,5,2,0,8,1,1
+true BCC,43,194,40,8,5,43,20,7
+true BKL,15,11,14,10,10,10,8,0
+true MEL,6,4,4,26,18,2,4,1
+true NV,1,0,4,16,71,0,13,2
+true SCCKA,16,11,2,0,0,37,1,0
+true OTHER_BENIGN,0,4,2,2,2,0,16,2
+true OTHER_MALIGNANT,0,0,1,0,0,0,0,0

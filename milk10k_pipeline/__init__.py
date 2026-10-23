@@ -23,4 +23,8 @@ Milestone 1 modules:
     datasets    -- MILK10kImageDataset, LesionDataset, aggregate_predictions
     loaders     -- DataLoaders, seeding, WeightedRandomSampler, class_weights.json
     reporting   -- DataFrame -> Markdown table helper
+
+Milestone 2 modules (classical baseline):
+    features    -- hand-crafted colour / texture / shape features, colour-aware Otsu lesion mask
+    classical   -- feature sets, sklearn model zoo + grids, metrics, bootstrap CI, grouped importance
 """

@@ -1,0 +1,3 @@
+design,balanced_acc,macro_f1,accuracy,recall_Benign,precision_Benign,f1_Benign,recall_Indeterminate,precision_Indeterminate,f1_Indeterminate,recall_Malignant,precision_Malignant,f1_Malignant,macro_auc_ovr,workup_sensitivity,benign_specificity,auc_benign_vs_rest,auc_malignant_vs_rest
+early fusion (d_ + c_ concatenated) = selected,0.6660,0.5446,0.7049,0.6604,0.6422,0.6512,0.6111,0.1134,0.1913,0.7264,0.8687,0.7912,0.8102,0.8547,0.6604,0.8077,0.7981
+"late fusion (1 model on both views, avg per lesion)",0.6273,0.4980,0.6342,0.6368,0.6368,0.6368,0.6111,0.0724,0.1294,0.6339,0.8545,0.7279,0.8028,0.8566,0.6368,0.8120,0.7719

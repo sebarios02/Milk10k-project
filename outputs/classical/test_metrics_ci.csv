@@ -1,0 +1,8 @@
+metric,value,ci_low,ci_high
+balanced_acc,0.6692,0.5796,0.7440
+macro_f1,0.5504,0.5076,0.5940
+recall_Malignant,0.7245,0.6862,0.7654
+recall_Indeterminate,0.5882,0.3333,0.8182
+recall_Benign,0.6948,0.6274,0.7560
+workup_sensitivity,0.8470,0.8175,0.8782
+macro_auc_ovr,0.8201,0.7683,0.8588

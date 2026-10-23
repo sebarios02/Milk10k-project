@@ -1,0 +1,6 @@
+attribute,group,n,balanced_acc,malignant_recall,benign_recall,pct_malignant
+sex,female,281,0.664,0.665,0.755,0.626
+sex,male,468,0.666,0.755,0.643,0.733
+age_band,<50,124,0.674,0.426,0.922,0.379
+age_band,50-69,335,0.678,0.730,0.636,0.719
+age_band,70+,288,0.579,0.779,0.413,0.802

@@ -1,0 +1,4 @@
+,pred Benign,pred Indeterminate,pred Malignant
+true Benign,148,15,50
+true Indeterminate,1,10,6
+true Malignant,81,62,376

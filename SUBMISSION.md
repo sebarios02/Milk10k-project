@@ -1,4 +1,4 @@
-# Submission: Homework Sessions 1-3 + Course Project Milestone 1
+# Submissions: Homework Sessions 1-3 + Milestone 1, and Milestone 2 (classical baseline)
 
 **Name:** Sebastián Ríos Saucedo
 **Repository:** https://github.com/sebarios02/Milk10k-project
@@ -25,3 +25,16 @@
 | Tests | [tests/](https://github.com/sebarios02/Milk10k-project/blob/main/tests) |
 | B9 Milestone 1 report | [reports/milestone1_report.md](https://github.com/sebarios02/Milk10k-project/blob/main/reports/milestone1_report.md) |
 | Run everything | [scripts/run_milestone1.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/run_milestone1.py) |
+
+## Milestone 2: classical ML baseline
+| Deliverable | File(s) |
+|---|---|
+| Report (features, models, protocol, results, error analysis) | [reports/milestone2_classical_baseline.md](https://github.com/sebarios02/Milk10k-project/blob/main/reports/milestone2_classical_baseline.md) |
+| Feature extraction (colour, texture, shape, lesion mask) | [milk10k_pipeline/features.py](https://github.com/sebarios02/Milk10k-project/blob/main/milk10k_pipeline/features.py), [scripts/09_extract_features.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/09_extract_features.py) |
+| Feature sets, models, metrics | [milk10k_pipeline/classical.py](https://github.com/sebarios02/Milk10k-project/blob/main/milk10k_pipeline/classical.py) |
+| Model selection (CV on train, choice on val) | [scripts/10_model_selection.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/10_model_selection.py), [outputs/classical/model_selection.csv](https://github.com/sebarios02/Milk10k-project/blob/main/outputs/classical/model_selection.csv), [outputs/classical/selected.json](https://github.com/sebarios02/Milk10k-project/blob/main/outputs/classical/selected.json) |
+| Final test evaluation, importance, subgroups, fusion check | [scripts/11_final_evaluation.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/11_final_evaluation.py), [outputs/classical/test_metrics_ci.csv](https://github.com/sebarios02/Milk10k-project/blob/main/outputs/classical/test_metrics_ci.csv), [outputs/classical/test_metrics.csv](https://github.com/sebarios02/Milk10k-project/blob/main/outputs/classical/test_metrics.csv) |
+| 8-class stretch | [scripts/12_fine_target.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/12_fine_target.py), [outputs/classical/fine_metrics.csv](https://github.com/sebarios02/Milk10k-project/blob/main/outputs/classical/fine_metrics.csv) |
+| Extracted features | [outputs/features/](https://github.com/sebarios02/Milk10k-project/tree/main/outputs/features) |
+| Tests | [tests/test_features.py](https://github.com/sebarios02/Milk10k-project/blob/main/tests/test_features.py) |
+| Run everything | [scripts/run_milestone2.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/run_milestone2.py) |

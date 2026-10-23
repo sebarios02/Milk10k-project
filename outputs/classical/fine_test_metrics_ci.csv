@@ -1,0 +1,4 @@
+metric,value,ci_low,ci_high
+balanced_acc,0.4155,0.3768,0.5064
+macro_f1,0.3700,0.3359,0.4027
+macro_auc_ovr,0.8616,0.8455,0.8758

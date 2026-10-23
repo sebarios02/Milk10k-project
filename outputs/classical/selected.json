@@ -1,0 +1,12 @@
+{
+  "target": "y_primary",
+  "feature_set": "F7_all_2views_meta",
+  "model": "LogReg",
+  "params": {
+    "C": 0.01
+  },
+  "val_balanced_acc": 0.6659617955833464,
+  "val_macro_f1": 0.5445509559332441,
+  "cv_bal_acc_mean": 0.6633959821416131,
+  "rule": "highest VAL balanced accuracy (ties -> macro-F1); hyper-parameters from 5-fold CV on TRAIN"
+}

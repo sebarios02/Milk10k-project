@@ -1,0 +1,10 @@
+group,n_features,drop_mean,drop_std
+metadata,8,0.1181,0.0218
+derm colour,39,0.1089,0.0283
+derm histogram,80,0.0827,0.0283
+derm texture,21,0.0480,0.0276
+clinical colour,39,0.0299,0.0138
+clinical texture,21,0.0272,0.0166
+derm shape,9,0.0151,0.0103
+clinical histogram,80,0.0043,0.0103
+clinical shape,9,0.0040,0.0107
