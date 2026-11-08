@@ -1,0 +1,5 @@
+{
+  "model": "Random forest (500 trees, balanced, min_samples_leaf=5) on the 33 features",
+  "val_macro_f1": 0.534,
+  "test_macro_f1": 0.578
+}

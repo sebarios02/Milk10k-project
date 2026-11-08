@@ -1,0 +1,5 @@
+,val macro-F1,test macro-F1,test Δ vs my baseline
+"Session 5 - MY baseline: LogReg, 306 features",0.545,0.55,0.0
+"Session 5 (class) - random forest, 33 features",0.534,0.578,0.028
+Session 6 - MLP 33-64-3 (33 features),0.479,0.513,-0.037
+Session 6 HW - MLP 3072-64-3 (raw pixels),0.485,0.507,-0.043

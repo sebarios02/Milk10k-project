@@ -1,0 +1,13 @@
+{
+  "model": "MLP 33-64-3 on Session 5's 33 handcrafted features",
+  "val_macro_f1": 0.479,
+  "test_accuracy": 0.666,
+  "test_macro_f1": 0.513,
+  "raw_pixels_val_macro_f1": 0.485,
+  "raw_pixels_test_macro_f1": 0.507,
+  "my_session5_baseline": {
+    "model": "LogReg C=0.01, F7 (306 features: 2 views + metadata)",
+    "val_macro_f1": 0.545,
+    "test_macro_f1": 0.55
+  }
+}
