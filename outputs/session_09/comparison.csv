@@ -1,0 +1,4 @@
+,backbone weights,trainable weights,feature size,embed train+val+test (s),val macro-F1
+S9 - ResNet-18 frozen + linear head,11176512.0,1539.0,512.0,84.89999999999999,0.53
+S9 - ViT-B/16 frozen + linear head,85798656.0,2307.0,768.0,1116.3,0.606
+S7 - ResNet-18 fully fine-tuned (all layers) (reference),11178051.0,11178051.0,512.0,,0.676
