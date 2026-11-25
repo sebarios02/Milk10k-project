@@ -17,7 +17,7 @@ date: "November 2026"
 | Fair backbone comparison (both frozen, same head) | ViT-B/16 0.629 vs ResNet-18 0.538 on validation, Δ +0.090 [+0.047, +0.132] |
 | 11-class ResNet-18, my test split | 0.383 [0.327, 0.432] (validation 0.390) |
 | 11-class ensemble (both views + metadata), my test split | 0.478 [0.408, 0.531] |
-| Official MILK10k leaderboard (479 blind lesions) | submission 1 (ResNet-18): 0.420 · **submission 2 (ensemble): 0.449** |
+| Official MILK10k leaderboard (479 blind lesions) | submission 1 (ResNet-18): 0.420, rank 198 · **submission 2 (ensemble): 0.449, rank 173 / 200** |
 
 # 1. Problem and data
 
@@ -177,7 +177,7 @@ The single model ignores two things the Benchmark provides for every lesion: the
 
 ![11-class model: F1 per class on my test split, single ResNet-18 (submission 1) vs ensemble (submission 2)](../figures/m5_ensemble.png){width=95%}
 
-**Official result: 0.449** (approach `EADA-CV26-SRS`, task *Lesion Diagnosis*, status *Succeeded*; screenshot `m5_final/leaderboard_v2.png`). At the time of submission, ranks 150 and 175 of the 200 listed entries were at 0.465 and 0.447. The page also shows a "Validation Score" of 1.000 for both submissions; I read it as the platform's check that the file is valid, not as a performance figure.
+**Official result: 0.449** (approach `EADA-CV26-SRS`, task *Lesion Diagnosis*, status *Succeeded*; screenshot `m5_final/leaderboard_v2.png`). **Rank 173** of the 200 listed entries (up from 198 with submission 1); for reference, rank 100 was at 0.490 and rank 1 at 0.716. The page also shows a "Validation Score" of 1.000 for both submissions; I read it as the platform's check that the file is valid, not as a performance figure.
 
 ![Official MILK10k leaderboard result of submission 2](../m5_final/leaderboard_v2.png){width=80%}
 

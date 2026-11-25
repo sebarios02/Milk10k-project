@@ -13,7 +13,7 @@
 | **Scoreboard M2 → M4** | [`outputs/m4/scoreboard.csv`](outputs/m4/scoreboard.csv), [`figures/m4_scoreboard.png`](figures/m4_scoreboard.png) |
 | **Checkpoints** | [`checkpoints/model_m4.pt`](checkpoints/) (3 classes), `checkpoints/model_11class.pt` (11 classes), `checkpoints/ensemble_11class.pt` (ensemble heads + metadata model) |
 
-**Result in one line:** fully fine-tuned ResNet-18 on the dermoscopic image, **test macro-F1 0.654** [0.570, 0.727] on my 3-class target (validation 0.676); 11-class leaderboard: single ResNet-18 **0.420**, then an ensemble (both views + metadata, chosen on validation) **0.449**.
+**Result in one line:** fully fine-tuned ResNet-18 on the dermoscopic image, **test macro-F1 0.654** [0.570, 0.727] on my 3-class target (validation 0.676); 11-class leaderboard: single ResNet-18 **0.420**, then an ensemble (both views + metadata, chosen on validation) **0.449** (rank 173 / 200).
 
 ## 1. What this project is
 
