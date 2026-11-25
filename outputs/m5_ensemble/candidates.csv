@@ -1,0 +1,8 @@
+candidate,val macro-F1,w_resnet_plain,w_resnet_derm,w_vit_derm,w_vit_clin,w_meta
+resnet_plain alone,0.3902,1.0,0.0,0.0,0.0,0.0
+resnet_derm alone,0.4108,0.0,1.0,0.0,0.0,0.0
+vit_derm alone,0.3611,0.0,0.0,1.0,0.0,0.0
+vit_clin alone,0.3203,0.0,0.0,0.0,1.0,0.0
+meta alone,0.2345,0.0,0.0,0.0,0.0,1.0
+equal weights (4 members),0.4622,0.0,0.25,0.25,0.25,0.25
+weights searched on val (0.1 grid),0.4422,0.0,0.5,0.2,0.2,0.1

@@ -1,0 +1,13 @@
+model,val macro-F1,test macro-F1,milestone
+"Session 5 - MY baseline: LogReg, 306 features",0.545,0.55,M2
+"Session 5 (class) - random forest, 33 features",0.534,0.578,M2
+Session 6 - MLP 33-64-3 (33 features),0.479,0.513,M3
+Session 6 HW - MLP 3072-64-3 (raw pixels),0.485,0.507,M3
+Session 7 - SimpleCNN from scratch,0.511,0.533,M3
+Session 7 - ResNet-18 frozen + linear head,0.534,0.534,M3
+Session 7 - ResNet-18 fine-tuned layer4,0.67,0.659,M3
+Session 7 MC - ResNet-18 fine-tuned layer3+4,0.637,0.656,M3
+Session 7 HW - ResNet-18 full fine-tuning,0.676,0.654,M3
+"M4 (S9, all 3,742 lesions) - ResNet-18 frozen + linear head",0.538,0.528,M4
+"M4 (S9, all 3,742 lesions) - ViT-B/16 frozen + linear head",0.629,0.594,M4
+"M4 FINAL = best on val (resnet18_ft, re-trained, saved)",0.676,0.6537,M4 final

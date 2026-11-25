@@ -1,4 +1,4 @@
-# Submissions: Homework Sessions 1-3 + Milestone 1, and Milestone 2 (classical baseline)
+# Submissions: Milestones 1–5 and the final project
 
 **Name:** Sebastián Ríos Saucedo
 **Repository:** https://github.com/sebarios02/Milk10k-project
@@ -38,3 +38,19 @@
 | Extracted features | [outputs/features/](https://github.com/sebarios02/Milk10k-project/tree/main/outputs/features) |
 | Tests | [tests/test_features.py](https://github.com/sebarios02/Milk10k-project/blob/main/tests/test_features.py) |
 | Run everything | [scripts/run_milestone2.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/run_milestone2.py) |
+
+## Final project (Milestones 3–5) — Moodle submission
+| Deliverable | File(s) |
+|---|---|
+| Final report (PDF) | [report.pdf](https://github.com/sebarios02/Milk10k-project/blob/main/report.pdf), source [reports/final_report.md](https://github.com/sebarios02/Milk10k-project/blob/main/reports/final_report.md) |
+| Model card | [model_card.md](https://github.com/sebarios02/Milk10k-project/blob/main/model_card.md) |
+| M3 deep learning (S6–S7) | [notebooks/Class Session 7.ipynb](https://github.com/sebarios02/Milk10k-project/blob/main/notebooks/Class%20Session%207.ipynb), [outputs/session_07/](https://github.com/sebarios02/Milk10k-project/tree/main/outputs/session_07) |
+| M4 best model + ViT comparison | [scripts/13_m4_best_model.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/13_m4_best_model.py), [outputs/m4/scoreboard.csv](https://github.com/sebarios02/Milk10k-project/blob/main/outputs/m4/scoreboard.csv), [outputs/m4/test_predictions_3class.csv](https://github.com/sebarios02/Milk10k-project/blob/main/outputs/m4/test_predictions_3class.csv), [checkpoints/](https://github.com/sebarios02/Milk10k-project/tree/main/checkpoints) |
+| M4 error analysis + fairness | [scripts/14_m4_error_fairness.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/14_m4_error_fairness.py), [figures/m4_misclassified_gallery.png](https://github.com/sebarios02/Milk10k-project/blob/main/figures/m4_misclassified_gallery.png), [outputs/m4/fairness.csv](https://github.com/sebarios02/Milk10k-project/blob/main/outputs/m4/fairness.csv) |
+| M5 11-class model | [scripts/15_m5_train_11class.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/15_m5_train_11class.py), [outputs/m5/](https://github.com/sebarios02/Milk10k-project/tree/main/outputs/m5) |
+| M5 predict() | [m5_final/predict.py](https://github.com/sebarios02/Milk10k-project/blob/main/m5_final/predict.py) |
+| Leaderboard | [m5_final/make_submission.py](https://github.com/sebarios02/Milk10k-project/blob/main/m5_final/make_submission.py), [m5_final/submission.csv](https://github.com/sebarios02/Milk10k-project/blob/main/m5_final/submission.csv), [m5_final/leaderboard.png](https://github.com/sebarios02/Milk10k-project/blob/main/m5_final/leaderboard.png) · approach name `EADA-CV26-SRS` |
+| M5 ensemble (submission 2) | [scripts/16_m5_ensemble.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/16_m5_ensemble.py), [milk10k_pipeline/ensemble.py](https://github.com/sebarios02/Milk10k-project/blob/main/milk10k_pipeline/ensemble.py), [m5_final/make_submission_ensemble.py](https://github.com/sebarios02/Milk10k-project/blob/main/m5_final/make_submission_ensemble.py), [m5_final/leaderboard_v2.png](https://github.com/sebarios02/Milk10k-project/blob/main/m5_final/leaderboard_v2.png) · official 0.449 |
+| Shared deep-learning code | [milk10k_pipeline/deep.py](https://github.com/sebarios02/Milk10k-project/blob/main/milk10k_pipeline/deep.py) |
+| Run everything | [scripts/run_m4_m5.py](https://github.com/sebarios02/Milk10k-project/blob/main/scripts/run_m4_m5.py) |
+

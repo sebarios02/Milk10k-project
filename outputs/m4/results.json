@@ -1,0 +1,477 @@
+{
+ "smoke": false,
+ "n_train": 3742,
+ "classes": [
+  "Benign",
+  "Indeterminate",
+  "Malignant"
+ ],
+ "frozen_comparison": {
+  "val_f1": {
+   "resnet18": 0.5383,
+   "vit_b_16": 0.6288
+  },
+  "val_delta_vit_minus_resnet": 0.0905,
+  "val_delta_ci95": [
+   0.0471,
+   0.1315
+  ],
+  "p_vit_better": 1.0,
+  "embed_seconds_new": {
+   "resnet18_train": 121.3,
+   "vit_b_16_train": 1105.6
+  },
+  "backbone_params": {
+   "resnet18": 11176512,
+   "vit_b_16": 85798656
+  },
+  "trainable_params": {
+   "resnet18": 1539,
+   "vit_b_16": 2307
+  }
+ },
+ "candidates_val_f1": {
+  "S9 FULL - resnet18 frozen + linear head": 0.5383,
+  "S9 FULL - vit_b_16 frozen + linear head": 0.6288,
+  "S7 - ResNet-18 fully fine-tuned (all layers)": 0.6764,
+  "S7 - ResNet-18 fine-tuned: layer4 + fc": 0.6702,
+  "S7 - ResNet-18 fine-tuned: layer3 + layer4 + fc": 0.6369
+ },
+ "winner_on_val": "S7 - ResNet-18 fully fine-tuned (all layers)",
+ "winner_retrain": {
+  "label": "ResNet-18 fully fine-tuned (all layers)",
+  "best_epoch": 5,
+  "val_f1_per_epoch": [
+   0.5827,
+   0.5565,
+   0.5967,
+   0.6097,
+   0.5741,
+   0.6764
+  ],
+  "session7_val_f1": 0.6764,
+  "sec_per_epoch": 383.5
+ },
+ "winner_vs_runner_up_val": {
+  "runner_up": "S7 - ResNet-18 fine-tuned: layer4 + fc",
+  "delta_ci95": [
+   -0.0443,
+   0.0628
+  ],
+  "p_winner_better": 0.607
+ },
+ "test": {
+  "model": "S7 - ResNet-18 fully fine-tuned (all layers)",
+  "arch": "resnet18_ft",
+  "macro_f1": 0.6537,
+  "ci95": [
+   0.57,
+   0.7265
+  ],
+  "accuracy": 0.8064,
+  "malignant_recall": 0.8382,
+  "confusion": [
+   [
+    163,
+    2,
+    48
+   ],
+   [
+    4,
+    6,
+    7
+   ],
+   [
+    78,
+    6,
+    435
+   ]
+  ]
+ },
+ "scoreboard": [
+  {
+   "model": "Session 5 - MY baseline: LogReg, 306 features",
+   "val macro-F1": 0.545,
+   "test macro-F1": 0.55,
+   "milestone": "M2"
+  },
+  {
+   "model": "Session 5 (class) - random forest, 33 features",
+   "val macro-F1": 0.534,
+   "test macro-F1": 0.578,
+   "milestone": "M2"
+  },
+  {
+   "model": "Session 6 - MLP 33-64-3 (33 features)",
+   "val macro-F1": 0.479,
+   "test macro-F1": 0.513,
+   "milestone": "M3"
+  },
+  {
+   "model": "Session 6 HW - MLP 3072-64-3 (raw pixels)",
+   "val macro-F1": 0.485,
+   "test macro-F1": 0.507,
+   "milestone": "M3"
+  },
+  {
+   "model": "Session 7 - SimpleCNN from scratch",
+   "val macro-F1": 0.511,
+   "test macro-F1": 0.533,
+   "milestone": "M3"
+  },
+  {
+   "model": "Session 7 - ResNet-18 frozen + linear head",
+   "val macro-F1": 0.534,
+   "test macro-F1": 0.534,
+   "milestone": "M3"
+  },
+  {
+   "model": "Session 7 - ResNet-18 fine-tuned layer4",
+   "val macro-F1": 0.67,
+   "test macro-F1": 0.659,
+   "milestone": "M3"
+  },
+  {
+   "model": "Session 7 MC - ResNet-18 fine-tuned layer3+4",
+   "val macro-F1": 0.637,
+   "test macro-F1": 0.656,
+   "milestone": "M3"
+  },
+  {
+   "model": "Session 7 HW - ResNet-18 full fine-tuning",
+   "val macro-F1": 0.676,
+   "test macro-F1": 0.654,
+   "milestone": "M3"
+  },
+  {
+   "model": "M4 (S9, all 3,742 lesions) - ResNet-18 frozen + linear head",
+   "val macro-F1": 0.538,
+   "test macro-F1": 0.528,
+   "milestone": "M4"
+  },
+  {
+   "model": "M4 (S9, all 3,742 lesions) - ViT-B/16 frozen + linear head",
+   "val macro-F1": 0.629,
+   "test macro-F1": 0.594,
+   "milestone": "M4"
+  },
+  {
+   "model": "M4 FINAL = best on val (resnet18_ft, re-trained, saved)",
+   "val macro-F1": 0.676,
+   "test macro-F1": 0.6537,
+   "milestone": "M4 final"
+  }
+ ],
+ "minutes_total": 60.3,
+ "error_analysis": {
+  "n_errors": 145,
+  "by_dx": [
+   {
+    "dx": "BCC",
+    "n": 360,
+    "diagnosis_1": "Malignant",
+    "pred Benign %": 8.1,
+    "pred Indeterminate %": 0.8,
+    "pred Malignant %": 91.1,
+    "correct %": 91.1
+   },
+   {
+    "dx": "NV",
+    "n": 107,
+    "diagnosis_1": "Benign",
+    "pred Benign %": 92.5,
+    "pred Indeterminate %": 0.0,
+    "pred Malignant %": 7.5,
+    "correct %": 92.5
+   },
+   {
+    "dx": "BKL",
+    "n": 78,
+    "diagnosis_1": "Benign",
+    "pred Benign %": 59.0,
+    "pred Indeterminate %": 2.6,
+    "pred Malignant %": 38.5,
+    "correct %": 59.0
+   },
+   {
+    "dx": "SCCKA",
+    "n": 67,
+    "diagnosis_1": "Malignant",
+    "pred Benign %": 11.9,
+    "pred Indeterminate %": 1.5,
+    "pred Malignant %": 86.6,
+    "correct %": 86.6
+   },
+   {
+    "dx": "MEL",
+    "n": 65,
+    "diagnosis_1": "Malignant",
+    "pred Benign %": 58.5,
+    "pred Indeterminate %": 1.5,
+    "pred Malignant %": 40.0,
+    "correct %": 40.0
+   },
+   {
+    "dx": "AKIEC",
+    "n": 43,
+    "diagnosis_1": "Indeterminate/Malignant",
+    "pred Benign %": 14.0,
+    "pred Indeterminate %": 16.3,
+    "pred Malignant %": 69.8,
+    "correct %": 67.4
+   },
+   {
+    "dx": "DF",
+    "n": 8,
+    "diagnosis_1": "Benign",
+    "pred Benign %": 62.5,
+    "pred Indeterminate %": 0.0,
+    "pred Malignant %": 37.5,
+    "correct %": 62.5
+   },
+   {
+    "dx": "INF",
+    "n": 7,
+    "diagnosis_1": "Benign",
+    "pred Benign %": 71.4,
+    "pred Indeterminate %": 0.0,
+    "pred Malignant %": 28.6,
+    "correct %": 71.4
+   },
+   {
+    "dx": "VASC",
+    "n": 7,
+    "diagnosis_1": "Benign",
+    "pred Benign %": 57.1,
+    "pred Indeterminate %": 0.0,
+    "pred Malignant %": 42.9,
+    "correct %": 57.1
+   },
+   {
+    "dx": "BEN_OTH",
+    "n": 6,
+    "diagnosis_1": "Benign",
+    "pred Benign %": 66.7,
+    "pred Indeterminate %": 0.0,
+    "pred Malignant %": 33.3,
+    "correct %": 66.7
+   },
+   {
+    "dx": "MAL_OTH",
+    "n": 1,
+    "diagnosis_1": "Malignant",
+    "pred Benign %": 100.0,
+    "pred Indeterminate %": 0.0,
+    "pred Malignant %": 0.0,
+    "correct %": 0.0
+   }
+  ],
+  "errors_vs_correct": [
+   {
+    "index": "correct",
+    "n": 604.0,
+    "median age": 65.0,
+    "% male": 62.6,
+    "% head/neck": 25.0,
+    "mean confidence (p of predicted class)": 0.899,
+    "% skin tone 0-2 (darker)": 9.6,
+    "median d_shp_area_frac": 0.203,
+    "median d_shp_asym_major": 0.199,
+    "median d_shp_asym_minor": 0.208,
+    "median d_shp_mask_fallback": 0.0
+   },
+   {
+    "index": "all errors",
+    "n": 145.0,
+    "median age": 65.0,
+    "% male": 62.1,
+    "% head/neck": 42.1,
+    "mean confidence (p of predicted class)": 0.787,
+    "% skin tone 0-2 (darker)": 17.2,
+    "median d_shp_area_frac": 0.231,
+    "median d_shp_asym_major": 0.207,
+    "median d_shp_asym_minor": 0.197,
+    "median d_shp_mask_fallback": 0.0
+   },
+   {
+    "index": "Malignant -> Benign",
+    "n": 78.0,
+    "median age": 60.0,
+    "% male": 59.0,
+    "% head/neck": 43.6,
+    "mean confidence (p of predicted class)": 0.794,
+    "% skin tone 0-2 (darker)": 21.8,
+    "median d_shp_area_frac": 0.231,
+    "median d_shp_asym_major": 0.172,
+    "median d_shp_asym_minor": 0.176,
+    "median d_shp_mask_fallback": 0.0
+   },
+   {
+    "index": "Benign -> Malignant",
+    "n": 48.0,
+    "median age": 65.0,
+    "% male": 68.8,
+    "% head/neck": 27.1,
+    "mean confidence (p of predicted class)": 0.81,
+    "% skin tone 0-2 (darker)": 8.3,
+    "median d_shp_area_frac": 0.23,
+    "median d_shp_asym_major": 0.237,
+    "median d_shp_asym_minor": 0.206,
+    "median d_shp_mask_fallback": 0.0
+   }
+  ]
+ },
+ "fairness": [
+  {
+   "attribute": "skin tone",
+   "group": "0",
+   "n lesions": 2,
+   "n Benign / Indet. / Malig.": "1/0/1",
+   "macro-F1": 0.667,
+   "macro-F1 95% CI": null,
+   "malignant recall": 1.0,
+   "accuracy": 1.0,
+   "small group (< 30)": true
+  },
+  {
+   "attribute": "skin tone",
+   "group": "1",
+   "n lesions": 14,
+   "n Benign / Indet. / Malig.": "7/2/5",
+   "macro-F1": 0.509,
+   "macro-F1 95% CI": [
+    0.2609,
+    0.6471
+   ],
+   "malignant recall": 0.6,
+   "accuracy": 0.714,
+   "small group (< 30)": true
+  },
+  {
+   "attribute": "skin tone",
+   "group": "2",
+   "n lesions": 67,
+   "n Benign / Indet. / Malig.": "35/3/29",
+   "macro-F1": 0.688,
+   "macro-F1 95% CI": [
+    0.4455,
+    0.8194
+   ],
+   "malignant recall": 0.448,
+   "accuracy": 0.687,
+   "small group (< 30)": false
+  },
+  {
+   "attribute": "skin tone",
+   "group": "3",
+   "n lesions": 452,
+   "n Benign / Indet. / Malig.": "111/8/333",
+   "macro-F1": 0.626,
+   "macro-F1 95% CI": [
+    0.5014,
+    0.729
+   ],
+   "malignant recall": 0.88,
+   "accuracy": 0.819,
+   "small group (< 30)": false
+  },
+  {
+   "attribute": "skin tone",
+   "group": "4",
+   "n lesions": 146,
+   "n Benign / Indet. / Malig.": "43/3/100",
+   "macro-F1": 0.69,
+   "macro-F1 95% CI": [
+    0.5226,
+    0.8795
+   ],
+   "malignant recall": 0.87,
+   "accuracy": 0.849,
+   "small group (< 30)": false
+  },
+  {
+   "attribute": "skin tone",
+   "group": "5",
+   "n lesions": 68,
+   "n Benign / Indet. / Malig.": "16/1/51",
+   "macro-F1": 0.509,
+   "macro-F1 95% CI": [
+    0.4293,
+    0.5775
+   ],
+   "malignant recall": 0.745,
+   "accuracy": 0.765,
+   "small group (< 30)": false
+  },
+  {
+   "attribute": "sex",
+   "group": "female",
+   "n lesions": 281,
+   "n Benign / Indet. / Malig.": "98/7/176",
+   "macro-F1": 0.604,
+   "macro-F1 95% CI": [
+    0.5121,
+    0.7193
+   ],
+   "malignant recall": 0.807,
+   "accuracy": 0.804,
+   "small group (< 30)": false
+  },
+  {
+   "attribute": "sex",
+   "group": "male",
+   "n lesions": 468,
+   "n Benign / Indet. / Malig.": "115/10/343",
+   "macro-F1": 0.67,
+   "macro-F1 95% CI": [
+    0.5555,
+    0.7489
+   ],
+   "malignant recall": 0.854,
+   "accuracy": 0.808,
+   "small group (< 30)": false
+  },
+  {
+   "attribute": "age group",
+   "group": "<50",
+   "n lesions": 124,
+   "n Benign / Indet. / Malig.": "77/0/47",
+   "macro-F1": 0.522,
+   "macro-F1 95% CI": [
+    0.4691,
+    0.5675
+   ],
+   "malignant recall": 0.66,
+   "accuracy": 0.798,
+   "small group (< 30)": false
+  },
+  {
+   "attribute": "age group",
+   "group": "50-69",
+   "n lesions": 335,
+   "n Benign / Indet. / Malig.": "88/6/241",
+   "macro-F1": 0.639,
+   "macro-F1 95% CI": [
+    0.5062,
+    0.7624
+   ],
+   "malignant recall": 0.838,
+   "accuracy": 0.806,
+   "small group (< 30)": false
+  },
+  {
+   "attribute": "age group",
+   "group": "70+",
+   "n lesions": 288,
+   "n Benign / Indet. / Malig.": "46/11/231",
+   "macro-F1": 0.619,
+   "macro-F1 95% CI": [
+    0.4976,
+    0.7252
+   ],
+   "malignant recall": 0.874,
+   "accuracy": 0.812,
+   "small group (< 30)": false
+  }
+ ]
+}

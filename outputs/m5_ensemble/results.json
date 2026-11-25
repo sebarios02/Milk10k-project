@@ -1,0 +1,70 @@
+{
+ "candidates_val": {
+  "resnet_plain alone": {
+   "weights": {
+    "resnet_plain": 1.0
+   },
+   "val": 0.3902
+  },
+  "resnet_derm alone": {
+   "weights": {
+    "resnet_derm": 1.0
+   },
+   "val": 0.4108
+  },
+  "vit_derm alone": {
+   "weights": {
+    "vit_derm": 1.0
+   },
+   "val": 0.3611
+  },
+  "vit_clin alone": {
+   "weights": {
+    "vit_clin": 1.0
+   },
+   "val": 0.3203
+  },
+  "meta alone": {
+   "weights": {
+    "meta": 1.0
+   },
+   "val": 0.2345
+  },
+  "equal weights (4 members)": {
+   "weights": {
+    "resnet_derm": 0.25,
+    "vit_derm": 0.25,
+    "vit_clin": 0.25,
+    "meta": 0.25
+   },
+   "val": 0.4622
+  },
+  "weights searched on val (0.1 grid)": {
+   "weights": {
+    "resnet_derm": 0.5,
+    "vit_derm": 0.2,
+    "vit_clin": 0.2,
+    "meta": 0.1
+   },
+   "val": 0.4422,
+   "val_in_sample": 0.4769
+  }
+ },
+ "choice": "equal weights (4 members)",
+ "weights": {
+  "resnet_plain": 0.0,
+  "resnet_derm": 0.25,
+  "vit_derm": 0.25,
+  "vit_clin": 0.25,
+  "meta": 0.25
+ },
+ "test_my_split": {
+  "ensemble": 0.4776,
+  "ci95": [
+   0.4076,
+   0.5313
+  ],
+  "single_resnet": 0.3832
+ },
+ "minutes": 111.1
+}

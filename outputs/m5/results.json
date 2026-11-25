@@ -1,0 +1,99 @@
+{
+ "arch": "resnet18_ft",
+ "smoke": false,
+ "classes": [
+  "AKIEC",
+  "BCC",
+  "BEN_OTH",
+  "BKL",
+  "DF",
+  "INF",
+  "MAL_OTH",
+  "MEL",
+  "NV",
+  "SCCKA",
+  "VASC"
+ ],
+ "n_train": 3742,
+ "train_counts": {
+  "AKIEC": 216,
+  "BCC": 1802,
+  "BEN_OTH": 31,
+  "BKL": 388,
+  "DF": 37,
+  "INF": 36,
+  "MAL_OTH": 7,
+  "MEL": 321,
+  "NV": 533,
+  "SCCKA": 338,
+  "VASC": 33
+ },
+ "val_counts": {
+  "AKIEC": 44,
+  "BCC": 360,
+  "BEN_OTH": 7,
+  "BKL": 78,
+  "DF": 7,
+  "INF": 7,
+  "MAL_OTH": 1,
+  "MEL": 64,
+  "NV": 106,
+  "SCCKA": 68,
+  "VASC": 7
+ },
+ "test_counts": {
+  "AKIEC": 43,
+  "BCC": 360,
+  "BEN_OTH": 6,
+  "BKL": 78,
+  "DF": 8,
+  "INF": 7,
+  "MAL_OTH": 1,
+  "MEL": 65,
+  "NV": 107,
+  "SCCKA": 67,
+  "VASC": 7
+ },
+ "recipe": "ResNet-18 all layers, class-weighted CE, Adam 1e-4, 6 epochs, flips, best epoch on val (Session 7)",
+ "best_epoch": 5,
+ "val_f1_per_epoch": [
+  0.2964,
+  0.331,
+  0.3512,
+  0.3669,
+  0.3575,
+  0.3902
+ ],
+ "val_macro_f1_argmax": 0.3902,
+ "val_leaderboard_metric": {
+  "raw": 0.3847,
+  "argmax": 0.3902,
+  "thresholds": 0.3799
+ },
+ "postprocess": {
+  "strategy": "argmax",
+  "thresholds": {
+   "AKIEC": 0.38,
+   "BCC": 0.08,
+   "BEN_OTH": 0.22,
+   "BKL": 0.28,
+   "DF": 0.56,
+   "INF": 0.24,
+   "MAL_OTH": 0.5,
+   "MEL": 0.24,
+   "NV": 0.4,
+   "SCCKA": 0.5,
+   "VASC": 0.6
+  }
+ },
+ "test_local_estimate": {
+  "official_metric_with_postprocess": 0.3832,
+  "official_metric_raw_softmax": 0.4002,
+  "macro_f1_argmax": 0.3832,
+  "ci95": [
+   0.3274,
+   0.4319
+  ]
+ },
+ "minutes_total": 41.3
+}

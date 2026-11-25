@@ -1,0 +1,11 @@
+lesion_id,isic_id,clinical_isic_id,dx,diagnosis_1,pred_label,p_pred,age_approx,sex,site,skin_tone_class,d_shp_area_frac
+IL_7940673,ISIC_2926418,ISIC_5466262,MEL,Malignant,Benign,0.9984,45.0,male,trunk,3,0.356556
+IL_5251059,ISIC_5807024,ISIC_0944241,MEL,Malignant,Benign,0.99775,65.0,female,lower_extremity,3,0.463767
+IL_6877594,ISIC_9179884,ISIC_6786577,MEL,Malignant,Benign,0.99465,80.0,male,trunk,5,0.269852
+IL_3636394,ISIC_6954063,ISIC_7403204,MEL,Malignant,Benign,0.99326,45.0,female,lower_extremity,4,0.0946926
+IL_1313145,ISIC_2846167,ISIC_3877894,BKL,Benign,Malignant,0.99791,55.0,male,trunk,3,0.199044
+IL_0617635,ISIC_2471655,ISIC_9250445,BKL,Benign,Malignant,0.99529,80.0,male,upper_extremity,3,0.315026
+IL_2521173,ISIC_2170617,ISIC_7827261,NV,Benign,Malignant,0.99204,60.0,male,trunk,4,0.263881
+IL_0143212,ISIC_9704524,ISIC_6163759,AKIEC,Indeterminate,Malignant,0.92009,60.0,male,head_neck_face,4,0.275541
+IL_8462731,ISIC_3428486,ISIC_0553752,AKIEC,Indeterminate,Malignant,0.9046,75.0,male,upper_extremity,3,0.255533
+IL_2342693,ISIC_8293683,ISIC_5308020,MEL,Malignant,Indeterminate,0.83662,70.0,female,head_neck_face,2,0.313041

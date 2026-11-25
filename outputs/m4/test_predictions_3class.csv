@@ -1,0 +1,750 @@
+lesion_id,isic_id,diagnosis_1,dx,y3,sex,age_approx,anatom_site_general,skin_tone_class,site,pred,pred_label,p_Benign,p_Indeterminate,p_Malignant
+IL_2547802,ISIC_0073863,Benign,NV,0,female,5.0,,3,trunk,0,Benign,0.98565,0.00161,0.01274
+IL_5334978,ISIC_0084885,Malignant,SCCKA,2,female,70.0,lower extremity,4,lower_extremity,2,Malignant,0.0264,9e-05,0.97351
+IL_1989864,ISIC_0096543,Malignant,BCC,2,male,60.0,head/neck,4,head_neck_face,0,Benign,0.52596,0.01879,0.45525
+IL_1848591,ISIC_0151603,Malignant,SCCKA,2,female,80.0,upper extremity,3,upper_extremity,2,Malignant,0.04417,9e-05,0.95574
+IL_8581204,ISIC_0161474,Malignant,BCC,2,male,70.0,lower extremity,3,lower_extremity,2,Malignant,0.06051,0.00067,0.93882
+IL_0538845,ISIC_0195795,Malignant,BCC,2,male,55.0,head/neck,3,head_neck_face,2,Malignant,0.00598,2e-05,0.99401
+IL_3582002,ISIC_0199124,Malignant,AKIEC,2,female,65.0,upper extremity,3,upper_extremity,2,Malignant,0.00331,0.02449,0.97221
+IL_1846294,ISIC_0283929,Malignant,BCC,2,female,85.0,,3,trunk,2,Malignant,0.01821,0.00637,0.97542
+IL_8323588,ISIC_0289881,Malignant,BCC,2,male,85.0,head/neck,1,head_neck_face,2,Malignant,0.00053,0.00022,0.99925
+IL_5489225,ISIC_0292393,Malignant,BCC,2,male,65.0,head/neck,3,head_neck_face,0,Benign,0.65258,0.01039,0.33704
+IL_0604713,ISIC_0305865,Malignant,MEL,2,male,75.0,,3,trunk,2,Malignant,0.00484,0.00021,0.99496
+IL_6398771,ISIC_0307669,Malignant,BCC,2,female,85.0,,3,trunk,2,Malignant,0.01666,0.00112,0.98222
+IL_4796364,ISIC_0310855,Benign,NV,0,female,45.0,,3,trunk,0,Benign,0.92663,0.00035,0.07302
+IL_8439517,ISIC_0311944,Benign,INF,0,female,65.0,,4,trunk,0,Benign,0.66004,0.00342,0.33654
+IL_9192355,ISIC_0321371,Malignant,AKIEC,2,male,55.0,,3,trunk,2,Malignant,0.2214,0.00799,0.7706
+IL_8401805,ISIC_0346352,Malignant,BCC,2,male,45.0,,3,trunk,2,Malignant,0.02189,0.00362,0.97448
+IL_2248965,ISIC_0361189,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.15159,0.00046,0.84795
+IL_9784446,ISIC_0369681,Malignant,BCC,2,male,60.0,head/neck,3,head_neck_face,2,Malignant,0.09129,0.01583,0.89288
+IL_5766424,ISIC_0373826,Benign,NV,0,female,10.0,lower extremity,3,lower_extremity,0,Benign,0.99987,0.00011,2e-05
+IL_3303536,ISIC_0445960,Malignant,AKIEC,2,male,60.0,head/neck,3,head_neck_face,2,Malignant,0.039,0.00784,0.95316
+IL_4976689,ISIC_0448586,Malignant,SCCKA,2,male,65.0,upper extremity,4,hand,2,Malignant,0.30357,0.00197,0.69446
+IL_0108315,ISIC_0454029,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.11327,0.00412,0.88261
+IL_6011265,ISIC_0477999,Malignant,BCC,2,male,60.0,,4,trunk,2,Malignant,0.00728,0.01035,0.98236
+IL_3985289,ISIC_0495769,Malignant,BCC,2,female,75.0,lower extremity,3,lower_extremity,2,Malignant,0.08655,0.00602,0.90743
+IL_1572038,ISIC_0497851,Malignant,AKIEC,2,male,65.0,lower extremity,3,lower_extremity,2,Malignant,0.00378,0.00362,0.9926
+IL_0740796,ISIC_0497911,Malignant,BCC,2,female,80.0,head/neck,3,head_neck_face,0,Benign,0.85159,0.01431,0.1341
+IL_6234937,ISIC_0502413,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.0017,0.01716,0.98114
+IL_2227490,ISIC_0518723,Malignant,BCC,2,male,65.0,lower extremity,3,lower_extremity,2,Malignant,0.04026,0.00061,0.95913
+IL_9152183,ISIC_0528949,Malignant,BCC,2,male,65.0,upper extremity,3,upper_extremity,0,Benign,0.79248,0.00072,0.20681
+IL_7337548,ISIC_0529050,Malignant,MEL,2,female,45.0,,3,trunk,0,Benign,0.95173,0.00256,0.04571
+IL_4866547,ISIC_0535290,Malignant,BCC,2,male,70.0,upper extremity,5,upper_extremity,2,Malignant,0.39279,0.00643,0.60077
+IL_9563085,ISIC_0539206,Benign,BKL,0,male,70.0,lower extremity,3,lower_extremity,2,Malignant,0.04638,0.0055,0.94812
+IL_6066960,ISIC_0560810,Malignant,SCCKA,2,male,65.0,head/neck,5,head_neck_face,1,Indeterminate,0.25788,0.39922,0.3429
+IL_3724893,ISIC_0561102,Malignant,BCC,2,male,65.0,lower extremity,4,lower_extremity,2,Malignant,0.01442,0.00038,0.9852
+IL_7740320,ISIC_0569067,Benign,DF,0,male,35.0,upper extremity,3,upper_extremity,2,Malignant,0.00631,0.24781,0.74588
+IL_6408457,ISIC_0583409,Malignant,BCC,2,male,60.0,lower extremity,3,lower_extremity,2,Malignant,0.03901,0.03582,0.92517
+IL_0588181,ISIC_0598387,Malignant,MEL,2,male,85.0,,3,trunk,2,Malignant,0.00296,0.00052,0.99653
+IL_3664176,ISIC_0625197,Malignant,BCC,2,male,60.0,,3,trunk,2,Malignant,0.00303,0.00037,0.99661
+IL_7864220,ISIC_0644098,Malignant,AKIEC,2,female,85.0,lower extremity,3,lower_extremity,0,Benign,0.9024,0.00334,0.09426
+IL_8472677,ISIC_0680433,Malignant,AKIEC,2,male,45.0,head/neck,3,head_neck_face,2,Malignant,0.12581,0.01175,0.86245
+IL_8944802,ISIC_0690986,Malignant,BCC,2,male,70.0,lower extremity,3,lower_extremity,2,Malignant,0.01186,0.00156,0.98658
+IL_3286495,ISIC_0695322,Malignant,BCC,2,male,75.0,lower extremity,3,lower_extremity,2,Malignant,0.01068,0.00148,0.98784
+IL_4929209,ISIC_0698052,Benign,BKL,0,male,55.0,,3,trunk,2,Malignant,0.24608,0.02858,0.72534
+IL_4104039,ISIC_0738371,Malignant,SCCKA,2,female,85.0,lower extremity,4,lower_extremity,2,Malignant,0.00061,1e-04,0.99929
+IL_0836761,ISIC_0763962,Malignant,BCC,2,male,65.0,head/neck,4,head_neck_face,2,Malignant,0.03064,0.16694,0.80242
+IL_1058871,ISIC_0777452,Malignant,BCC,2,female,35.0,head/neck,4,head_neck_face,2,Malignant,0.02479,0.00017,0.97504
+IL_7712318,ISIC_0811266,Benign,NV,0,female,30.0,lower extremity,1,lower_extremity,0,Benign,0.91941,0.009,0.07158
+IL_0868364,ISIC_0811703,Benign,DF,0,female,40.0,lower extremity,3,lower_extremity,0,Benign,0.51414,0.04899,0.43687
+IL_4310742,ISIC_0821297,Malignant,SCCKA,2,male,85.0,head/neck,3,head_neck_face,2,Malignant,0.0034,0.00975,0.98685
+IL_0811004,ISIC_0828276,Malignant,BCC,2,male,75.0,,3,trunk,2,Malignant,0.09577,0.00017,0.90406
+IL_3715048,ISIC_0831898,Malignant,MEL,2,male,60.0,,2,trunk,2,Malignant,0.14868,0.01027,0.84105
+IL_2821734,ISIC_0835458,Malignant,BCC,2,female,70.0,head/neck,4,head_neck_face,2,Malignant,0.33045,0.00591,0.66364
+IL_4732001,ISIC_0838227,Malignant,BCC,2,male,70.0,,5,trunk,2,Malignant,0.03959,0.01907,0.94134
+IL_0948841,ISIC_0849075,Malignant,BCC,2,male,50.0,,3,trunk,2,Malignant,0.00224,0.00293,0.99483
+IL_7571099,ISIC_0855454,Malignant,BCC,2,male,70.0,upper extremity,4,upper_extremity,2,Malignant,0.00247,0.00029,0.99724
+IL_0087637,ISIC_0856370,Benign,BKL,0,male,60.0,upper extremity,3,upper_extremity,2,Malignant,0.42656,0.01276,0.56068
+IL_0137229,ISIC_0866079,Malignant,SCCKA,2,male,65.0,head/neck,5,head_neck_face,2,Malignant,0.09008,0.00068,0.90925
+IL_9838418,ISIC_0880783,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.04245,0.00532,0.95223
+IL_1741530,ISIC_0909697,Benign,BKL,0,male,65.0,head/neck,3,head_neck_face,2,Malignant,0.08787,0.01589,0.89624
+IL_5394368,ISIC_0924335,Malignant,BCC,2,male,75.0,upper extremity,4,upper_extremity,2,Malignant,0.00666,0.00059,0.99275
+IL_3115470,ISIC_0946795,Malignant,SCCKA,2,female,80.0,lower extremity,4,lower_extremity,2,Malignant,0.23967,2e-05,0.76031
+IL_4310932,ISIC_0962054,Malignant,MEL,2,female,70.0,,1,trunk,0,Benign,0.93882,0.00099,0.06019
+IL_1703552,ISIC_0977792,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.01414,0.08203,0.90382
+IL_1468442,ISIC_1001492,Malignant,SCCKA,2,male,75.0,upper extremity,3,hand,2,Malignant,0.07032,0.0959,0.83378
+IL_7577530,ISIC_1029957,Benign,NV,0,male,65.0,,4,trunk,0,Benign,0.96693,0.00475,0.02832
+IL_6222346,ISIC_1030228,Benign,BKL,0,male,70.0,head/neck,4,head_neck_face,1,Indeterminate,0.2494,0.71149,0.03911
+IL_5882687,ISIC_1044266,Malignant,BCC,2,male,75.0,,3,trunk,2,Malignant,0.12344,0.00415,0.8724
+IL_4174336,ISIC_1062335,Indeterminate,AKIEC,1,male,75.0,,3,trunk,2,Malignant,0.18752,0.0263,0.78618
+IL_4689658,ISIC_1070964,Benign,BKL,0,male,75.0,head/neck,1,head_neck_face,0,Benign,0.94908,0.00062,0.0503
+IL_6481065,ISIC_1085792,Benign,NV,0,female,35.0,lower extremity,4,lower_extremity,0,Benign,0.63545,0.00119,0.36336
+IL_4242651,ISIC_1110722,Malignant,BCC,2,male,65.0,lower extremity,2,lower_extremity,2,Malignant,0.00736,0.00243,0.99021
+IL_3316669,ISIC_1132361,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.05348,0.00542,0.94111
+IL_3754821,ISIC_1136259,Malignant,SCCKA,2,female,75.0,,4,trunk,2,Malignant,0.03147,0.00611,0.96242
+IL_8012977,ISIC_1136498,Benign,BKL,0,female,45.0,head/neck,4,head_neck_face,0,Benign,0.74131,0.15953,0.09916
+IL_2066626,ISIC_1146954,Malignant,BCC,2,female,50.0,head/neck,5,head_neck_face,2,Malignant,0.05683,0.00712,0.93605
+IL_1339596,ISIC_1150454,Benign,BKL,0,female,85.0,lower extremity,3,lower_extremity,0,Benign,0.97556,0.00032,0.02412
+IL_3545610,ISIC_1163119,Malignant,AKIEC,2,male,75.0,head/neck,4,head_neck_face,2,Malignant,0.00238,0.00012,0.9975
+IL_9420011,ISIC_1189485,Malignant,BCC,2,male,60.0,lower extremity,3,lower_extremity,2,Malignant,0.19803,0.00254,0.79943
+IL_0406808,ISIC_1201025,Malignant,MEL,2,female,60.0,,2,trunk,0,Benign,0.98609,0.00066,0.01325
+IL_8175900,ISIC_1212608,Benign,BKL,0,male,55.0,,4,trunk,2,Malignant,0.02084,0.00016,0.97899
+IL_8277688,ISIC_1222561,Benign,BKL,0,female,50.0,head/neck,3,head_neck_face,0,Benign,0.97079,0.00014,0.02908
+IL_8031669,ISIC_1239264,Malignant,BCC,2,male,80.0,,4,trunk,2,Malignant,0.00334,0.00062,0.99604
+IL_5885697,ISIC_1244447,Benign,BKL,0,female,50.0,lower extremity,4,lower_extremity,0,Benign,0.99061,0.00076,0.00862
+IL_2836148,ISIC_1258360,Benign,BKL,0,female,80.0,lower extremity,3,lower_extremity,2,Malignant,0.0484,0.0017,0.9499
+IL_1075740,ISIC_1264034,Malignant,MEL,2,female,70.0,upper extremity,3,upper_extremity,2,Malignant,0.35584,0.00025,0.64391
+IL_9756229,ISIC_1310746,Malignant,BCC,2,female,40.0,,4,trunk,2,Malignant,0.02067,0.00241,0.97692
+IL_0932905,ISIC_1317686,Malignant,BCC,2,female,60.0,upper extremity,3,upper_extremity,2,Malignant,0.00031,0.0012,0.99849
+IL_0521926,ISIC_1319737,Malignant,BCC,2,male,50.0,upper extremity,3,upper_extremity,2,Malignant,0.03667,0.00101,0.96232
+IL_9974051,ISIC_1322802,Malignant,BCC,2,female,55.0,,3,trunk,2,Malignant,0.49204,0.00249,0.50547
+IL_3999656,ISIC_1323177,Benign,BKL,0,male,65.0,,3,trunk,0,Benign,0.52052,0.04686,0.43262
+IL_1351587,ISIC_1326309,Malignant,BCC,2,female,80.0,upper extremity,3,upper_extremity,2,Malignant,0.00642,0.00055,0.99303
+IL_8644938,ISIC_1329438,Malignant,SCCKA,2,male,65.0,upper extremity,3,upper_extremity,2,Malignant,0.02822,0.00056,0.97122
+IL_0030541,ISIC_1347581,Malignant,BCC,2,male,60.0,,3,trunk,2,Malignant,0.03824,0.00364,0.95812
+IL_4182529,ISIC_1350578,Malignant,BCC,2,male,80.0,head/neck,4,head_neck_face,2,Malignant,0.00526,0.01562,0.97912
+IL_6962518,ISIC_1375994,Benign,BKL,0,female,85.0,head/neck,4,head_neck_face,0,Benign,0.98772,0.0009,0.01138
+IL_3581501,ISIC_1385452,Malignant,BCC,2,male,50.0,upper extremity,3,upper_extremity,2,Malignant,0.32035,0.00076,0.67889
+IL_3730515,ISIC_1386430,Malignant,BCC,2,male,75.0,head/neck,3,head_neck_face,1,Indeterminate,0.05383,0.62035,0.32581
+IL_8509050,ISIC_1460872,Malignant,BCC,2,male,45.0,lower extremity,3,lower_extremity,0,Benign,0.54938,0.00469,0.44593
+IL_3141578,ISIC_1468332,Benign,NV,0,male,25.0,head/neck,3,head_neck_face,0,Benign,0.63577,0.00116,0.36307
+IL_3812964,ISIC_1472934,Benign,NV,0,female,30.0,lower extremity,3,lower_extremity,0,Benign,0.99604,0.00015,0.00381
+IL_9549484,ISIC_1477798,Malignant,BCC,2,female,70.0,head/neck,3,head_neck_face,2,Malignant,0.0166,0.00275,0.98065
+IL_3148978,ISIC_1495576,Malignant,BCC,2,male,40.0,,4,trunk,2,Malignant,0.3725,0.0007,0.6268
+IL_3593034,ISIC_1509648,Malignant,BCC,2,male,80.0,,3,trunk,2,Malignant,0.00336,0.00145,0.99519
+IL_7309398,ISIC_1537765,Benign,NV,0,female,45.0,upper extremity,4,upper_extremity,0,Benign,0.9825,0.00186,0.01564
+IL_6430136,ISIC_1548274,Benign,NV,0,male,60.0,lower extremity,3,lower_extremity,0,Benign,0.91904,0.00211,0.07884
+IL_6806894,ISIC_1589936,Benign,BEN_OTH,0,male,65.0,lower extremity,4,lower_extremity,0,Benign,0.81551,0.00345,0.18104
+IL_0525024,ISIC_1591432,Benign,NV,0,male,40.0,head/neck,3,head_neck_face,2,Malignant,0.09759,0.00038,0.90203
+IL_5124334,ISIC_1603737,Malignant,BCC,2,male,75.0,head/neck,5,head_neck_face,2,Malignant,0.00519,4e-05,0.99476
+IL_0915251,ISIC_1609351,Benign,VASC,0,female,80.0,upper extremity,3,upper_extremity,2,Malignant,0.07397,0.00212,0.92391
+IL_8345128,ISIC_1623104,Malignant,BCC,2,male,85.0,,3,trunk,2,Malignant,0.00058,0.00012,0.9993
+IL_3044887,ISIC_1655136,Benign,NV,0,female,35.0,lower extremity,3,lower_extremity,0,Benign,0.98749,0.00071,0.0118
+IL_4585306,ISIC_1658566,Malignant,BCC,2,female,70.0,,3,trunk,2,Malignant,0.11604,0.00173,0.88224
+IL_8821899,ISIC_1664514,Malignant,BCC,2,male,85.0,,3,trunk,2,Malignant,0.01302,4e-05,0.98694
+IL_2150976,ISIC_1683950,Benign,BEN_OTH,0,female,45.0,,4,trunk,0,Benign,0.97126,4e-05,0.0287
+IL_0466626,ISIC_1699010,Benign,NV,0,female,50.0,,5,trunk,0,Benign,0.96408,1e-04,0.03582
+IL_1858842,ISIC_1708907,Benign,VASC,0,female,55.0,,2,trunk,0,Benign,0.99237,0.00056,0.00707
+IL_1274055,ISIC_1724838,Benign,DF,0,male,30.0,lower extremity,2,lower_extremity,0,Benign,0.88088,0.01223,0.10688
+IL_7565291,ISIC_1738383,Malignant,BCC,2,male,80.0,,3,trunk,2,Malignant,0.08253,0.0044,0.91307
+IL_8788883,ISIC_1749046,Benign,BKL,0,female,35.0,,4,trunk,0,Benign,0.99896,0.00017,0.00087
+IL_5767772,ISIC_1774371,Malignant,SCCKA,2,male,65.0,lower extremity,3,lower_extremity,2,Malignant,0.00187,0.00127,0.99685
+IL_9276974,ISIC_1797900,Malignant,BCC,2,male,45.0,upper extremity,3,upper_extremity,2,Malignant,0.00298,0.00014,0.99689
+IL_5764702,ISIC_1810342,Malignant,BCC,2,female,40.0,,3,trunk,2,Malignant,0.00224,0.00238,0.99538
+IL_5358454,ISIC_1813785,Benign,NV,0,male,55.0,lower extremity,3,lower_extremity,0,Benign,0.72823,0.03928,0.23249
+IL_7711358,ISIC_1814482,Malignant,BCC,2,male,85.0,head/neck,3,head_neck_face,2,Malignant,0.02067,0.13619,0.84314
+IL_0793440,ISIC_1815891,Benign,NV,0,male,55.0,lower extremity,3,lower_extremity,0,Benign,0.66684,0.01742,0.31575
+IL_6727928,ISIC_1817508,Malignant,AKIEC,2,male,75.0,lower extremity,3,lower_extremity,2,Malignant,0.12554,0.00183,0.87263
+IL_1557433,ISIC_1826564,Malignant,BCC,2,male,70.0,,4,trunk,2,Malignant,0.41082,0.00916,0.58002
+IL_9101838,ISIC_1832093,Malignant,BCC,2,female,75.0,,3,trunk,2,Malignant,0.44854,0.00225,0.54921
+IL_0751731,ISIC_1859150,Malignant,BCC,2,male,50.0,upper extremity,3,upper_extremity,2,Malignant,0.00297,0.00021,0.99682
+IL_2082500,ISIC_1906798,Malignant,BCC,2,female,60.0,head/neck,5,head_neck_face,2,Malignant,0.02836,0.00527,0.96637
+IL_3451729,ISIC_1927934,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.01918,0.00446,0.97636
+IL_5315129,ISIC_1937581,Benign,BKL,0,female,60.0,head/neck,3,head_neck_face,2,Malignant,0.20036,0.01834,0.7813
+IL_6226671,ISIC_1949643,Malignant,BCC,2,female,50.0,upper extremity,3,upper_extremity,2,Malignant,0.02933,0.05218,0.91849
+IL_9166161,ISIC_1953687,Benign,NV,0,female,40.0,,3,trunk,2,Malignant,0.10903,0.00283,0.88814
+IL_7230788,ISIC_1954444,Benign,DF,0,male,65.0,upper extremity,4,upper_extremity,2,Malignant,0.293,0.0245,0.68251
+IL_3239005,ISIC_1960660,Malignant,SCCKA,2,male,55.0,lower extremity,3,lower_extremity,0,Benign,0.67326,6e-05,0.32668
+IL_5900922,ISIC_1970255,Benign,NV,0,male,30.0,lower extremity,3,lower_extremity,0,Benign,0.97949,0.00017,0.02034
+IL_1970176,ISIC_1978418,Malignant,MEL,2,female,70.0,lower extremity,2,lower_extremity,2,Malignant,0.00342,0.00047,0.99611
+IL_0820798,ISIC_1982635,Malignant,AKIEC,2,male,70.0,lower extremity,3,lower_extremity,2,Malignant,0.10844,0.01475,0.87681
+IL_4028485,ISIC_1994166,Malignant,MEL,2,male,55.0,,2,trunk,2,Malignant,0.33005,0.00516,0.66479
+IL_3682570,ISIC_2000821,Benign,NV,0,female,30.0,,4,trunk,0,Benign,0.67232,0.00099,0.32669
+IL_5753278,ISIC_2020398,Malignant,BCC,2,male,75.0,,3,trunk,2,Malignant,0.43464,0.00119,0.56417
+IL_3818681,ISIC_2031105,Malignant,SCCKA,2,male,70.0,head/neck,5,head_neck_face,0,Benign,0.96012,0.00428,0.0356
+IL_5557985,ISIC_2031349,Benign,NV,0,male,45.0,,3,,0,Benign,0.99051,0.00019,0.0093
+IL_9978605,ISIC_2036804,Malignant,BCC,2,male,65.0,upper extremity,3,upper_extremity,2,Malignant,0.00168,0.00017,0.99815
+IL_9471694,ISIC_2054135,Malignant,BCC,2,male,40.0,,3,trunk,2,Malignant,0.23101,0.01501,0.75398
+IL_9589211,ISIC_2059259,Benign,BKL,0,male,70.0,,3,trunk,0,Benign,0.99734,0.0,0.00266
+IL_6135781,ISIC_2087207,Malignant,BCC,2,female,65.0,head/neck,3,head_neck_face,2,Malignant,0.19585,0.09867,0.70548
+IL_2317693,ISIC_2119936,Benign,NV,0,female,30.0,,4,trunk,0,Benign,0.99764,0.00014,0.00222
+IL_9758278,ISIC_2127883,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.07115,0.00264,0.92622
+IL_6156024,ISIC_2146757,Malignant,BCC,2,female,80.0,,4,trunk,2,Malignant,0.49748,0.00326,0.49926
+IL_7743393,ISIC_2156383,Malignant,AKIEC,2,male,50.0,upper extremity,3,hand,2,Malignant,0.10366,0.00348,0.89286
+IL_2521173,ISIC_2170617,Benign,NV,0,male,60.0,,4,trunk,2,Malignant,0.00768,0.00028,0.99204
+IL_8907892,ISIC_2187348,Malignant,MAL_OTH,2,male,65.0,,2,trunk,0,Benign,0.81276,0.00212,0.18512
+IL_4284690,ISIC_2193524,Malignant,BCC,2,female,55.0,head/neck,5,head_neck_face,2,Malignant,0.31876,0.02624,0.655
+IL_0610224,ISIC_2204119,Malignant,SCCKA,2,female,75.0,,4,trunk,0,Benign,0.65341,0.00142,0.34516
+IL_5770532,ISIC_2205902,Benign,NV,0,female,50.0,head/neck,5,head_neck_face,0,Benign,0.84062,0.00756,0.15182
+IL_5235613,ISIC_2215299,Malignant,SCCKA,2,female,80.0,lower extremity,3,lower_extremity,2,Malignant,0.05071,0.00016,0.94914
+IL_7894855,ISIC_2215472,Indeterminate,AKIEC,1,male,70.0,head/neck,3,head_neck_face,1,Indeterminate,0.00321,0.98227,0.01452
+IL_1427039,ISIC_2220505,Malignant,MEL,2,female,55.0,head/neck,3,head_neck_face,0,Benign,0.86041,0.00886,0.13074
+IL_2134316,ISIC_2237025,Malignant,BCC,2,male,60.0,,4,trunk,2,Malignant,0.02846,0.00074,0.9708
+IL_6365837,ISIC_2252215,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.00117,9e-05,0.99874
+IL_3082764,ISIC_2304241,Benign,NV,0,female,20.0,,2,trunk,0,Benign,0.98954,2e-05,0.01044
+IL_8662506,ISIC_2320042,Benign,BKL,0,male,45.0,,4,trunk,0,Benign,0.99593,0.00017,0.0039
+IL_7534180,ISIC_2334810,Malignant,BCC,2,male,75.0,head/neck,4,head_neck_face,2,Malignant,0.04179,0.0168,0.94141
+IL_6296418,ISIC_2334974,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.04192,0.04198,0.9161
+IL_2918897,ISIC_2353418,Malignant,BCC,2,female,65.0,head/neck,3,head_neck_face,2,Malignant,0.03362,0.0027,0.96368
+IL_9875986,ISIC_2376821,Malignant,BCC,2,male,50.0,head/neck,3,head_neck_face,2,Malignant,0.00958,0.00311,0.9873
+IL_4537840,ISIC_2378919,Malignant,SCCKA,2,male,85.0,head/neck,5,head_neck_face,2,Malignant,0.15397,0.00189,0.84414
+IL_3844274,ISIC_2410311,Malignant,BCC,2,male,55.0,head/neck,3,head_neck_face,0,Benign,0.99011,0.00028,0.00961
+IL_1391368,ISIC_2418437,Malignant,SCCKA,2,male,85.0,head/neck,3,head_neck_face,2,Malignant,0.00311,0.00604,0.99085
+IL_1416084,ISIC_2440983,Malignant,BCC,2,female,45.0,head/neck,3,head_neck_face,0,Benign,0.71458,0.06473,0.22069
+IL_4421569,ISIC_2449691,Malignant,BCC,2,male,80.0,,3,trunk,2,Malignant,0.05095,0.00081,0.94825
+IL_4049256,ISIC_2470660,Malignant,BCC,2,male,70.0,upper extremity,3,upper_extremity,2,Malignant,0.03998,0.03318,0.92684
+IL_0617635,ISIC_2471655,Benign,BKL,0,male,80.0,upper extremity,3,upper_extremity,2,Malignant,0.00289,0.00182,0.99529
+IL_9629068,ISIC_2485009,Malignant,BCC,2,male,60.0,upper extremity,3,upper_extremity,2,Malignant,0.26883,0.00081,0.73036
+IL_7743352,ISIC_2501558,Benign,BEN_OTH,0,female,50.0,head/neck,3,head_neck_face,0,Benign,0.82389,0.0386,0.1375
+IL_0548137,ISIC_2501939,Malignant,AKIEC,2,male,55.0,upper extremity,3,upper_extremity,2,Malignant,0.00073,0.00126,0.99801
+IL_6520783,ISIC_2508643,Malignant,BCC,2,female,70.0,upper extremity,3,upper_extremity,2,Malignant,0.00608,0.00573,0.98818
+IL_7709757,ISIC_2533333,Malignant,BCC,2,male,80.0,,3,trunk,2,Malignant,0.0125,9e-05,0.98741
+IL_0752294,ISIC_2565230,Malignant,BCC,2,female,75.0,lower extremity,3,lower_extremity,2,Malignant,0.0835,0.00429,0.91221
+IL_1131642,ISIC_2567925,Malignant,BCC,2,male,50.0,,3,trunk,2,Malignant,0.00303,0.00021,0.99677
+IL_6687595,ISIC_2580974,Malignant,AKIEC,2,male,65.0,,3,trunk,2,Malignant,0.10439,0.01316,0.88245
+IL_0507774,ISIC_2601363,Malignant,BCC,2,female,60.0,lower extremity,4,lower_extremity,2,Malignant,0.03384,0.00638,0.95979
+IL_6313730,ISIC_2627411,Malignant,BCC,2,female,30.0,upper extremity,4,upper_extremity,2,Malignant,0.01395,6e-05,0.98599
+IL_5928623,ISIC_2633032,Benign,BKL,0,male,60.0,head/neck,3,head_neck_face,2,Malignant,0.06837,0.09008,0.84155
+IL_0019655,ISIC_2641217,Malignant,MEL,2,male,60.0,,3,trunk,0,Benign,0.9566,0.00564,0.03776
+IL_7523835,ISIC_2641644,Benign,NV,0,male,50.0,,3,trunk,0,Benign,0.99989,0.0,0.00011
+IL_4978975,ISIC_2646200,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.07897,0.01062,0.91041
+IL_0982091,ISIC_2654339,Malignant,BCC,2,male,45.0,head/neck,3,head_neck_face,2,Malignant,0.12062,0.00043,0.87896
+IL_7746701,ISIC_2683795,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.01963,0.0096,0.97077
+IL_2783925,ISIC_2689544,Malignant,BCC,2,female,70.0,,3,trunk,2,Malignant,0.05183,0.01376,0.93441
+IL_3487572,ISIC_2698174,Malignant,SCCKA,2,male,85.0,head/neck,3,head_neck_face,2,Malignant,0.01718,0.01021,0.97261
+IL_6916787,ISIC_2710427,Malignant,MEL,2,female,50.0,head/neck,3,head_neck_face,0,Benign,0.81878,0.00412,0.1771
+IL_5040782,ISIC_2738904,Benign,BKL,0,female,60.0,lower extremity,5,lower_extremity,0,Benign,0.80131,0.05101,0.14767
+IL_4744956,ISIC_2741156,Malignant,BCC,2,male,85.0,upper extremity,4,upper_extremity,2,Malignant,0.03862,0.00739,0.95399
+IL_3565320,ISIC_2753382,Malignant,MEL,2,male,50.0,lower extremity,3,lower_extremity,0,Benign,0.98395,0.00024,0.0158
+IL_9708256,ISIC_2770868,Malignant,SCCKA,2,male,70.0,lower extremity,4,lower_extremity,2,Malignant,0.0029,0.001,0.99611
+IL_0169358,ISIC_2799124,Benign,BKL,0,male,55.0,,4,trunk,0,Benign,0.6588,0.01183,0.32937
+IL_9091693,ISIC_2803954,Malignant,BCC,2,female,40.0,,3,trunk,2,Malignant,1e-04,0.00011,0.99979
+IL_6812104,ISIC_2826779,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.04518,0.00128,0.95354
+IL_8572700,ISIC_2839614,Malignant,BCC,2,male,80.0,head/neck,3,head_neck_face,2,Malignant,0.00107,1e-04,0.99884
+IL_5733908,ISIC_2843665,Malignant,MEL,2,female,35.0,head/neck,4,head_neck_face,0,Benign,0.75114,0.00854,0.24032
+IL_1313145,ISIC_2846167,Benign,BKL,0,male,55.0,,3,trunk,2,Malignant,0.00161,0.00047,0.99791
+IL_1225900,ISIC_2847750,Malignant,BCC,2,male,55.0,head/neck,4,head_neck_face,2,Malignant,0.17979,0.00064,0.81957
+IL_5798814,ISIC_2855242,Benign,NV,0,male,40.0,,2,trunk,0,Benign,0.98586,0.00105,0.01309
+IL_3644739,ISIC_2861892,Benign,NV,0,male,85.0,,5,trunk,0,Benign,0.9762,0.00088,0.02292
+IL_0262433,ISIC_2913187,Indeterminate,AKIEC,1,male,70.0,head/neck,2,head_neck_face,1,Indeterminate,0.02751,0.95472,0.01777
+IL_3884933,ISIC_2914456,Malignant,BCC,2,male,45.0,head/neck,3,head_neck_face,0,Benign,0.93199,0.00648,0.06153
+IL_1544139,ISIC_2919752,Malignant,SCCKA,2,male,50.0,,3,trunk,2,Malignant,0.01448,8e-05,0.98545
+IL_7940673,ISIC_2926418,Malignant,MEL,2,male,45.0,,3,trunk,0,Benign,0.9984,1e-05,0.00159
+IL_5725802,ISIC_2961262,Benign,NV,0,male,55.0,lower extremity,4,lower_extremity,0,Benign,0.99418,7e-05,0.00575
+IL_9840660,ISIC_2962014,Benign,DF,0,male,25.0,lower extremity,1,lower_extremity,0,Benign,0.68517,0.00325,0.31158
+IL_5732372,ISIC_2990629,Malignant,BCC,2,male,60.0,,4,trunk,2,Malignant,0.00127,0.00078,0.99795
+IL_2707653,ISIC_2991167,Malignant,BCC,2,female,65.0,lower extremity,3,lower_extremity,2,Malignant,0.01898,0.00177,0.97925
+IL_7644986,ISIC_3032522,Malignant,BCC,2,male,55.0,lower extremity,3,lower_extremity,2,Malignant,0.0163,0.04325,0.94045
+IL_4644252,ISIC_3033732,Benign,NV,0,female,40.0,lower extremity,4,lower_extremity,0,Benign,0.99085,0.00025,0.0089
+IL_0465605,ISIC_3045480,Malignant,MEL,2,male,60.0,,4,trunk,0,Benign,0.91652,0.00185,0.08163
+IL_9353548,ISIC_3050024,Malignant,BCC,2,female,75.0,head/neck,5,head_neck_face,2,Malignant,0.00545,0.00239,0.99216
+IL_9375676,ISIC_3066491,Malignant,MEL,2,male,70.0,head/neck,3,head_neck_face,0,Benign,0.97715,0.00309,0.01976
+IL_3090203,ISIC_3085694,Benign,BEN_OTH,0,male,60.0,head/neck,3,head_neck_face,2,Malignant,0.33572,0.01663,0.64765
+IL_8788016,ISIC_3094600,Malignant,BCC,2,male,60.0,head/neck,4,head_neck_face,2,Malignant,0.01974,0.00072,0.97954
+IL_8813361,ISIC_3122081,Malignant,SCCKA,2,male,70.0,upper extremity,4,upper_extremity,2,Malignant,0.01087,0.00013,0.989
+IL_2988717,ISIC_3155654,Benign,BKL,0,male,85.0,upper extremity,3,upper_extremity,2,Malignant,0.01926,0.00518,0.97555
+IL_4968096,ISIC_3159699,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.04701,0.00011,0.95288
+IL_9180123,ISIC_3162488,Benign,NV,0,female,65.0,lower extremity,3,lower_extremity,0,Benign,0.74494,0.01731,0.23774
+IL_3052148,ISIC_3163093,Malignant,BCC,2,male,65.0,head/neck,5,head_neck_face,2,Malignant,0.22072,0.15878,0.62049
+IL_6156218,ISIC_3164108,Malignant,MEL,2,female,70.0,head/neck,3,head_neck_face,2,Malignant,0.30811,0.31846,0.37342
+IL_0076383,ISIC_3175755,Benign,BKL,0,female,70.0,head/neck,3,head_neck_face,0,Benign,0.79589,0.00916,0.19495
+IL_2141966,ISIC_3183046,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.35943,0.0113,0.62927
+IL_3424617,ISIC_3191687,Benign,NV,0,male,70.0,upper extremity,2,upper_extremity,0,Benign,0.63465,0.00697,0.35838
+IL_5627565,ISIC_3197377,Malignant,BCC,2,female,75.0,,3,trunk,2,Malignant,0.00075,0.00347,0.99578
+IL_3319164,ISIC_3204093,Malignant,AKIEC,2,male,85.0,upper extremity,3,upper_extremity,2,Malignant,0.00575,0.00093,0.99332
+IL_9179021,ISIC_3210379,Malignant,BCC,2,female,55.0,lower extremity,4,lower_extremity,2,Malignant,0.00496,0.00221,0.99283
+IL_0967073,ISIC_3252559,Malignant,SCCKA,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.0204,5e-05,0.97955
+IL_2433161,ISIC_3259871,Malignant,MEL,2,male,50.0,,4,trunk,2,Malignant,0.23019,0.01761,0.75221
+IL_3249139,ISIC_3268800,Malignant,MEL,2,male,25.0,,3,trunk,0,Benign,0.91531,0.00037,0.08432
+IL_9871748,ISIC_3280000,Malignant,BCC,2,male,50.0,lower extremity,3,foot,2,Malignant,0.06334,0.00125,0.93541
+IL_4639886,ISIC_3302174,Malignant,SCCKA,2,female,85.0,lower extremity,4,lower_extremity,2,Malignant,0.00719,0.00016,0.99265
+IL_1075637,ISIC_3303065,Benign,BEN_OTH,0,male,40.0,,2,trunk,0,Benign,0.70183,0.00092,0.29725
+IL_3518780,ISIC_3313166,Malignant,BCC,2,female,85.0,head/neck,3,head_neck_face,2,Malignant,0.00189,0.00071,0.9974
+IL_2172033,ISIC_3327943,Malignant,BCC,2,male,60.0,head/neck,5,head_neck_face,2,Malignant,0.00282,0.00018,0.997
+IL_3570537,ISIC_3343865,Indeterminate,AKIEC,1,male,65.0,head/neck,2,head_neck_face,1,Indeterminate,0.00283,0.99622,0.00095
+IL_0903975,ISIC_3352589,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.03836,0.00919,0.95245
+IL_6599749,ISIC_3360186,Benign,NV,0,female,25.0,,2,trunk,0,Benign,0.99892,2e-05,0.00106
+IL_5259261,ISIC_3362890,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.00719,0.00108,0.99173
+IL_7705011,ISIC_3392397,Malignant,BCC,2,male,60.0,lower extremity,3,lower_extremity,0,Benign,0.69016,0.00069,0.30915
+IL_8658177,ISIC_3405243,Benign,BKL,0,female,80.0,head/neck,3,head_neck_face,0,Benign,0.76364,0.00204,0.23432
+IL_8376298,ISIC_3418096,Benign,DF,0,male,45.0,,2,trunk,0,Benign,0.99865,1e-05,0.00134
+IL_8462731,ISIC_3428486,Indeterminate,AKIEC,1,male,75.0,upper extremity,3,upper_extremity,2,Malignant,0.09333,0.00207,0.9046
+IL_9899181,ISIC_3432012,Malignant,BCC,2,male,85.0,head/neck,3,head_neck_face,2,Malignant,0.00642,0.00849,0.9851
+IL_1151731,ISIC_3468250,Malignant,BCC,2,male,70.0,head/neck,5,head_neck_face,0,Benign,0.59908,0.00158,0.39935
+IL_0097046,ISIC_3480084,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.0069,0.00189,0.99121
+IL_7965758,ISIC_3487034,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.32975,0.01891,0.65134
+IL_5033079,ISIC_3494647,Malignant,SCCKA,2,male,60.0,upper extremity,3,upper_extremity,2,Malignant,0.00847,0.00122,0.99031
+IL_7948272,ISIC_3501503,Malignant,BCC,2,female,70.0,lower extremity,3,lower_extremity,2,Malignant,0.02417,0.00571,0.97012
+IL_3824420,ISIC_3515780,Benign,NV,0,male,35.0,,3,trunk,0,Benign,0.98011,0.00073,0.01916
+IL_1749756,ISIC_3518193,Benign,BKL,0,female,60.0,,3,trunk,0,Benign,0.99611,0.00031,0.00358
+IL_7987633,ISIC_3518967,Malignant,BCC,2,male,50.0,head/neck,4,head_neck_face,0,Benign,0.82585,0.00677,0.16738
+IL_7209123,ISIC_3527498,Malignant,BCC,2,male,75.0,,3,trunk,2,Malignant,0.00382,0.00085,0.99533
+IL_0927709,ISIC_3535882,Malignant,MEL,2,male,70.0,head/neck,2,head_neck_face,2,Malignant,0.00503,0.00022,0.99475
+IL_5829281,ISIC_3537131,Malignant,BCC,2,female,65.0,lower extremity,3,lower_extremity,2,Malignant,0.00719,0.00126,0.99156
+IL_0956761,ISIC_3568310,Malignant,BCC,2,male,65.0,upper extremity,4,hand,2,Malignant,0.01889,0.00994,0.97116
+IL_6480274,ISIC_3578842,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.02725,0.00905,0.9637
+IL_4344178,ISIC_3594638,Benign,NV,0,male,65.0,,2,trunk,0,Benign,0.71941,0.00181,0.27878
+IL_7167860,ISIC_3602145,Benign,INF,0,male,45.0,head/neck,0,head_neck_face,0,Benign,0.80568,0.03161,0.16271
+IL_7619356,ISIC_3612044,Benign,NV,0,male,65.0,,3,trunk,0,Benign,0.6356,0.00252,0.36188
+IL_0436732,ISIC_3620839,Malignant,MEL,2,female,75.0,,3,trunk,2,Malignant,0.05413,0.00265,0.94322
+IL_9300732,ISIC_3623141,Benign,BKL,0,female,50.0,,3,trunk,2,Malignant,0.07183,0.00223,0.92594
+IL_7871086,ISIC_3644082,Malignant,BCC,2,female,55.0,head/neck,3,head_neck_face,2,Malignant,0.04664,0.2367,0.71666
+IL_3347593,ISIC_3658823,Malignant,BCC,2,female,65.0,,5,trunk,2,Malignant,0.19302,0.00138,0.8056
+IL_5287926,ISIC_3668445,Benign,NV,0,female,65.0,head/neck,3,head_neck_face,0,Benign,0.9347,0.02234,0.04296
+IL_8339852,ISIC_3670069,Malignant,MEL,2,female,30.0,lower extremity,2,lower_extremity,0,Benign,0.97188,0.00173,0.02638
+IL_2274698,ISIC_3689085,Malignant,BCC,2,female,50.0,,3,trunk,2,Malignant,0.01532,0.01225,0.97243
+IL_0041758,ISIC_3704603,Malignant,MEL,2,female,40.0,,3,trunk,0,Benign,0.71606,0.01337,0.27057
+IL_4756985,ISIC_3705158,Malignant,BCC,2,male,80.0,head/neck,3,head_neck_face,2,Malignant,0.00365,0.00186,0.99449
+IL_6182849,ISIC_3737700,Malignant,BCC,2,female,65.0,lower extremity,3,lower_extremity,2,Malignant,0.00656,0.00047,0.99297
+IL_6016722,ISIC_3765481,Malignant,BCC,2,male,65.0,head/neck,4,head_neck_face,2,Malignant,0.0112,0.06176,0.92704
+IL_6344914,ISIC_3772519,Benign,NV,0,female,40.0,,2,trunk,0,Benign,0.99341,0.00033,0.00625
+IL_6084278,ISIC_3773277,Malignant,MEL,2,male,65.0,,4,trunk,2,Malignant,0.335,0.00743,0.65757
+IL_9992890,ISIC_3782736,Malignant,BCC,2,male,85.0,lower extremity,5,foot,2,Malignant,0.15814,0.00055,0.84131
+IL_0105755,ISIC_3783885,Malignant,BCC,2,female,65.0,head/neck,4,head_neck_face,2,Malignant,0.00424,0.00011,0.99565
+IL_4429856,ISIC_3788301,Malignant,SCCKA,2,male,85.0,,3,trunk,2,Malignant,0.00271,0.00069,0.9966
+IL_7523112,ISIC_3788989,Malignant,BCC,2,male,55.0,lower extremity,3,lower_extremity,2,Malignant,0.29446,0.0144,0.69113
+IL_2925087,ISIC_3789914,Malignant,AKIEC,2,male,60.0,,3,trunk,2,Malignant,0.35627,0.01139,0.63234
+IL_6097327,ISIC_3794267,Malignant,SCCKA,2,male,60.0,lower extremity,3,lower_extremity,2,Malignant,0.02762,0.00867,0.96371
+IL_0864051,ISIC_3820500,Malignant,BCC,2,male,40.0,head/neck,3,head_neck_face,2,Malignant,0.03964,0.00143,0.95893
+IL_9617690,ISIC_3824264,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.29379,0.00708,0.69913
+IL_5439022,ISIC_3831165,Benign,NV,0,male,65.0,,3,trunk,2,Malignant,0.42744,0.0471,0.52547
+IL_1120917,ISIC_3869104,Benign,NV,0,male,35.0,,3,trunk,0,Benign,0.96918,0.00057,0.03025
+IL_6550593,ISIC_3873824,Malignant,BCC,2,female,60.0,head/neck,4,head_neck_face,2,Malignant,0.11177,0.00376,0.88447
+IL_0033882,ISIC_3881896,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.1162,0.01162,0.87219
+IL_0963446,ISIC_3918888,Malignant,BCC,2,female,65.0,head/neck,3,head_neck_face,2,Malignant,0.00145,0.00372,0.99483
+IL_9998211,ISIC_3959129,Benign,NV,0,male,70.0,,2,trunk,0,Benign,0.723,0.01405,0.26294
+IL_7199069,ISIC_4051799,Malignant,BCC,2,male,60.0,head/neck,4,head_neck_face,2,Malignant,0.01422,0.00582,0.97995
+IL_3577604,ISIC_4072524,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.02576,0.0052,0.96904
+IL_3694094,ISIC_4090560,Malignant,BCC,2,male,65.0,upper extremity,3,upper_extremity,2,Malignant,0.03397,0.0024,0.96363
+IL_8186190,ISIC_4093606,Malignant,BCC,2,female,75.0,lower extremity,3,lower_extremity,2,Malignant,0.0011,8e-05,0.99882
+IL_0375356,ISIC_4117748,Malignant,MEL,2,male,75.0,head/neck,2,head_neck_face,0,Benign,0.56539,0.00274,0.43187
+IL_7389782,ISIC_4158219,Malignant,BCC,2,male,80.0,,3,trunk,2,Malignant,0.24026,0.00449,0.75526
+IL_2621317,ISIC_4200513,Malignant,SCCKA,2,male,70.0,upper extremity,3,upper_extremity,2,Malignant,0.00275,0.00029,0.99696
+IL_7462032,ISIC_4215075,Malignant,BCC,2,male,60.0,,3,trunk,2,Malignant,0.02211,0.0025,0.97539
+IL_4530346,ISIC_4225552,Malignant,BCC,2,male,65.0,upper extremity,3,upper_extremity,2,Malignant,0.00875,0.00467,0.98658
+IL_6802806,ISIC_4236187,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.01333,0.00418,0.98248
+IL_8110471,ISIC_4247695,Benign,BKL,0,female,60.0,lower extremity,4,lower_extremity,0,Benign,0.99954,0.0,0.00046
+IL_1300499,ISIC_4282506,Malignant,MEL,2,male,55.0,upper extremity,2,upper_extremity,0,Benign,0.99239,9e-05,0.00752
+IL_6665105,ISIC_4302597,Indeterminate,AKIEC,1,male,75.0,upper extremity,3,upper_extremity,2,Malignant,0.11422,0.05303,0.83275
+IL_0787420,ISIC_4311112,Malignant,MEL,2,male,55.0,lower extremity,4,lower_extremity,2,Malignant,0.0403,0.00232,0.95738
+IL_8584799,ISIC_4311703,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.04493,0.04968,0.9054
+IL_8151298,ISIC_4325605,Benign,NV,0,female,45.0,lower extremity,2,lower_extremity,0,Benign,0.99672,0.00021,0.00306
+IL_9554653,ISIC_4338535,Malignant,BCC,2,female,50.0,head/neck,5,head_neck_face,2,Malignant,0.01148,0.00302,0.9855
+IL_1794572,ISIC_4346905,Malignant,BCC,2,male,40.0,head/neck,3,head_neck_face,2,Malignant,0.4026,0.04702,0.55038
+IL_5779680,ISIC_4351882,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.07182,0.01191,0.91626
+IL_9737079,ISIC_4370328,Malignant,BCC,2,female,65.0,head/neck,5,head_neck_face,1,Indeterminate,0.29242,0.57015,0.13743
+IL_1222046,ISIC_4385584,Benign,BEN_OTH,0,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.13497,0.01843,0.8466
+IL_2609201,ISIC_4388573,Benign,NV,0,male,50.0,,3,trunk,0,Benign,0.98567,0.00035,0.01398
+IL_9600474,ISIC_4410078,Malignant,BCC,2,female,70.0,upper extremity,5,upper_extremity,2,Malignant,0.05144,0.00744,0.94112
+IL_2610875,ISIC_4416938,Malignant,BCC,2,female,70.0,upper extremity,3,upper_extremity,2,Malignant,0.02941,0.00826,0.96233
+IL_1353481,ISIC_4442146,Malignant,BCC,2,male,60.0,lower extremity,3,lower_extremity,0,Benign,0.7328,0.00022,0.26698
+IL_3211477,ISIC_4470805,Malignant,BCC,2,male,65.0,head/neck,4,head_neck_face,2,Malignant,0.00902,0.00112,0.98987
+IL_9391328,ISIC_4480326,Malignant,BCC,2,male,50.0,head/neck,5,head_neck_face,2,Malignant,0.00433,0.00027,0.99541
+IL_7216182,ISIC_4482209,Malignant,BCC,2,male,50.0,lower extremity,4,lower_extremity,2,Malignant,0.03438,0.00408,0.96154
+IL_8148828,ISIC_4485409,Malignant,BCC,2,male,35.0,,5,trunk,0,Benign,0.58695,0.001,0.41205
+IL_3986859,ISIC_4489369,Malignant,BCC,2,male,50.0,,4,trunk,0,Benign,0.51036,0.03843,0.45121
+IL_1726538,ISIC_4490295,Benign,NV,0,female,45.0,,3,trunk,2,Malignant,0.23951,0.00858,0.75192
+IL_6853458,ISIC_4490552,Malignant,BCC,2,male,55.0,,4,trunk,2,Malignant,0.02065,0.0449,0.93445
+IL_1099248,ISIC_4494886,Malignant,BCC,2,male,55.0,upper extremity,3,upper_extremity,2,Malignant,0.00032,3e-05,0.99965
+IL_6618073,ISIC_4503581,Benign,NV,0,female,60.0,upper extremity,3,upper_extremity,0,Benign,0.83287,0.0043,0.16282
+IL_0549977,ISIC_4506914,Malignant,BCC,2,male,80.0,,0,trunk,2,Malignant,0.0009,0.00362,0.99547
+IL_3961621,ISIC_4562629,Malignant,BCC,2,male,65.0,head/neck,3,head_neck_face,2,Malignant,0.17695,0.17063,0.65242
+IL_9570046,ISIC_4564958,Malignant,BCC,2,female,60.0,lower extremity,3,lower_extremity,2,Malignant,0.1494,0.00589,0.84471
+IL_2409650,ISIC_4573444,Malignant,BCC,2,male,75.0,lower extremity,5,lower_extremity,2,Malignant,0.05888,0.01912,0.92199
+IL_2055704,ISIC_4584962,Benign,NV,0,female,40.0,head/neck,2,head_neck_face,0,Benign,0.71794,0.00416,0.2779
+IL_8484491,ISIC_4589630,Malignant,BCC,2,male,55.0,head/neck,5,head_neck_face,2,Malignant,0.00105,0.00099,0.99796
+IL_7348200,ISIC_4591575,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.22762,0.00456,0.76782
+IL_9363657,ISIC_4599000,Malignant,BCC,2,male,55.0,lower extremity,3,lower_extremity,2,Malignant,0.03655,0.00068,0.96276
+IL_8445981,ISIC_4599594,Malignant,BCC,2,female,65.0,lower extremity,3,lower_extremity,2,Malignant,0.00629,0.00557,0.98815
+IL_0758206,ISIC_4601154,Malignant,MEL,2,male,30.0,,5,trunk,2,Malignant,0.48974,0.01008,0.50018
+IL_3087149,ISIC_4632123,Benign,BKL,0,female,65.0,upper extremity,3,upper_extremity,2,Malignant,0.01373,0.00068,0.98559
+IL_5152283,ISIC_4639628,Malignant,BCC,2,male,85.0,head/neck,3,head_neck_face,2,Malignant,0.00148,5e-05,0.99847
+IL_0487689,ISIC_4640009,Benign,NV,0,female,65.0,,4,trunk,0,Benign,0.82934,0.00059,0.17007
+IL_5834999,ISIC_4668008,Indeterminate,AKIEC,1,female,85.0,lower extremity,3,foot,0,Benign,0.75235,0.0015,0.24615
+IL_1090086,ISIC_4674125,Malignant,BCC,2,female,35.0,head/neck,3,head_neck_face,0,Benign,0.50286,0.00261,0.49453
+IL_1203056,ISIC_4679707,Benign,NV,0,female,50.0,lower extremity,4,lower_extremity,0,Benign,0.99763,0.00024,0.00213
+IL_4840616,ISIC_4683265,Malignant,BCC,2,male,75.0,,4,trunk,2,Malignant,0.17957,0.00275,0.81768
+IL_9292701,ISIC_4690427,Malignant,SCCKA,2,male,60.0,,4,trunk,2,Malignant,0.04316,0.00657,0.95027
+IL_5846889,ISIC_4716627,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.05563,0.17915,0.76522
+IL_2648810,ISIC_4720694,Malignant,BCC,2,female,70.0,,3,trunk,2,Malignant,0.03892,0.00234,0.95874
+IL_1288672,ISIC_4729676,Malignant,BCC,2,male,60.0,,4,trunk,2,Malignant,0.06931,0.00096,0.92973
+IL_2286275,ISIC_4733429,Malignant,BCC,2,male,60.0,head/neck,3,head_neck_face,0,Benign,0.53347,0.01025,0.45628
+IL_8566175,ISIC_4780938,Malignant,BCC,2,male,75.0,,3,trunk,2,Malignant,0.01056,0.00023,0.98921
+IL_3991500,ISIC_4785619,Benign,NV,0,male,40.0,,5,trunk,0,Benign,0.9954,0.00022,0.00437
+IL_5033340,ISIC_4787120,Benign,NV,0,female,70.0,lower extremity,3,lower_extremity,0,Benign,0.87746,0.00617,0.11637
+IL_4641431,ISIC_4794413,Malignant,BCC,2,female,85.0,head/neck,5,head_neck_face,2,Malignant,0.02275,0.00809,0.96916
+IL_2263451,ISIC_4822631,Malignant,BCC,2,male,60.0,,4,trunk,2,Malignant,0.01509,0.01478,0.97013
+IL_7762998,ISIC_4849906,Malignant,BCC,2,male,75.0,head/neck,3,head_neck_face,1,Indeterminate,0.01158,0.54909,0.43933
+IL_6322114,ISIC_4851411,Malignant,BCC,2,male,80.0,lower extremity,3,lower_extremity,2,Malignant,0.01004,0.00492,0.98504
+IL_9322216,ISIC_4896814,Malignant,SCCKA,2,female,75.0,lower extremity,3,lower_extremity,2,Malignant,0.0815,0.00238,0.91613
+IL_5324666,ISIC_4910424,Malignant,BCC,2,female,65.0,,3,trunk,2,Malignant,0.03061,0.00861,0.96077
+IL_1510895,ISIC_4919090,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.13993,0.00074,0.85933
+IL_2194640,ISIC_4964428,Malignant,BCC,2,female,70.0,head/neck,3,head_neck_face,2,Malignant,0.06019,0.00276,0.93705
+IL_1763474,ISIC_4971008,Malignant,BCC,2,male,75.0,,5,trunk,0,Benign,0.61497,0.00998,0.37506
+IL_7811339,ISIC_5000414,Malignant,BCC,2,male,60.0,,3,trunk,2,Malignant,0.00567,0.00099,0.99335
+IL_2577836,ISIC_5003991,Malignant,SCCKA,2,female,65.0,lower extremity,3,lower_extremity,2,Malignant,0.00146,0.00045,0.99809
+IL_1962759,ISIC_5020961,Benign,NV,0,male,,upper extremity,4,upper_extremity,2,Malignant,0.42213,0.00415,0.57372
+IL_6762452,ISIC_5022439,Malignant,BCC,2,female,45.0,,2,trunk,2,Malignant,0.04728,0.0009,0.95182
+IL_5438158,ISIC_5022731,Benign,NV,0,female,30.0,lower extremity,4,lower_extremity,0,Benign,0.86538,0.00598,0.12863
+IL_7274856,ISIC_5027597,Benign,BKL,0,male,70.0,upper extremity,3,upper_extremity,2,Malignant,0.02682,0.00027,0.97291
+IL_4706609,ISIC_5042253,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.01006,0.00138,0.98856
+IL_1936294,ISIC_5044856,Malignant,BCC,2,female,60.0,lower extremity,3,lower_extremity,2,Malignant,0.00123,0.00044,0.99833
+IL_3824346,ISIC_5050587,Malignant,SCCKA,2,male,85.0,head/neck,2,head_neck_face,2,Malignant,0.00058,0.01061,0.98882
+IL_3288757,ISIC_5055083,Benign,NV,0,male,70.0,,2,trunk,0,Benign,0.96137,0.00081,0.03782
+IL_6226782,ISIC_5085980,Malignant,BCC,2,male,55.0,lower extremity,3,lower_extremity,2,Malignant,0.05394,0.00939,0.93667
+IL_1967474,ISIC_5099169,Benign,VASC,0,male,15.0,,4,trunk,0,Benign,0.94452,0.003,0.05248
+IL_5752488,ISIC_5104415,Indeterminate,AKIEC,1,male,55.0,head/neck,2,head_neck_face,1,Indeterminate,0.0153,0.98211,0.00258
+IL_6179190,ISIC_5116256,Malignant,BCC,2,male,70.0,head/neck,4,head_neck_face,2,Malignant,0.05007,0.00581,0.94412
+IL_1567374,ISIC_5124607,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.10584,0.00557,0.88858
+IL_8643718,ISIC_5126567,Malignant,MEL,2,male,85.0,head/neck,3,head_neck_face,2,Malignant,0.07498,0.00478,0.92024
+IL_5655244,ISIC_5157495,Benign,NV,0,male,50.0,lower extremity,5,lower_extremity,0,Benign,0.99401,0.00013,0.00586
+IL_6169733,ISIC_5158158,Malignant,BCC,2,female,60.0,lower extremity,3,lower_extremity,2,Malignant,0.00989,0.00041,0.9897
+IL_3199260,ISIC_5159139,Benign,BKL,0,female,70.0,,3,trunk,0,Benign,0.71081,4e-05,0.28916
+IL_6116581,ISIC_5164646,Benign,BKL,0,male,55.0,,3,trunk,0,Benign,0.99936,0.0,0.00064
+IL_2526379,ISIC_5175946,Benign,NV,0,female,30.0,lower extremity,3,lower_extremity,0,Benign,0.87613,0.00184,0.12203
+IL_3734319,ISIC_5185588,Malignant,BCC,2,female,65.0,head/neck,3,head_neck_face,2,Malignant,0.43941,0.00174,0.55885
+IL_1921779,ISIC_5191763,Malignant,BCC,2,male,40.0,,3,trunk,2,Malignant,0.44132,0.08651,0.47217
+IL_8885600,ISIC_5200686,Malignant,BCC,2,male,65.0,upper extremity,3,upper_extremity,0,Benign,0.50649,0.03156,0.46195
+IL_6555655,ISIC_5213643,Malignant,BCC,2,male,55.0,head/neck,3,head_neck_face,2,Malignant,0.03777,0.05009,0.91214
+IL_6717785,ISIC_5239106,Benign,NV,0,female,50.0,,3,trunk,0,Benign,0.99002,0.00126,0.00873
+IL_0332363,ISIC_5273681,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.01484,0.02508,0.96008
+IL_6193516,ISIC_5286872,Malignant,BCC,2,female,55.0,,3,trunk,2,Malignant,0.0104,0.00188,0.98772
+IL_2612192,ISIC_5313254,Malignant,BCC,2,female,65.0,,3,trunk,2,Malignant,0.04393,0.00395,0.95213
+IL_5375846,ISIC_5342950,Malignant,SCCKA,2,male,60.0,head/neck,4,head_neck_face,2,Malignant,0.04277,0.00164,0.95559
+IL_7716473,ISIC_5350286,Malignant,BCC,2,female,80.0,,3,trunk,2,Malignant,0.17073,0.00113,0.82814
+IL_4829953,ISIC_5350988,Malignant,MEL,2,male,75.0,,1,trunk,2,Malignant,0.01559,0.00189,0.98251
+IL_9608485,ISIC_5358212,Benign,NV,0,male,30.0,,2,trunk,0,Benign,0.99441,0.00041,0.00518
+IL_4068514,ISIC_5360213,Malignant,BCC,2,male,85.0,head/neck,4,head_neck_face,2,Malignant,0.00402,0.00669,0.98929
+IL_0003176,ISIC_5371928,Malignant,BCC,2,female,45.0,head/neck,5,head_neck_face,0,Benign,0.7712,0.13915,0.08966
+IL_9876124,ISIC_5380414,Malignant,BCC,2,male,65.0,head/neck,3,head_neck_face,2,Malignant,0.01114,0.00052,0.98835
+IL_7775733,ISIC_5386166,Benign,BKL,0,male,50.0,head/neck,3,head_neck_face,0,Benign,0.96293,0.00478,0.03229
+IL_5675796,ISIC_5402488,Benign,BKL,0,male,65.0,,3,trunk,2,Malignant,0.06486,0.0016,0.93354
+IL_2689946,ISIC_5415740,Benign,BKL,0,female,85.0,,3,trunk,2,Malignant,0.07313,0.03219,0.89468
+IL_7373612,ISIC_5434141,Malignant,BCC,2,female,40.0,upper extremity,3,upper_extremity,2,Malignant,0.01465,0.00598,0.97937
+IL_5571355,ISIC_5442968,Malignant,MEL,2,female,70.0,,4,trunk,2,Malignant,0.48619,0.00134,0.51247
+IL_3020012,ISIC_5452980,Malignant,MEL,2,female,30.0,upper extremity,4,upper_extremity,0,Benign,0.96729,0.00041,0.03231
+IL_4629787,ISIC_5501634,Malignant,BCC,2,male,60.0,lower extremity,3,lower_extremity,2,Malignant,0.3016,0.00024,0.69816
+IL_5310317,ISIC_5503515,Malignant,BCC,2,female,60.0,lower extremity,3,lower_extremity,2,Malignant,0.07993,0.0208,0.89927
+IL_2974900,ISIC_5511950,Malignant,BCC,2,male,70.0,,5,trunk,2,Malignant,0.06933,0.00811,0.92257
+IL_4476860,ISIC_5517161,Benign,NV,0,female,40.0,,2,trunk,0,Benign,0.99975,0.0,0.00024
+IL_2208727,ISIC_5548095,Malignant,BCC,2,male,60.0,head/neck,5,head_neck_face,0,Benign,0.58612,0.00053,0.41335
+IL_5604150,ISIC_5566852,Malignant,SCCKA,2,male,70.0,,3,trunk,2,Malignant,0.10337,0.01858,0.87805
+IL_7333978,ISIC_5602394,Malignant,MEL,2,male,85.0,,3,trunk,0,Benign,0.57627,0.00094,0.42279
+IL_6831423,ISIC_5602759,Benign,BKL,0,male,75.0,upper extremity,3,upper_extremity,0,Benign,0.44481,0.40683,0.14836
+IL_1104647,ISIC_5616230,Malignant,BCC,2,male,50.0,,4,trunk,2,Malignant,0.00017,0.00047,0.99936
+IL_4986261,ISIC_5622324,Indeterminate,AKIEC,1,male,75.0,head/neck,3,head_neck_face,2,Malignant,0.09118,0.11238,0.79643
+IL_8383981,ISIC_5624559,Malignant,BCC,2,female,60.0,lower extremity,3,lower_extremity,2,Malignant,0.12906,0.00095,0.86999
+IL_5490327,ISIC_5634198,Malignant,BCC,2,male,85.0,,3,trunk,2,Malignant,0.01059,0.0173,0.97211
+IL_5555237,ISIC_5638742,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.00617,0.00019,0.99364
+IL_2983051,ISIC_5679759,Malignant,BCC,2,male,75.0,,5,trunk,2,Malignant,0.01256,0.00053,0.98691
+IL_0215570,ISIC_5693691,Malignant,BCC,2,female,75.0,,3,trunk,0,Benign,0.55323,0.00799,0.43878
+IL_0965927,ISIC_5713218,Benign,NV,0,male,45.0,,3,trunk,0,Benign,0.7869,0.00177,0.21133
+IL_4314497,ISIC_5723091,Malignant,BCC,2,male,85.0,upper extremity,3,upper_extremity,2,Malignant,0.32632,0.00054,0.67314
+IL_3603601,ISIC_5745120,Indeterminate,AKIEC,1,female,80.0,head/neck,4,head_neck_face,1,Indeterminate,0.0225,0.80137,0.17613
+IL_8359841,ISIC_5761443,Malignant,MEL,2,male,35.0,lower extremity,3,lower_extremity,2,Malignant,0.18572,0.00244,0.81185
+IL_8205824,ISIC_5785135,Malignant,MEL,2,male,55.0,,3,trunk,0,Benign,0.90523,0.00169,0.09309
+IL_3687151,ISIC_5787263,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.31405,0.01673,0.66922
+IL_1925186,ISIC_5792555,Malignant,BCC,2,male,70.0,,5,trunk,2,Malignant,0.06335,0.00021,0.93644
+IL_6592976,ISIC_5793548,Malignant,BCC,2,female,50.0,head/neck,3,head_neck_face,2,Malignant,0.01569,0.00124,0.98307
+IL_4064393,ISIC_5801703,Benign,NV,0,male,60.0,,4,,0,Benign,0.94312,0.0012,0.05569
+IL_5251059,ISIC_5807024,Malignant,MEL,2,female,65.0,lower extremity,3,lower_extremity,0,Benign,0.99775,0.00024,0.002
+IL_3341722,ISIC_5811144,Malignant,BCC,2,male,50.0,lower extremity,4,lower_extremity,2,Malignant,0.06242,0.00105,0.93653
+IL_5610769,ISIC_5833236,Malignant,SCCKA,2,male,70.0,upper extremity,3,upper_extremity,2,Malignant,0.06261,0.05958,0.8778
+IL_3307198,ISIC_5850185,Malignant,SCCKA,2,male,85.0,upper extremity,3,hand,2,Malignant,0.43484,0.00165,0.56351
+IL_3069196,ISIC_5863762,Malignant,BCC,2,female,55.0,lower extremity,3,lower_extremity,2,Malignant,0.02024,0.00204,0.97772
+IL_9977217,ISIC_5873586,Malignant,BCC,2,male,65.0,upper extremity,3,upper_extremity,2,Malignant,0.00066,0.00052,0.99882
+IL_2369272,ISIC_5883189,Malignant,BCC,2,female,50.0,,3,trunk,2,Malignant,0.01084,0.00122,0.98794
+IL_0008891,ISIC_5916190,Benign,NV,0,male,15.0,head/neck,3,head_neck_face,0,Benign,0.99911,0.00049,0.0004
+IL_5375403,ISIC_5947061,Benign,BKL,0,male,60.0,lower extremity,3,lower_extremity,0,Benign,0.62377,0.00515,0.37108
+IL_6829628,ISIC_5962854,Benign,VASC,0,male,35.0,head/neck,2,head_neck_face,2,Malignant,0.37854,4e-05,0.62142
+IL_4879844,ISIC_5962932,Malignant,MEL,2,male,75.0,head/neck,1,head_neck_face,2,Malignant,0.36734,0.00334,0.62932
+IL_3496522,ISIC_5973129,Malignant,BCC,2,female,85.0,head/neck,5,head_neck_face,2,Malignant,1e-04,0.00011,0.9998
+IL_3910210,ISIC_5981777,Benign,NV,0,female,25.0,lower extremity,3,lower_extremity,0,Benign,0.9995,0.00017,0.00033
+IL_6793597,ISIC_5983030,Malignant,BCC,2,female,55.0,,4,trunk,2,Malignant,0.00191,0.00042,0.99767
+IL_9052165,ISIC_5990006,Malignant,BCC,2,female,60.0,,4,trunk,2,Malignant,0.20356,0.00042,0.79602
+IL_9067447,ISIC_5993206,Malignant,AKIEC,2,male,80.0,upper extremity,3,upper_extremity,2,Malignant,0.0026,0.00032,0.99708
+IL_2634845,ISIC_5994355,Benign,BKL,0,male,70.0,head/neck,4,head_neck_face,0,Benign,0.66709,0.00213,0.33078
+IL_5938594,ISIC_6003134,Malignant,BCC,2,male,45.0,,3,trunk,2,Malignant,0.01491,0.00362,0.98147
+IL_7911942,ISIC_6013412,Malignant,MEL,2,male,75.0,,2,trunk,0,Benign,0.78688,8e-05,0.21304
+IL_2166765,ISIC_6020001,Benign,BKL,0,female,15.0,lower extremity,4,lower_extremity,0,Benign,0.97453,0.0012,0.02427
+IL_1355090,ISIC_6023245,Benign,NV,0,female,55.0,lower extremity,3,lower_extremity,0,Benign,0.94411,0.00115,0.05473
+IL_9106447,ISIC_6025998,Benign,BKL,0,female,65.0,head/neck,3,head_neck_face,0,Benign,0.55089,0.00606,0.44304
+IL_0044468,ISIC_6046943,Malignant,MEL,2,male,75.0,,2,trunk,2,Malignant,0.24862,0.00038,0.751
+IL_8296856,ISIC_6053581,Benign,BKL,0,male,70.0,,2,trunk,0,Benign,0.99968,1e-05,0.00031
+IL_2504113,ISIC_6063897,Malignant,BCC,2,male,50.0,,3,trunk,2,Malignant,0.08089,0.0519,0.86721
+IL_6834280,ISIC_6072797,Malignant,BCC,2,male,50.0,head/neck,3,head_neck_face,2,Malignant,0.12527,0.06678,0.80795
+IL_8283789,ISIC_6085286,Benign,NV,0,female,35.0,,2,trunk,0,Benign,0.99767,0.00012,0.00221
+IL_8244074,ISIC_6114177,Malignant,BCC,2,female,80.0,head/neck,3,head_neck_face,2,Malignant,0.04786,0.01251,0.93963
+IL_5158358,ISIC_6115749,Malignant,BCC,2,male,80.0,head/neck,3,head_neck_face,2,Malignant,0.45378,0.00652,0.53971
+IL_4514039,ISIC_6119517,Benign,NV,0,male,30.0,,2,trunk,0,Benign,0.95722,0.00198,0.0408
+IL_0183428,ISIC_6121019,Malignant,BCC,2,female,70.0,lower extremity,3,lower_extremity,2,Malignant,0.05918,0.01225,0.92856
+IL_0245024,ISIC_6141356,Benign,NV,0,female,45.0,,3,trunk,0,Benign,0.86409,0.0031,0.13281
+IL_2190354,ISIC_6162714,Malignant,BCC,2,male,60.0,lower extremity,3,foot,2,Malignant,0.00172,0.00018,0.9981
+IL_7792502,ISIC_6168277,Malignant,BCC,2,female,65.0,upper extremity,4,upper_extremity,2,Malignant,0.07007,0.01921,0.91072
+IL_3485439,ISIC_6171588,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.05185,0.00062,0.94753
+IL_7884218,ISIC_6190757,Malignant,BCC,2,male,65.0,lower extremity,3,lower_extremity,2,Malignant,0.00581,0.00094,0.99325
+IL_3625666,ISIC_6195452,Malignant,MEL,2,female,80.0,,5,trunk,0,Benign,0.85662,0.00259,0.14079
+IL_2090783,ISIC_6196546,Benign,BKL,0,female,55.0,head/neck,3,head_neck_face,0,Benign,0.74857,0.17994,0.0715
+IL_9509148,ISIC_6201208,Malignant,BCC,2,female,60.0,head/neck,3,head_neck_face,2,Malignant,0.04579,0.00118,0.95303
+IL_2719812,ISIC_6213875,Malignant,BCC,2,female,75.0,,3,trunk,2,Malignant,0.011,0.00102,0.98798
+IL_4073740,ISIC_6234798,Malignant,MEL,2,male,35.0,head/neck,4,head_neck_face,0,Benign,0.47411,0.25109,0.2748
+IL_4279483,ISIC_6271290,Malignant,BCC,2,male,85.0,upper extremity,3,upper_extremity,2,Malignant,0.0128,0.00112,0.98608
+IL_7173541,ISIC_6272878,Benign,BKL,0,female,85.0,lower extremity,3,lower_extremity,2,Malignant,0.28786,0.0019,0.71024
+IL_4316230,ISIC_6289650,Malignant,SCCKA,2,female,80.0,upper extremity,4,upper_extremity,2,Malignant,0.01726,0.00049,0.98226
+IL_5858516,ISIC_6295397,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.02941,0.0228,0.94779
+IL_9271885,ISIC_6296087,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.02169,0.00023,0.97808
+IL_3363042,ISIC_6297552,Malignant,BCC,2,female,70.0,upper extremity,3,upper_extremity,2,Malignant,0.00453,0.00063,0.99484
+IL_6532631,ISIC_6297733,Malignant,BCC,2,male,85.0,upper extremity,3,upper_extremity,2,Malignant,0.00903,0.0022,0.98876
+IL_2995561,ISIC_6303124,Malignant,BCC,2,male,60.0,head/neck,5,head_neck_face,2,Malignant,0.00785,0.00013,0.99203
+IL_6119395,ISIC_6306620,Malignant,BCC,2,female,50.0,,4,trunk,2,Malignant,0.12393,0.00161,0.87445
+IL_1739769,ISIC_6330968,Benign,BKL,0,male,65.0,upper extremity,3,upper_extremity,2,Malignant,0.1317,0.00025,0.86805
+IL_9906157,ISIC_6349779,Malignant,BCC,2,female,75.0,head/neck,4,head_neck_face,2,Malignant,0.00623,0.02309,0.97069
+IL_4446473,ISIC_6354001,Indeterminate,AKIEC,1,female,75.0,head/neck,5,head_neck_face,2,Malignant,0.17721,0.00989,0.8129
+IL_2205080,ISIC_6355154,Benign,NV,0,female,10.0,lower extremity,3,lower_extremity,0,Benign,0.96768,0.00191,0.03041
+IL_5108044,ISIC_6357740,Malignant,BCC,2,female,65.0,,3,trunk,2,Malignant,0.29342,0.00079,0.70578
+IL_9288651,ISIC_6358411,Benign,BKL,0,female,65.0,upper extremity,3,upper_extremity,2,Malignant,0.0183,0.02522,0.95648
+IL_6464483,ISIC_6358504,Benign,BKL,0,male,60.0,head/neck,3,head_neck_face,2,Malignant,0.48112,0.00036,0.51851
+IL_7898098,ISIC_6368798,Malignant,BCC,2,female,65.0,,4,trunk,2,Malignant,0.00297,0.00114,0.99589
+IL_3035506,ISIC_6383216,Benign,NV,0,female,10.0,head/neck,2,head_neck_face,0,Benign,0.9875,0.00031,0.01219
+IL_9202251,ISIC_6384870,Malignant,AKIEC,2,male,45.0,head/neck,3,head_neck_face,2,Malignant,0.02376,0.02422,0.95202
+IL_8507909,ISIC_6405078,Malignant,BCC,2,male,75.0,,3,trunk,2,Malignant,0.20782,0.01881,0.77336
+IL_3634030,ISIC_6417102,Malignant,BCC,2,female,65.0,,3,trunk,2,Malignant,0.0104,0.00085,0.98876
+IL_0583979,ISIC_6420151,Benign,NV,0,male,40.0,,3,trunk,0,Benign,0.98124,0.00032,0.01844
+IL_7146228,ISIC_6454913,Malignant,BCC,2,female,55.0,head/neck,3,head_neck_face,2,Malignant,0.1624,0.00302,0.83458
+IL_3650991,ISIC_6457249,Malignant,BCC,2,female,70.0,,3,trunk,2,Malignant,0.04424,0.00435,0.95142
+IL_0256992,ISIC_6458495,Malignant,BCC,2,male,35.0,,2,trunk,2,Malignant,0.31886,2e-05,0.68111
+IL_4185441,ISIC_6467453,Malignant,BCC,2,female,75.0,head/neck,5,head_neck_face,2,Malignant,0.04588,0.02842,0.9257
+IL_4128851,ISIC_6475371,Benign,BKL,0,male,50.0,,3,trunk,0,Benign,0.98374,1e-04,0.01616
+IL_6022474,ISIC_6494733,Benign,BKL,0,male,85.0,,3,trunk,0,Benign,0.76415,0.00545,0.2304
+IL_7343687,ISIC_6508737,Malignant,MEL,2,male,65.0,,3,trunk,0,Benign,0.50816,0.00889,0.48295
+IL_6413460,ISIC_6532286,Malignant,BCC,2,female,65.0,upper extremity,3,upper_extremity,2,Malignant,0.05557,0.03977,0.90466
+IL_8229749,ISIC_6538645,Malignant,BCC,2,male,80.0,upper extremity,5,upper_extremity,2,Malignant,0.00491,0.00198,0.99311
+IL_9746902,ISIC_6548919,Malignant,MEL,2,male,60.0,head/neck,5,head_neck_face,0,Benign,0.85157,0.00685,0.14158
+IL_8578083,ISIC_6553055,Malignant,BCC,2,male,85.0,head/neck,4,head_neck_face,2,Malignant,0.01817,0.02433,0.9575
+IL_3829109,ISIC_6583245,Benign,NV,0,male,45.0,,2,trunk,0,Benign,0.9796,0.00024,0.02016
+IL_3827955,ISIC_6590453,Benign,BKL,0,male,80.0,head/neck,2,head_neck_face,2,Malignant,0.18306,0.00169,0.81525
+IL_0855898,ISIC_6596926,Malignant,MEL,2,male,65.0,upper extremity,5,upper_extremity,2,Malignant,0.10894,0.01104,0.88002
+IL_2048695,ISIC_6618250,Malignant,BCC,2,female,75.0,upper extremity,5,upper_extremity,2,Malignant,0.03144,0.00454,0.96402
+IL_4547617,ISIC_6638137,Malignant,MEL,2,female,60.0,head/neck,3,head_neck_face,2,Malignant,0.03157,0.00339,0.96504
+IL_9007318,ISIC_6639016,Malignant,SCCKA,2,female,50.0,lower extremity,3,lower_extremity,0,Benign,0.82287,0.00798,0.16915
+IL_1743491,ISIC_6639957,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.04245,0.01057,0.94698
+IL_6879944,ISIC_6645684,Malignant,BCC,2,male,55.0,lower extremity,4,lower_extremity,2,Malignant,0.00189,0.00041,0.99769
+IL_0249447,ISIC_6653595,Malignant,BCC,2,male,60.0,,3,trunk,2,Malignant,0.0055,0.00025,0.99425
+IL_9891948,ISIC_6664385,Malignant,BCC,2,male,60.0,head/neck,5,head_neck_face,2,Malignant,0.02021,9e-05,0.9797
+IL_8379111,ISIC_6688178,Malignant,SCCKA,2,male,65.0,upper extremity,3,upper_extremity,2,Malignant,0.00547,1e-05,0.99451
+IL_4368392,ISIC_6717455,Malignant,BCC,2,male,75.0,,3,trunk,2,Malignant,0.0854,0.0014,0.9132
+IL_3837894,ISIC_6735110,Malignant,AKIEC,2,male,75.0,lower extremity,3,lower_extremity,2,Malignant,0.169,0.00954,0.82145
+IL_1958887,ISIC_6747915,Malignant,BCC,2,female,75.0,,3,trunk,2,Malignant,0.00356,0.00114,0.9953
+IL_3327955,ISIC_6796955,Benign,INF,0,female,45.0,head/neck,5,head_neck_face,2,Malignant,0.041,0.00529,0.95371
+IL_6887782,ISIC_6801081,Malignant,MEL,2,female,70.0,head/neck,3,head_neck_face,0,Benign,0.98393,0.00064,0.01543
+IL_4715886,ISIC_6818303,Malignant,BCC,2,female,70.0,,3,trunk,2,Malignant,0.01914,0.09875,0.88211
+IL_2868524,ISIC_6827974,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.44944,0.00932,0.54125
+IL_8732835,ISIC_6854604,Malignant,BCC,2,female,80.0,,4,trunk,2,Malignant,0.00793,0.00256,0.98951
+IL_5896465,ISIC_6863789,Malignant,SCCKA,2,male,75.0,head/neck,3,head_neck_face,2,Malignant,0.10423,0.14368,0.7521
+IL_6947198,ISIC_6875407,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.25684,0.0045,0.73866
+IL_5101024,ISIC_6877985,Malignant,MEL,2,female,70.0,head/neck,2,head_neck_face,0,Benign,0.55646,0.40922,0.03432
+IL_0727699,ISIC_6890536,Indeterminate,AKIEC,1,female,65.0,head/neck,4,head_neck_face,0,Benign,0.81461,0.03333,0.15206
+IL_4668896,ISIC_6895079,Malignant,BCC,2,male,80.0,lower extremity,4,lower_extremity,2,Malignant,0.00016,0.00038,0.99946
+IL_0121394,ISIC_6946678,Malignant,BCC,2,female,65.0,lower extremity,4,lower_extremity,2,Malignant,0.22834,0.00548,0.76618
+IL_3636394,ISIC_6954063,Malignant,MEL,2,female,45.0,lower extremity,4,lower_extremity,0,Benign,0.99326,0.00052,0.00622
+IL_9088569,ISIC_6965635,Malignant,SCCKA,2,male,75.0,,4,trunk,0,Benign,0.72977,0.0047,0.26553
+IL_3778802,ISIC_6973783,Benign,NV,0,male,50.0,lower extremity,5,lower_extremity,0,Benign,0.96826,0.0003,0.03144
+IL_7804656,ISIC_7000928,Benign,NV,0,male,55.0,head/neck,3,head_neck_face,0,Benign,0.44196,0.12096,0.43707
+IL_6247210,ISIC_7016834,Benign,BKL,0,female,50.0,upper extremity,4,upper_extremity,2,Malignant,0.45018,0.00361,0.54621
+IL_6960759,ISIC_7053064,Benign,NV,0,male,60.0,,4,trunk,2,Malignant,0.47854,0.00632,0.51514
+IL_1504921,ISIC_7063713,Malignant,AKIEC,2,male,65.0,head/neck,5,head_neck_face,1,Indeterminate,0.26241,0.38459,0.35301
+IL_2473715,ISIC_7072308,Malignant,SCCKA,2,female,80.0,upper extremity,4,upper_extremity,2,Malignant,0.00062,4e-05,0.99934
+IL_9235680,ISIC_7116414,Malignant,BCC,2,male,70.0,lower extremity,4,lower_extremity,2,Malignant,0.00943,5e-05,0.99052
+IL_8171092,ISIC_7116818,Benign,NV,0,female,80.0,lower extremity,3,lower_extremity,0,Benign,0.99416,0.00018,0.00567
+IL_9752629,ISIC_7132196,Malignant,BCC,2,male,55.0,upper extremity,4,upper_extremity,2,Malignant,0.00011,7e-05,0.99983
+IL_1556034,ISIC_7134919,Benign,VASC,0,male,85.0,lower extremity,5,lower_extremity,0,Benign,0.79646,0.00225,0.20129
+IL_6836938,ISIC_7139592,Benign,NV,0,male,60.0,,5,,0,Benign,0.76816,0.00361,0.22823
+IL_4696609,ISIC_7146069,Benign,NV,0,female,80.0,,5,trunk,0,Benign,0.75696,0.001,0.24204
+IL_2289243,ISIC_7171875,Benign,BKL,0,male,75.0,,2,trunk,2,Malignant,0.48643,0.01892,0.49465
+IL_2045312,ISIC_7176434,Benign,BKL,0,male,75.0,upper extremity,3,hand,2,Malignant,0.29367,0.00268,0.70365
+IL_3423821,ISIC_7201198,Benign,NV,0,female,45.0,,4,trunk,0,Benign,0.98926,0.00099,0.00975
+IL_0974592,ISIC_7231732,Benign,NV,0,male,10.0,,3,trunk,0,Benign,0.99997,0.0,3e-05
+IL_7755452,ISIC_7236730,Malignant,SCCKA,2,male,75.0,upper extremity,3,hand,2,Malignant,0.00871,0.00136,0.98993
+IL_9565203,ISIC_7238849,Benign,BKL,0,male,70.0,,3,trunk,2,Malignant,0.11359,0.0057,0.88072
+IL_8549030,ISIC_7242284,Benign,NV,0,female,50.0,upper extremity,2,upper_extremity,0,Benign,0.95023,0.00349,0.04627
+IL_1038225,ISIC_7272469,Benign,NV,0,female,55.0,,3,trunk,0,Benign,0.93219,0.00112,0.06669
+IL_1753473,ISIC_7278433,Benign,NV,0,male,,lower extremity,5,lower_extremity,0,Benign,0.99973,4e-05,0.00022
+IL_4859136,ISIC_7284546,Malignant,BCC,2,male,60.0,,3,trunk,2,Malignant,0.2847,0.00924,0.70606
+IL_5179568,ISIC_7303727,Benign,BKL,0,female,60.0,lower extremity,4,lower_extremity,0,Benign,0.99978,5e-05,0.00018
+IL_0387576,ISIC_7311876,Malignant,BCC,2,male,70.0,head/neck,3,head_neck_face,2,Malignant,0.00253,0.02201,0.97547
+IL_3987209,ISIC_7312960,Malignant,SCCKA,2,female,65.0,upper extremity,3,upper_extremity,0,Benign,0.85013,0.03594,0.11393
+IL_8326868,ISIC_7314033,Indeterminate,AKIEC,1,male,70.0,head/neck,3,head_neck_face,1,Indeterminate,0.01106,0.97918,0.00975
+IL_9313120,ISIC_7413595,Malignant,BCC,2,female,75.0,,3,trunk,2,Malignant,0.01463,0.00065,0.98472
+IL_6181794,ISIC_7426470,Malignant,BCC,2,male,50.0,upper extremity,3,upper_extremity,2,Malignant,0.03857,0.00057,0.96086
+IL_2198915,ISIC_7442526,Malignant,SCCKA,2,male,65.0,lower extremity,3,lower_extremity,2,Malignant,0.05987,0.10384,0.83629
+IL_1839563,ISIC_7461810,Malignant,BCC,2,male,80.0,,3,trunk,2,Malignant,0.34775,0.01305,0.6392
+IL_2826378,ISIC_7481885,Malignant,SCCKA,2,male,75.0,,5,trunk,2,Malignant,0.02641,0.00953,0.96406
+IL_4225640,ISIC_7486855,Malignant,BCC,2,female,60.0,,3,trunk,2,Malignant,0.00679,0.00231,0.9909
+IL_4448697,ISIC_7490723,Malignant,BCC,2,female,70.0,upper extremity,5,upper_extremity,2,Malignant,0.01441,0.00067,0.98493
+IL_3216305,ISIC_7501563,Malignant,BCC,2,female,40.0,head/neck,4,head_neck_face,2,Malignant,0.08829,0.0,0.91171
+IL_1082732,ISIC_7516346,Benign,BKL,0,male,60.0,lower extremity,4,lower_extremity,0,Benign,0.95649,0.00089,0.04262
+IL_2178122,ISIC_7529554,Malignant,BCC,2,female,50.0,lower extremity,3,lower_extremity,2,Malignant,0.02813,0.00184,0.97003
+IL_9656479,ISIC_7548850,Malignant,SCCKA,2,male,65.0,head/neck,5,head_neck_face,2,Malignant,0.28011,0.0398,0.68009
+IL_2851891,ISIC_7559942,Benign,NV,0,female,20.0,head/neck,3,head_neck_face,0,Benign,0.99996,0.0,4e-05
+IL_6194887,ISIC_7582667,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.00061,0.0002,0.99919
+IL_5044233,ISIC_7602538,Benign,VASC,0,male,20.0,,2,trunk,0,Benign,0.99168,1e-04,0.00822
+IL_3766346,ISIC_7603703,Benign,NV,0,male,55.0,upper extremity,4,upper_extremity,0,Benign,0.92793,5e-05,0.07202
+IL_1606035,ISIC_7614845,Malignant,SCCKA,2,male,65.0,,3,trunk,2,Malignant,0.00174,0.00102,0.99724
+IL_7243389,ISIC_7615308,Benign,NV,0,female,65.0,lower extremity,5,lower_extremity,0,Benign,0.95044,0.00287,0.0467
+IL_3151519,ISIC_7615926,Malignant,MEL,2,male,55.0,,2,trunk,2,Malignant,0.00197,0.00015,0.99788
+IL_8465058,ISIC_7621482,Malignant,BCC,2,female,60.0,head/neck,4,head_neck_face,2,Malignant,0.06631,0.09298,0.8407
+IL_1858376,ISIC_7624779,Malignant,SCCKA,2,male,50.0,lower extremity,4,lower_extremity,0,Benign,0.79186,0.00288,0.20525
+IL_8229395,ISIC_7643593,Malignant,MEL,2,female,70.0,lower extremity,4,lower_extremity,0,Benign,0.97791,0.00194,0.02015
+IL_1212389,ISIC_7656591,Malignant,MEL,2,male,60.0,upper extremity,3,upper_extremity,2,Malignant,0.29642,0.0027,0.70088
+IL_7818452,ISIC_7701592,Benign,NV,0,male,45.0,upper extremity,3,upper_extremity,0,Benign,0.91519,0.00115,0.08366
+IL_9441829,ISIC_7729052,Malignant,BCC,2,female,75.0,lower extremity,3,lower_extremity,2,Malignant,0.0023,0.0098,0.9879
+IL_3919255,ISIC_7735107,Benign,NV,0,female,40.0,,3,,0,Benign,0.93014,0.00526,0.0646
+IL_5411298,ISIC_7753585,Malignant,BCC,2,male,55.0,head/neck,3,head_neck_face,0,Benign,0.63843,0.04197,0.3196
+IL_7364791,ISIC_7760822,Malignant,BCC,2,female,75.0,head/neck,3,head_neck_face,2,Malignant,0.12891,0.0007,0.87039
+IL_5770748,ISIC_7775074,Malignant,BCC,2,male,70.0,lower extremity,3,lower_extremity,2,Malignant,0.00739,0.00899,0.98363
+IL_0098895,ISIC_7778161,Benign,NV,0,male,50.0,upper extremity,4,upper_extremity,0,Benign,0.99937,3e-05,0.0006
+IL_7239273,ISIC_7788766,Malignant,BCC,2,female,55.0,,3,trunk,2,Malignant,0.19977,0.01304,0.78719
+IL_1181749,ISIC_7832392,Malignant,SCCKA,2,female,75.0,lower extremity,3,foot,2,Malignant,0.24128,0.00028,0.75844
+IL_3560124,ISIC_7841088,Benign,NV,0,male,40.0,,4,trunk,0,Benign,0.97595,0.00229,0.02176
+IL_7896547,ISIC_7859130,Benign,INF,0,male,50.0,head/neck,3,head_neck_face,0,Benign,0.53874,0.06752,0.39374
+IL_8535419,ISIC_7880723,Malignant,BCC,2,female,55.0,upper extremity,3,upper_extremity,2,Malignant,0.21992,0.1757,0.60438
+IL_6982257,ISIC_7889425,Benign,BKL,0,male,50.0,head/neck,1,head_neck_face,0,Benign,0.99548,0.00233,0.0022
+IL_5162996,ISIC_7892545,Malignant,BCC,2,male,75.0,head/neck,4,head_neck_face,2,Malignant,0.24196,0.05826,0.69978
+IL_6687584,ISIC_7896976,Malignant,SCCKA,2,male,70.0,upper extremity,4,upper_extremity,2,Malignant,0.09149,0.00049,0.90802
+IL_8454481,ISIC_7915016,Malignant,BCC,2,female,70.0,lower extremity,4,lower_extremity,2,Malignant,0.01517,0.00116,0.98367
+IL_1062117,ISIC_7922830,Malignant,MEL,2,male,80.0,,2,trunk,0,Benign,0.75122,0.01599,0.23279
+IL_1618148,ISIC_7949818,Malignant,BCC,2,female,70.0,,3,trunk,2,Malignant,0.01588,0.00857,0.97555
+IL_2902752,ISIC_7969817,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.08012,0.00204,0.91784
+IL_3819461,ISIC_7997862,Malignant,BCC,2,male,55.0,,4,trunk,2,Malignant,0.07036,0.00027,0.92937
+IL_6390381,ISIC_8001737,Indeterminate,AKIEC,1,female,50.0,,3,trunk,2,Malignant,0.0369,0.1054,0.85769
+IL_1293524,ISIC_8031107,Malignant,BCC,2,male,70.0,,4,trunk,2,Malignant,0.08452,0.01495,0.90053
+IL_8662195,ISIC_8035327,Malignant,BCC,2,male,70.0,upper extremity,3,upper_extremity,2,Malignant,0.0019,0.00206,0.99604
+IL_3561998,ISIC_8041130,Malignant,BCC,2,male,60.0,,2,trunk,0,Benign,0.86115,0.00012,0.13874
+IL_1962885,ISIC_8056158,Malignant,MEL,2,male,75.0,head/neck,2,head_neck_face,0,Benign,0.9918,0.00092,0.00728
+IL_6877500,ISIC_8072870,Benign,NV,0,male,65.0,lower extremity,5,lower_extremity,0,Benign,0.92319,0.00509,0.07172
+IL_3358821,ISIC_8102692,Benign,BKL,0,male,40.0,head/neck,2,head_neck_face,1,Indeterminate,0.2826,0.35995,0.35746
+IL_5236713,ISIC_8103067,Malignant,BCC,2,female,70.0,upper extremity,3,upper_extremity,2,Malignant,0.00234,0.00483,0.99283
+IL_9380593,ISIC_8111688,Benign,NV,0,female,30.0,lower extremity,2,lower_extremity,0,Benign,0.99673,3e-05,0.00324
+IL_3879916,ISIC_8120902,Malignant,AKIEC,2,male,70.0,lower extremity,3,lower_extremity,2,Malignant,0.03085,0.0023,0.96685
+IL_5084556,ISIC_8129640,Malignant,SCCKA,2,male,45.0,head/neck,3,head_neck_face,2,Malignant,0.0026,0.00348,0.99392
+IL_1667522,ISIC_8133623,Malignant,BCC,2,male,80.0,,3,trunk,2,Malignant,0.00783,0.00451,0.98766
+IL_8863654,ISIC_8134181,Benign,BKL,0,female,55.0,,3,trunk,0,Benign,0.51307,0.0003,0.48663
+IL_3316446,ISIC_8137954,Benign,BKL,0,female,55.0,,3,trunk,0,Benign,0.95739,0.00069,0.04193
+IL_9026324,ISIC_8180214,Benign,BKL,0,female,85.0,lower extremity,3,lower_extremity,0,Benign,0.9849,0.00056,0.01454
+IL_2466872,ISIC_8206552,Malignant,BCC,2,female,65.0,,2,trunk,0,Benign,0.84553,0.0017,0.15276
+IL_0965686,ISIC_8216653,Benign,NV,0,male,40.0,,2,trunk,0,Benign,0.90356,0.00906,0.08738
+IL_2215317,ISIC_8234709,Benign,BKL,0,male,50.0,head/neck,2,head_neck_face,2,Malignant,0.16867,0.3269,0.50443
+IL_4534597,ISIC_8236388,Malignant,BCC,2,female,40.0,head/neck,3,head_neck_face,2,Malignant,0.04023,0.00369,0.95608
+IL_0402026,ISIC_8243525,Malignant,SCCKA,2,male,60.0,head/neck,3,head_neck_face,2,Malignant,0.01393,0.0374,0.94867
+IL_8386286,ISIC_8263244,Benign,BKL,0,male,75.0,head/neck,1,head_neck_face,0,Benign,0.99583,1e-05,0.00416
+IL_9719774,ISIC_8268969,Malignant,BCC,2,male,75.0,,3,trunk,2,Malignant,0.04166,0.06519,0.89315
+IL_6868637,ISIC_8274052,Malignant,BCC,2,male,55.0,lower extremity,3,lower_extremity,2,Malignant,0.08478,0.01406,0.90116
+IL_0541036,ISIC_8274863,Malignant,AKIEC,2,male,60.0,,3,trunk,2,Malignant,0.02119,0.0062,0.97261
+IL_2415353,ISIC_8281265,Benign,BKL,0,male,60.0,head/neck,1,head_neck_face,0,Benign,0.99787,0.0,0.00212
+IL_1439879,ISIC_8288141,Malignant,BCC,2,male,50.0,,5,trunk,2,Malignant,0.11233,0.00027,0.8874
+IL_2342693,ISIC_8293683,Malignant,MEL,2,female,70.0,head/neck,2,head_neck_face,1,Indeterminate,0.00058,0.83662,0.1628
+IL_5747539,ISIC_8309358,Malignant,BCC,2,male,60.0,,3,trunk,2,Malignant,0.01272,0.00136,0.98592
+IL_5181041,ISIC_8318126,Benign,NV,0,female,60.0,,3,trunk,0,Benign,0.99149,0.00046,0.00805
+IL_8904932,ISIC_8339951,Benign,NV,0,female,50.0,,3,trunk,0,Benign,0.99976,0.0,0.00024
+IL_7943219,ISIC_8356317,Benign,BKL,0,male,55.0,head/neck,2,head_neck_face,0,Benign,0.64825,0.00049,0.35126
+IL_4410437,ISIC_8361691,Malignant,BCC,2,female,80.0,upper extremity,3,upper_extremity,2,Malignant,0.00735,0.00179,0.99085
+IL_5866168,ISIC_8362681,Malignant,MEL,2,male,30.0,,2,trunk,0,Benign,0.93305,0.00041,0.06654
+IL_6731689,ISIC_8373214,Benign,BKL,0,male,80.0,upper extremity,3,upper_extremity,2,Malignant,0.06529,0.00048,0.93423
+IL_0783886,ISIC_8379235,Malignant,MEL,2,female,75.0,head/neck,5,head_neck_face,0,Benign,0.86597,0.00158,0.13244
+IL_2685280,ISIC_8390104,Benign,BKL,0,male,75.0,,2,trunk,0,Benign,0.98017,1e-05,0.01982
+IL_9689348,ISIC_8392439,Malignant,BCC,2,male,60.0,head/neck,3,head_neck_face,2,Malignant,0.14051,0.00041,0.85908
+IL_7527529,ISIC_8410820,Benign,NV,0,male,40.0,,3,trunk,0,Benign,0.87495,0.00928,0.11577
+IL_5553029,ISIC_8413819,Malignant,BCC,2,male,80.0,,5,trunk,2,Malignant,0.00737,0.00242,0.99021
+IL_6654739,ISIC_8436376,Benign,BKL,0,male,60.0,,4,trunk,0,Benign,0.95791,0.00196,0.04014
+IL_3486066,ISIC_8446431,Malignant,AKIEC,2,male,85.0,head/neck,3,head_neck_face,2,Malignant,0.00223,0.00174,0.99603
+IL_6155109,ISIC_8468152,Malignant,BCC,2,male,50.0,,4,trunk,2,Malignant,0.01243,0.00108,0.98649
+IL_8891423,ISIC_8470224,Benign,NV,0,female,45.0,,2,trunk,0,Benign,0.98817,0.0002,0.01163
+IL_0113118,ISIC_8483047,Malignant,BCC,2,female,65.0,lower extremity,3,lower_extremity,2,Malignant,0.00053,0.00846,0.99102
+IL_2369165,ISIC_8491813,Malignant,BCC,2,male,60.0,,3,trunk,2,Malignant,0.01204,0.00678,0.98118
+IL_1994469,ISIC_8565474,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.04086,0.00319,0.95595
+IL_5357233,ISIC_8572463,Malignant,BCC,2,male,55.0,upper extremity,3,upper_extremity,2,Malignant,0.03416,0.00398,0.96186
+IL_9508962,ISIC_8573497,Malignant,BCC,2,female,65.0,lower extremity,3,lower_extremity,2,Malignant,0.00949,0.00612,0.98439
+IL_0921105,ISIC_8614302,Malignant,BCC,2,male,65.0,head/neck,3,head_neck_face,2,Malignant,0.10351,0.10807,0.78842
+IL_1538395,ISIC_8619763,Malignant,SCCKA,2,female,85.0,head/neck,3,head_neck_face,2,Malignant,0.00721,0.02779,0.965
+IL_6552855,ISIC_8621381,Malignant,BCC,2,male,50.0,,3,trunk,2,Malignant,0.32192,0.024,0.65407
+IL_9554628,ISIC_8626277,Benign,NV,0,female,35.0,,5,trunk,0,Benign,0.87751,0.00137,0.12112
+IL_7566377,ISIC_8639708,Indeterminate,AKIEC,1,female,75.0,head/neck,1,head_neck_face,0,Benign,0.6427,0.09099,0.26631
+IL_0684409,ISIC_8650326,Benign,BKL,0,male,80.0,lower extremity,3,lower_extremity,2,Malignant,0.05031,0.00087,0.94882
+IL_6910887,ISIC_8657483,Malignant,SCCKA,2,male,80.0,head/neck,4,head_neck_face,2,Malignant,0.00954,9e-05,0.99037
+IL_3982685,ISIC_8662604,Benign,NV,0,male,45.0,lower extremity,4,lower_extremity,0,Benign,0.99494,1e-05,0.00505
+IL_6606069,ISIC_8668985,Malignant,BCC,2,female,40.0,head/neck,3,head_neck_face,2,Malignant,0.05459,0.00503,0.94038
+IL_2177210,ISIC_8691098,Malignant,SCCKA,2,male,45.0,lower extremity,3,lower_extremity,2,Malignant,0.01003,0.00585,0.98412
+IL_4131392,ISIC_8701104,Benign,NV,0,male,55.0,head/neck,1,head_neck_face,0,Benign,0.52544,0.00016,0.4744
+IL_7800799,ISIC_8710450,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.00183,3e-05,0.99814
+IL_1524130,ISIC_8723221,Malignant,SCCKA,2,male,75.0,lower extremity,3,lower_extremity,2,Malignant,0.01257,0.01344,0.97399
+IL_7628990,ISIC_8731413,Malignant,AKIEC,2,male,85.0,,3,trunk,2,Malignant,0.00331,0.01093,0.98576
+IL_2834231,ISIC_8745129,Malignant,BCC,2,male,75.0,lower extremity,3,lower_extremity,2,Malignant,0.05165,0.00014,0.94821
+IL_5069726,ISIC_8759215,Malignant,BCC,2,male,45.0,,3,trunk,2,Malignant,0.29454,0.0073,0.69816
+IL_7940585,ISIC_8766762,Benign,NV,0,female,20.0,lower extremity,3,lower_extremity,0,Benign,0.99432,0.00012,0.00556
+IL_6825163,ISIC_8782095,Benign,BKL,0,female,65.0,head/neck,3,head_neck_face,2,Malignant,0.09204,0.08288,0.82508
+IL_9475061,ISIC_8790740,Benign,INF,0,female,40.0,head/neck,3,head_neck_face,0,Benign,0.99526,0.00082,0.00392
+IL_7471218,ISIC_8790887,Malignant,SCCKA,2,female,80.0,lower extremity,3,lower_extremity,2,Malignant,0.02313,0.00028,0.97659
+IL_5285603,ISIC_8791057,Benign,VASC,0,male,85.0,,3,trunk,2,Malignant,0.42065,0.00467,0.57469
+IL_4028945,ISIC_8805390,Malignant,AKIEC,2,female,75.0,head/neck,3,head_neck_face,2,Malignant,0.11095,0.06315,0.8259
+IL_4153539,ISIC_8846554,Malignant,BCC,2,female,55.0,,3,trunk,2,Malignant,0.45247,0.01328,0.53425
+IL_4429998,ISIC_8857322,Malignant,BCC,2,female,85.0,head/neck,3,head_neck_face,2,Malignant,0.02552,0.02911,0.94537
+IL_8208194,ISIC_8863147,Malignant,SCCKA,2,female,80.0,lower extremity,4,lower_extremity,2,Malignant,0.05186,0.01526,0.93288
+IL_4052730,ISIC_8897741,Benign,NV,0,female,50.0,lower extremity,2,lower_extremity,0,Benign,0.93106,0.00251,0.06643
+IL_5693413,ISIC_8899125,Malignant,MEL,2,female,50.0,lower extremity,4,lower_extremity,2,Malignant,0.06387,0.00188,0.93425
+IL_4500460,ISIC_8914963,Malignant,BCC,2,male,60.0,lower extremity,3,lower_extremity,2,Malignant,0.0002,0.00031,0.9995
+IL_5611087,ISIC_8923256,Malignant,SCCKA,2,female,65.0,upper extremity,3,hand,2,Malignant,0.25746,0.02424,0.7183
+IL_5574879,ISIC_8947312,Malignant,SCCKA,2,male,45.0,,4,trunk,2,Malignant,0.00477,0.00032,0.99491
+IL_3477265,ISIC_8952365,Malignant,BCC,2,female,70.0,head/neck,3,head_neck_face,0,Benign,0.70782,0.00251,0.28967
+IL_8933396,ISIC_8981897,Benign,DF,0,female,50.0,lower extremity,3,lower_extremity,0,Benign,0.73881,0.00181,0.25938
+IL_0610557,ISIC_9011764,Benign,NV,0,female,20.0,oral/genital,3,genital,0,Benign,0.92447,0.00217,0.07336
+IL_5301199,ISIC_9014235,Benign,BKL,0,male,65.0,,3,trunk,0,Benign,0.73065,0.02351,0.24583
+IL_9921206,ISIC_9020314,Benign,BKL,0,female,80.0,upper extremity,3,upper_extremity,2,Malignant,0.05977,0.00812,0.93212
+IL_1509738,ISIC_9038494,Malignant,BCC,2,female,60.0,head/neck,3,head_neck_face,2,Malignant,0.00629,0.00115,0.99256
+IL_0269822,ISIC_9090562,Malignant,SCCKA,2,male,85.0,head/neck,3,head_neck_face,2,Malignant,0.03175,1e-05,0.96825
+IL_8939898,ISIC_9098782,Malignant,SCCKA,2,male,55.0,head/neck,3,head_neck_face,2,Malignant,0.00162,0.00062,0.99776
+IL_3453453,ISIC_9098981,Malignant,BCC,2,female,60.0,head/neck,2,head_neck_face,0,Benign,0.93007,0.0003,0.06964
+IL_6079301,ISIC_9120690,Benign,BKL,0,female,80.0,head/neck,4,head_neck_face,0,Benign,0.90824,4e-05,0.09172
+IL_0419410,ISIC_9126529,Benign,BKL,0,male,65.0,,3,trunk,0,Benign,0.55177,1e-04,0.44813
+IL_0083796,ISIC_9131247,Malignant,BCC,2,female,65.0,head/neck,3,head_neck_face,0,Benign,0.62879,0.00068,0.37053
+IL_3253177,ISIC_9140116,Benign,NV,0,male,75.0,lower extremity,3,lower_extremity,0,Benign,0.9659,0.0015,0.03261
+IL_6711797,ISIC_9153141,Malignant,BCC,2,male,85.0,upper extremity,3,upper_extremity,2,Malignant,0.18829,0.00304,0.80867
+IL_4498199,ISIC_9174580,Malignant,MEL,2,female,55.0,,2,trunk,2,Malignant,0.41394,0.001,0.58506
+IL_6877594,ISIC_9179884,Malignant,MEL,2,male,80.0,,5,trunk,0,Benign,0.99465,0.00017,0.00518
+IL_0080398,ISIC_9206660,Malignant,MEL,2,male,70.0,lower extremity,3,lower_extremity,2,Malignant,0.07214,0.00098,0.92688
+IL_0434993,ISIC_9207099,Benign,BKL,0,female,70.0,lower extremity,4,lower_extremity,0,Benign,0.57563,0.03378,0.39059
+IL_5310899,ISIC_9231306,Benign,BKL,0,female,55.0,upper extremity,3,upper_extremity,0,Benign,0.99405,0.00024,0.00571
+IL_7061463,ISIC_9232753,Malignant,BCC,2,male,55.0,,3,trunk,2,Malignant,0.06556,0.00293,0.93152
+IL_9353162,ISIC_9242872,Benign,DF,0,male,40.0,lower extremity,3,lower_extremity,2,Malignant,0.0347,0.00051,0.96479
+IL_1118490,ISIC_9268464,Malignant,BCC,2,male,80.0,,3,trunk,2,Malignant,0.03279,0.00766,0.95954
+IL_9505312,ISIC_9276896,Malignant,MEL,2,male,80.0,head/neck,3,head_neck_face,0,Benign,0.85822,0.00163,0.14015
+IL_1669635,ISIC_9280729,Benign,NV,0,female,40.0,,2,trunk,0,Benign,0.98092,0.00224,0.01685
+IL_3640524,ISIC_9297268,Benign,NV,0,female,65.0,head/neck,3,head_neck_face,0,Benign,0.60369,0.01194,0.38437
+IL_0318296,ISIC_9338482,Malignant,SCCKA,2,male,55.0,head/neck,3,head_neck_face,2,Malignant,0.1244,0.0229,0.8527
+IL_6841105,ISIC_9390664,Malignant,BCC,2,female,40.0,,4,trunk,2,Malignant,0.00062,0.00013,0.99925
+IL_6962525,ISIC_9399586,Malignant,MEL,2,female,80.0,head/neck,3,head_neck_face,0,Benign,0.93426,0.06388,0.00185
+IL_4494242,ISIC_9400150,Malignant,SCCKA,2,male,55.0,lower extremity,3,lower_extremity,2,Malignant,0.30423,0.00592,0.68985
+IL_4180707,ISIC_9403836,Malignant,BCC,2,male,80.0,lower extremity,4,lower_extremity,2,Malignant,0.03703,0.00191,0.96107
+IL_2540198,ISIC_9421756,Malignant,SCCKA,2,male,70.0,upper extremity,4,hand,2,Malignant,0.00443,0.00123,0.99434
+IL_7263910,ISIC_9428829,Malignant,AKIEC,2,female,65.0,head/neck,3,head_neck_face,0,Benign,0.95983,0.00029,0.03988
+IL_4902054,ISIC_9451191,Benign,NV,0,female,55.0,head/neck,3,head_neck_face,2,Malignant,0.01432,0.00083,0.98484
+IL_7425145,ISIC_9460959,Malignant,BCC,2,male,55.0,,4,trunk,2,Malignant,0.03907,0.00142,0.95951
+IL_0489772,ISIC_9471648,Malignant,BCC,2,female,65.0,head/neck,4,head_neck_face,2,Malignant,0.47714,0.03891,0.48395
+IL_8124925,ISIC_9483103,Benign,INF,0,male,20.0,,5,trunk,2,Malignant,0.20839,0.0117,0.77991
+IL_0138483,ISIC_9508636,Malignant,BCC,2,male,60.0,,2,trunk,2,Malignant,0.00155,0.00042,0.99803
+IL_4371981,ISIC_9519917,Malignant,BCC,2,female,70.0,head/neck,2,head_neck_face,0,Benign,0.98753,0.0015,0.01097
+IL_7295306,ISIC_9543842,Malignant,BCC,2,male,80.0,head/neck,5,head_neck_face,2,Malignant,0.03573,0.00063,0.96365
+IL_3143674,ISIC_9558332,Malignant,BCC,2,male,35.0,head/neck,3,head_neck_face,2,Malignant,0.00323,0.002,0.99477
+IL_1267317,ISIC_9560618,Malignant,AKIEC,2,male,55.0,,3,trunk,2,Malignant,0.3803,0.00775,0.61195
+IL_5782288,ISIC_9566444,Malignant,AKIEC,2,male,85.0,head/neck,5,head_neck_face,2,Malignant,0.01126,0.00072,0.98802
+IL_6035719,ISIC_9570959,Malignant,BCC,2,male,50.0,upper extremity,3,upper_extremity,2,Malignant,0.01507,0.00408,0.98085
+IL_4588055,ISIC_9581647,Benign,NV,0,male,70.0,,3,trunk,0,Benign,0.85485,0.00176,0.14339
+IL_9863241,ISIC_9589099,Malignant,BCC,2,female,65.0,,3,trunk,2,Malignant,0.03793,0.00054,0.96153
+IL_3307865,ISIC_9592132,Malignant,BCC,2,male,70.0,,3,trunk,2,Malignant,0.08096,0.00961,0.90943
+IL_6972994,ISIC_9594263,Benign,BKL,0,male,85.0,,3,trunk,0,Benign,0.74901,0.00282,0.24817
+IL_4259572,ISIC_9597858,Malignant,BCC,2,female,65.0,upper extremity,3,upper_extremity,2,Malignant,0.26674,0.15099,0.58227
+IL_7294930,ISIC_9611388,Malignant,BCC,2,male,80.0,,3,trunk,2,Malignant,0.08744,0.04501,0.86755
+IL_0393808,ISIC_9627594,Malignant,BCC,2,female,55.0,lower extremity,3,lower_extremity,2,Malignant,0.31245,0.00432,0.68323
+IL_4918167,ISIC_9630006,Benign,INF,0,male,60.0,head/neck,3,head_neck_face,0,Benign,0.93981,0.00061,0.05958
+IL_5264196,ISIC_9685758,Benign,NV,0,male,55.0,upper extremity,3,upper_extremity,0,Benign,0.99647,0.00019,0.00335
+IL_9221055,ISIC_9693001,Malignant,BCC,2,male,80.0,head/neck,4,head_neck_face,2,Malignant,0.02112,0.00416,0.97472
+IL_1185786,ISIC_9700218,Benign,BKL,0,female,85.0,,4,trunk,0,Benign,0.76746,0.01568,0.21686
+IL_0143212,ISIC_9704524,Indeterminate,AKIEC,1,male,60.0,head/neck,4,head_neck_face,2,Malignant,0.05053,0.02937,0.92009
+IL_1500549,ISIC_9706117,Benign,NV,0,female,30.0,,4,trunk,0,Benign,0.94557,0.00035,0.05408
+IL_0596418,ISIC_9712861,Malignant,BCC,2,male,70.0,head/neck,1,head_neck_face,0,Benign,0.93402,7e-05,0.06591
+IL_7769100,ISIC_9721840,Malignant,BCC,2,male,80.0,,2,trunk,2,Malignant,0.02959,0.00036,0.97005
+IL_4647036,ISIC_9738040,Malignant,BCC,2,male,65.0,,3,trunk,2,Malignant,0.03881,0.00245,0.95875
+IL_7244270,ISIC_9774801,Malignant,BCC,2,female,65.0,,3,trunk,2,Malignant,0.09252,0.00195,0.90553
+IL_9207228,ISIC_9778651,Malignant,BCC,2,male,85.0,head/neck,5,head_neck_face,2,Malignant,0.00683,0.00222,0.99096
+IL_2926353,ISIC_9796777,Malignant,BCC,2,male,75.0,,3,trunk,2,Malignant,0.01033,0.00058,0.98909
+IL_9720180,ISIC_9809345,Malignant,MEL,2,male,65.0,upper extremity,2,upper_extremity,0,Benign,0.7124,0.00037,0.28723
+IL_1696405,ISIC_9809557,Benign,NV,0,male,30.0,lower extremity,3,lower_extremity,0,Benign,0.93169,0.00822,0.06008
+IL_6985784,ISIC_9814156,Malignant,BCC,2,male,60.0,,3,trunk,2,Malignant,0.1417,0.06681,0.79149
+IL_6893390,ISIC_9845346,Malignant,BCC,2,female,65.0,,3,trunk,2,Malignant,0.26095,0.00731,0.73174
+IL_8578513,ISIC_9849120,Malignant,BCC,2,female,55.0,head/neck,3,head_neck_face,2,Malignant,0.03947,0.00522,0.95532
+IL_1065158,ISIC_9875364,Malignant,MEL,2,male,50.0,,4,trunk,0,Benign,0.9723,0.0035,0.0242
+IL_4628159,ISIC_9881436,Malignant,BCC,2,male,65.0,lower extremity,4,lower_extremity,2,Malignant,0.00451,0.00045,0.99503
+IL_4194346,ISIC_9886748,Malignant,BCC,2,male,60.0,lower extremity,4,lower_extremity,2,Malignant,0.03475,0.01576,0.94949
+IL_6021116,ISIC_9892179,Malignant,BCC,2,female,45.0,upper extremity,3,upper_extremity,2,Malignant,0.02308,0.09382,0.8831
+IL_0758142,ISIC_9896561,Malignant,BCC,2,male,75.0,upper extremity,3,upper_extremity,2,Malignant,0.02618,0.01137,0.96245
+IL_8890308,ISIC_9918302,Malignant,SCCKA,2,male,60.0,head/neck,3,head_neck_face,0,Benign,0.47913,0.442,0.07887
+IL_9035179,ISIC_9939897,Indeterminate,AKIEC,1,female,50.0,head/neck,1,head_neck_face,0,Benign,0.76644,0.00525,0.22831

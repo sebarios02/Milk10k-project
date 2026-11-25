@@ -1,6 +1,19 @@
-# MILK10k skin-lesion classification: data pipeline (Milestone 1) + classical baseline (Milestone 2)
+# MILK10k skin-lesion classification: from data pipeline to the official leaderboard (Milestones 1–5)
 
-**Author:** Sebastián Ríos Saucedo · Computer Vision & Speech Recognition · EADA
+**Author:** Sebastián Ríos Saucedo · Computer Vision & Speech Recognition · EADA · leaderboard approach name `EADA-CV26-SRS`
+
+## Final deliverables (start here)
+
+| | |
+|---|---|
+| **Final report** | [`report.pdf`](report.pdf) (source: [`reports/final_report.md`](reports/final_report.md)) |
+| **Model card** | [`model_card.md`](model_card.md) |
+| **`predict()`** | [`m5_final/predict.py`](m5_final/predict.py): `python m5_final/predict.py image.jpg` |
+| **Leaderboard files + proof** | Submission 2 (ensemble, 0.449): [`m5_final/make_submission_ensemble.py`](m5_final/make_submission_ensemble.py) → [`m5_final/submission.csv`](m5_final/submission.csv), [`m5_final/leaderboard_v2.png`](m5_final/leaderboard_v2.png) · Submission 1 (ResNet-18, 0.420): [`m5_final/make_submission.py`](m5_final/make_submission.py) → [`m5_final/submission_v1_resnet.csv`](m5_final/submission_v1_resnet.csv), [`m5_final/leaderboard.png`](m5_final/leaderboard.png) |
+| **Scoreboard M2 → M4** | [`outputs/m4/scoreboard.csv`](outputs/m4/scoreboard.csv), [`figures/m4_scoreboard.png`](figures/m4_scoreboard.png) |
+| **Checkpoints** | [`checkpoints/model_m4.pt`](checkpoints/) (3 classes), `checkpoints/model_11class.pt` (11 classes), `checkpoints/ensemble_11class.pt` (ensemble heads + metadata model) |
+
+**Result in one line:** fully fine-tuned ResNet-18 on the dermoscopic image, **test macro-F1 0.654** [0.570, 0.727] on my 3-class target (validation 0.676); 11-class leaderboard: single ResNet-18 **0.420**, then an ensemble (both views + metadata, chosen on validation) **0.449**.
 
 ## 1. What this project is
 
@@ -85,8 +98,13 @@ Milk10k-project/
 │   ├── visualizer.py             Session 2 plotting utilities (reused for gallery and batch figures)
 │   ├── features.py               M2: hand-crafted colour / texture / shape features + lesion mask
 │   ├── classical.py              M2: feature sets, sklearn model zoo, metrics, bootstrap CI, importance
+│   ├── deep.py                   M4/M5: image cache, ResNet/ViT models, training loop, bootstrap, leaderboard metric
 │   └── run_eda.py                Session 2 EDA runner -> eda_outputs/
-├── scripts/                      thin entry points: Milestone 1 (01 ... 08 + run_milestone1.py), Milestone 2 (09 ... 12 + run_milestone2.py)
+├── scripts/                      thin entry points: M1 (01 ... 08 + run_milestone1.py), M2 (09 ... 12 + run_milestone2.py), M4/M5 (13 ... 15 + run_m4_m5.py)
+├── m5_final/                     M5: predict.py, make_submission.py, submission.csv, leaderboard.png
+├── checkpoints/                  model_m4.pt (3-class) and model_11class.pt (11-class)
+├── model_card.md                 intended use, data, numbers, limits
+├── report.pdf                    final report
 ├── tests/                        pytest: split properties, label maps, datasets, transforms
 ├── notebooks/                    exploration + homework notebooks (Session 2, Session 3, homework_part_a)
 ├── outputs/                      GENERATED small files (committed): splits, label map, weights, stats
@@ -124,3 +142,34 @@ Full report: **[reports/milestone2_classical_baseline.md](reports/milestone2_cla
 * **Compared:** 8 feature sets × 5 models (LogReg, kNN, RBF-SVM, Random Forest, HistGB) + dummies. Hyper-parameters by 5-fold CV on train, configuration chosen on val, test used once.
 * **Selected:** both views + metadata, class-balanced Logistic Regression (C = 0.01). **Test balanced accuracy 0.669 [0.58, 0.74]**, macro-F1 0.550, macro AUC 0.820, malignant recall 0.724 (dummy: 0.333 balanced accuracy).
 * **Caveats:** 60 % of melanomas are predicted benign, and metadata (age) is the most important feature group. These are the bar for the CNN.
+
+## 7. Milestone 3: deep learning (Sessions 6–7)
+
+Notebooks `notebooks/Class Session 6.ipynb` and `notebooks/Class Session 7.ipynb`, results in `outputs/session_06/`, `outputs/session_07/`. MLPs on features and on raw pixels, a small CNN from scratch, and ResNet-18 transfer learning (frozen, layer4, layer3+4, all layers). All on my split, dermoscopic image, macro-F1. Best: ResNet-18 fully fine-tuned, val 0.676 / test 0.654.
+
+## 8. Milestone 4: best model, error analysis, fairness (Sessions 8–9)
+
+```bash
+python scripts/13_m4_best_model.py      # ViT vs ResNet (frozen, all 3,742 lesions), choice on val, model_m4.pt, test once
+python scripts/14_m4_error_fairness.py  # confusion, recall per diagnosis, misclassified gallery, fairness
+```
+
+* **Fair comparison** (same split, frozen backbone, same linear head, same metric): ViT-B/16 0.629 vs ResNet-18 0.538 validation macro-F1, Δ +0.090 [+0.047, +0.132].
+* **Best on validation:** ResNet-18 fully fine-tuned (0.676), re-trained identically and saved as `checkpoints/model_m4.pt`. **Test macro-F1 0.654** [0.570, 0.727].
+* **Errors:** 58.5 % of melanomas called Benign (pigmented, nevus-like); pink non-pigmented benign lesions called Malignant (BCC-like).
+* **Fairness:** no evidence of a difference by sex; malignant recall 0.49 on skin tones 0–2 (darker) vs 0.86 on tones 3–5.
+* Outputs: `outputs/m4/`, `figures/m4_*.png`.
+
+## 9. Milestone 5: 11-class model, predict(), leaderboard (Session 10)
+
+```bash
+python scripts/15_m5_train_11class.py   # same architecture, 11 outputs, post-processing chosen on val
+python m5_final/make_submission.py      # needs the ISIC test data in <data>/test/ (or MILK10K_TEST_DIR)
+python m5_final/predict.py image.jpg    # predict() on any new dermoscopic image
+```
+
+Steps 13 → 15 together: `python scripts/run_m4_m5.py` (about 1.7 h on a 4-thread CPU; `--smoke` for a 10-minute check). Images are decoded once to `~/.cache/milk10k` (outside git and OneDrive) with the same function used by `predict()`, so training and inference see identical pixels.
+
+* 11-class validation macro-F1 0.390; official metric on my test split 0.383 [0.327, 0.432]; official leaderboard **0.420** (submission 1).
+* **Submission 2, ensemble** (`python scripts/16_m5_ensemble.py`, then `python m5_final/make_submission_ensemble.py`): equal-weight average of the ResNet-18 with flip TTA, frozen ViT-B/16 heads on the dermoscopic and on the clinical image, and a metadata logistic regression. Chosen on validation (0.462); my test split 0.478 [0.408, 0.531]; official leaderboard **0.449**.
+

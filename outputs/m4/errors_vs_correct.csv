@@ -1,0 +1,5 @@
+,n,median age,% male,% head/neck,mean confidence (p of predicted class),% skin tone 0-2 (darker),median d_shp_area_frac,median d_shp_asym_major,median d_shp_asym_minor,median d_shp_mask_fallback
+correct,604.0,65.0,62.6,25.0,0.899,9.6,0.203,0.199,0.208,0.0
+all errors,145.0,65.0,62.1,42.1,0.787,17.2,0.231,0.207,0.197,0.0
+Malignant -> Benign,78.0,60.0,59.0,43.6,0.794,21.8,0.231,0.172,0.176,0.0
+Benign -> Malignant,48.0,65.0,68.8,27.1,0.81,8.3,0.23,0.237,0.206,0.0

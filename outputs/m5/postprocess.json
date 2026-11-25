@@ -1,0 +1,29 @@
+{
+ "strategy": "argmax",
+ "classes": [
+  "AKIEC",
+  "BCC",
+  "BEN_OTH",
+  "BKL",
+  "DF",
+  "INF",
+  "MAL_OTH",
+  "MEL",
+  "NV",
+  "SCCKA",
+  "VASC"
+ ],
+ "thresholds": [
+  0.38,
+  0.08,
+  0.22,
+  0.28,
+  0.56,
+  0.24,
+  0.5,
+  0.24,
+  0.4,
+  0.5,
+  0.6
+ ]
+}
